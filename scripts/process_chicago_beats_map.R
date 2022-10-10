@@ -13,7 +13,7 @@ download.file("https://data.cityofchicago.org/api/geospatial/aerh-rz74?method=ex
 
 # Read in geojson and then transform to sf format
 # we will use analysis neighborhoods if the crime data comes cleanly that way
-beats <- st_read("data/source/geo/chicago_police_districts.geojson") %>% st_transform(3857)
+beats <- st_read("data/source/geo/chicago_police_districts.geojson") %>% st_transform(3857) %>% janitor::clean_names()
 
 
 # Get demographic data for Census block groups to aggregate/apportion to precinct geography
