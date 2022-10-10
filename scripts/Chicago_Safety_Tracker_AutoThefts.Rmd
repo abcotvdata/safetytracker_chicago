@@ -1,5 +1,5 @@
 ---
-title: "ABC13 Houston Neighborhood Safety Tracker"
+title: "ABC7 Chicago Neighborhood Safety Tracker"
 # author: "John Kelly"
 # date: "Updated `r format(Sys.time(), '%B %d, %Y')` by the ABC13 Data Team"
 output: html_document
@@ -19,7 +19,7 @@ library(sf)
 ```
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-![<popupchatter>Updated `r format(Sys.time(), '%B %d, %Y')` by the ABC13 Data Team</popupchatter>](https://github.com/abcotvdata/safetytracker_houston/raw/main/docs/header.png)
+![<popupchatter>Updated `r format(Sys.time(), '%B %d, %Y')` by the ABC13 Data Team</popupchatter>](https://github.com/abcotvdata/safetytracker_chicago/raw/main/docs/header.png)
 ```{css, echo=FALSE}
 
 h1.title {
@@ -194,7 +194,7 @@ houston_population <- 2304580
 # Source data pre-processed separately at process_houston_crime_combined.R
 ```
 
-<h2>ABC13's data team is tracking crime and safety across Houston and in your neighborhood.<br>You can choose which crime to examine: <select onchange="window.location=this.value">
+<h2>ABC7 is tracking crime and safety across Chicago and in your neighborhood. <br>You can choose which crime to examine: <select onchange="window.location=this.value">
 <option value="https://abcotvdata.github.io/safetytracker_houston/Houston_Safety_Tracker_AutoThefts.html">Auto Thefts</option>
 <option value="https://abcotvdata.github.io/safetytracker_houston/Houston_Safety_Tracker_Assaults.html">Assaults</option>
 <option value="https://abcotvdata.github.io/safetytracker_houston/Houston_Safety_Tracker_Burglaries.html">Burglaries</option>
