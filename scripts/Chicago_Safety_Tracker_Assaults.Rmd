@@ -342,7 +342,7 @@ houston_assault_map <- leaflet(assaults_beat, options = leafletOptions(zoomContr
   htmlwidgets::onRender("function(el, x) {
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
-  setView(-95.45, 29.75, zoom = 10.5) %>% 
+  setView(-87.65, 41.83, zoom = 10) %>% 
   addProviderTiles(provider = "CartoDB.Positron") %>%
   addPolygons(color = "white", 
               popup = assaultlabel,

@@ -1,7 +1,7 @@
 ---
 title: "ABC7 Chicago Neighborhood Safety Tracker"
 # author: "John Kelly"
-# date: "Updated `r format(Sys.time(), '%B %d, %Y')` by the ABC13 Data Team"
+# date: Sys.time()
 output: html_document
 ---
 
@@ -337,7 +337,7 @@ houston_autotheft_map <- leaflet(autothefts_beat, options = leafletOptions(zoomC
   htmlwidgets::onRender("function(el, x) {
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
-  setView(-95.45, 29.75, zoom = 10.5) %>% 
+  setView(-87.65, 41.83, zoom = 10) %>% 
   addProviderTiles(provider = "CartoDB.Positron") %>%
   addPolygons(color = "white", 
               popup = autotheftlabel,
