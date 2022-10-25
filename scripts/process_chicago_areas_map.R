@@ -6,15 +6,13 @@ library(sp)
 library(sf)
 
 # GEOGRAPHY
-# downloading geojson and csv of chi pd beats from city open data 
+# downloading geojson and csv of chicago community areas from city open data site
 # location of this data https://data.cityofchicago.org/Public-Safety/Boundaries-Police-Beats-current-/aerh-rz74
-download.file("https://data.cityofchicago.org/api/geospatial/aerh-rz74?method=export&format=GeoJSON",
-              "data/source/geo/chicago_police_districts.geojson")
+download.file("https://data.cityofchicago.org/api/geospatial/cauq-8yn6?method=export&format=GeoJSON",
+              "data/source/geo/chicago_community_areas.geojson")
 
 # Read in geojson and then transform to sf format
-# we will use analysis neighborhoods if the crime data comes cleanly that way
-beats <- st_read("data/source/geo/chicago_police_districts.geojson") %>% st_transform(3857) %>% janitor::clean_names()
-
+areas <- st_read("data/source/geo/chicago_community_areas.geojson") %>% st_transform(3857) %>% janitor::clean_names()
 
 # Get demographic data for Census block groups to aggregate/apportion to precinct geography
 # Also transforming to match the planar projection of SFPD's beats spatial file
@@ -33,42 +31,40 @@ blocks <- get_decennial(geography = "block",
 
 # Calculate the estimated population of beat geographies/interpolate with tidycensus bgs
 # Reminder: ext=true SUMS the population during interpolation
-beats_withpop <- st_interpolate_aw(blocks, beats, ext = TRUE)
+areas_withpop <- st_interpolate_aw(blocks, areas, ext = TRUE)
 # Drops geometry so it's not duplicated in the merge
-beats_withpop <- st_drop_geometry(beats_withpop)
+areas_withpop <- st_drop_geometry(areas_withpop)
 # Binds that new population column to the table
-beats <- cbind(beats,beats_withpop)
+areas <- cbind(areas,areas_withpop)
 # Cleans up unneeded calculation file
-rm(beats_withpop, blocks)
+# rm(beats_withpop, blocks)
 
 # Check total population assigned/estimated across all beats
 # sum(beats$population) 
 
 # Round the population figure; rounded to nearest thousand
-beats$population <- round(beats$population,-3)
+areas$population <- round(areas$population,-3)
 
-beats <- beats %>% st_transform(4326)
-beats <- st_make_valid(beats)
+areas <- areas %>% st_transform(4326)
+areas <- st_make_valid(areas)
 
 # saving a clean geojson and separate RDS for use in tracker
-file.remove("data/source/geo/beats.geojson")
-st_write(beats,"data/source/geo/beats.geojson")
-saveRDS(beats,"scripts/rds/beats.rds")
-# add line  below when uploading data for pages
-# beats <- st_read("data/source/geo/beats.geojson")
+file.remove("data/source/geo/areas.geojson")
+st_write(beats,"data/source/geo/areas.geojson")
+saveRDS(beats,"scripts/rds/areas.rds")
 
-# BARE PRECINCT MAP JUST FOR TESTING PURPOSES
+# BARE AREAS MAP JUST FOR TESTING PURPOSES
 # CAN COMMENT OUT ONCE FINALIZED
 # Set bins for beats pop map
 popbins <- c(0,1000, 10000,25000,50000,100000, Inf)
-poppal <- colorBin("YlOrRd", beats$population, bins = popbins)
-poplabel <- paste(sep = "<br>", beats$district,prettyNum(beats$population, big.mark = ","))
+poppal <- colorBin("YlOrRd", areas$population, bins = popbins)
+poplabel <- paste(sep = "<br>", areas$area,prettyNum(beats$population, big.mark = ","))
 
-chicago_beats_map <- leaflet(beats) %>%
+chicago_areas_map <- leaflet(areas) %>%
   setView(-87.65, 41.83, zoom = 10) %>% 
   addProviderTiles(provider = "Esri.WorldImagery") %>%
   addProviderTiles(provider = "Stamen.TonerLabels") %>%
   addPolygons(color = "white", popup = poplabel, weight = 1, smoothFactor = 0.5,
               opacity = 0.5, fillOpacity = 0.3,
               fillColor = ~poppal(`population`))
-chicago_beats_map
+chicago_areas_map
