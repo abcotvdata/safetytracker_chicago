@@ -58,7 +58,7 @@ saveRDS(beats,"scripts/rds/areas.rds")
 # Set bins for beats pop map
 popbins <- c(0,1000, 10000,25000,50000,100000, Inf)
 poppal <- colorBin("YlOrRd", areas$population, bins = popbins)
-poplabel <- paste(sep = "<br>", areas$area,prettyNum(beats$population, big.mark = ","))
+poplabel <- paste(sep = "<br>", areas$community,prettyNum(areas$population, big.mark = ","))
 
 chicago_areas_map <- leaflet(areas) %>%
   setView(-87.65, 41.83, zoom = 10) %>% 

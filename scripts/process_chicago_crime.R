@@ -1,30 +1,54 @@
 library(tidyverse)
 library(sf)
-library(readxl)
-library(zoo)
 
-houston_annual <- readRDS("scripts/rds/houston_annual.rds")
-houston_monthly <- readRDS("scripts/rds/houston_monthly.rds")
-houston_recent_new <- readRDS("scripts/rds/houston_recent_new.rds")
+
+# download the annual slices of the chicago crime incidents from open data site
+# download.file("https://data.cityofchicago.org/api/views/w98m-zvie/rows.csv",
+#              "data/source/annual/chicago2019.csv")
+#download.file("https://data.cityofchicago.org/api/views/qzdf-xmn8/rows.csv",
+#              "data/source/annual/chicago2020.csv")
+#download.file("https://data.cityofchicago.org/api/views/dwme-t96c/rows.csv",
+#              "data/source/annual/chicago2021.csv")
+# download the so-far slice for the current year from the open data site
+download.file("https://data.cityofchicago.org/api/views/9hwr-2zxp/rows.csv",
+              "data/source/recent/chicago2022.csv")
+
+# import the annual files and process
+chicago2019 <- read_csv("data/source/annual/chicago2019.csv", 
+                        col_types = cols(ID = col_character(), 
+                                         Arrest = col_character(), Domestic = col_character(), 
+                                         Ward = col_character(), `Community Area` = col_character(), 
+                                         `X Coordinate` = col_skip(), `Y Coordinate` = col_skip()))
+chicago2020 <- read_csv("data/source/annual/chicago2019.csv", 
+                        col_types = cols(ID = col_character(), 
+                                         Arrest = col_character(), Domestic = col_character(), 
+                                         Ward = col_character(), `Community Area` = col_character(), 
+                                         `X Coordinate` = col_skip(), `Y Coordinate` = col_skip()))
+chicago2021 <- read_csv("data/source/annual/chicago2019.csv", 
+                        col_types = cols(ID = col_character(), 
+                                         Arrest = col_character(), Domestic = col_character(), 
+                                         Ward = col_character(), `Community Area` = col_character(), 
+                                         `X Coordinate` = col_skip(), `Y Coordinate` = col_skip()))
+chicago2022 <- read_csv("data/source/annual/chicago2019.csv", 
+                        col_types = cols(ID = col_character(), 
+                                         Arrest = col_character(), Domestic = col_character(), 
+                                         Ward = col_character(), `Community Area` = col_character(), 
+                                         `X Coordinate` = col_skip(), `Y Coordinate` = col_skip()))
 
 ### COMBINE 2019, 2020, 2021 and 2022 TO DATE INTO SINGLE FILE
-houston_crime <- bind_rows(houston_annual,houston_monthly)
+chicago_crime <- bind_rows(chicago2019,chicago2020,chicago2021,chicago2022) %>% janitor::clean_names()
+rm(chicago2019,chicago2020,chicago2021,chicago2022)
 
-# REDUCE THE RECENT 30-DAY FILE JUST TO THE DATES THAT NOT ALREADY IN HPD RELEASED 22 TO DATE FILE
-houston_recent_new <- houston_recent_new %>% filter(as.Date(date)>max(as.Date(houston_crime$date)))
+# Create cleaned date, month, hour columns for tracker charts
+chicago_crime$date_time <- lubridate::mdy_hms(chicago_crime$date)
+chicago_crime$hour <- lubridate::hour(chicago_crime$date_time)
+chicago_crime$month <- lubridate::month(chicago_crime$date_time)
 
-# COMBINE ANNUAL + MONTHLY WITH TODAY'S RECENT/30DAY FILE
-houston_crime <- bind_rows(houston_crime,houston_recent_new)
-
-# FORMATTING FULL DATA FILE FOR USE IN TRACKERS
-
-# Create a year column
-houston_crime$year <- substr(houston_crime$date,1,4)
 # adds a month reference point for grouping for monthly trend figures
-houston_crime$month <- lubridate::floor_date(as.Date(houston_crime$date),"month")
+# houston_crime$month <- lubridate::floor_date(as.Date(houston_crime$date),"month")
 
 # Read in class-code table to classify offense types and categories
-classcodes <- readRDS("scripts/rds/classcodes.rds")
+# classcodes <- readRDS("scripts/rds/classcodes.rds")
 
 # Add categories,types from classcodes to the individual crime records
 houston_crime <- left_join(houston_crime,classcodes %>% select(2,4:7),by=c("nibrs_class","offense_type"))
