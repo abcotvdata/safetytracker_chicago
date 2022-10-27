@@ -244,9 +244,9 @@ Click on any neighborhood on the map to see detailed numbers, rates and trends. 
 
 # Set bins for numbers of crimes for autothefts map
 autotheftbins1 <- c(0,
+                250,
                 500,
-                600,
-                800,
+                750,
                 1000,
                 2500)
 autotheftbins2 <- c(0,
