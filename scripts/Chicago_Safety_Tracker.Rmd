@@ -251,7 +251,7 @@ During the pandemic, a person's chance of being murdered in CHicago rose above t
 
 The risk is not the same neighborhood to neighborhood.
 
-ABC13's data team looked at the Chicago Police Department's data by neighborhood from 2019 through `r format(asofdate, "%B %d")`.
+ABC7's data team looked at the Chicago Police Department's data by neighborhood from 2019 through `r format(asofdate, "%B %d")`.
 
 <subhead>A closer look at Chicago homicides by neighborhood</subhead>
 
