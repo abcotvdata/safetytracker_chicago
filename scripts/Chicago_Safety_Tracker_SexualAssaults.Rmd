@@ -253,15 +253,15 @@ Click on any neighborhood on the map to see detailed numbers, rates and trends. 
 sexassaultbins1 <- c(0,
                 30,
                 60,
-                90,
-                120,
-                500)
+                75,
+                100,
+                200)
 sexassaultbins2 <- c(0,
                 5,
                 10,
-                20,
-                30,
-                100)
+                25,
+                50,
+                150)
 sexassaultpal1 <- colorBin(c("#99a0a5",
                              "#2787d6",
                              "#0058f6",
@@ -280,7 +280,7 @@ sexassaultlabel <- paste(sep="",
                      sexassaults_area$last12mos,
                      " sexual assaults</popuptitle><br>",
                      " in the last 12 months in <b>",
-                     sexassaults_area$community_area,
+                     sexassaults_area$community,
                      "</b>, home to an estimated ",
                      prettyNum(sexassaults_area$population, big.mark=","),
                      " people.

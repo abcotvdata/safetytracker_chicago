@@ -278,7 +278,7 @@ batterylabel <- paste(sep="",
                      prettyNum(batteries_area$last12mos, big.mark=","),
                      " batteries </popuptitle><br>",
                      " in the last 12 months in <b>",
-                     batteries_area$community_area,
+                     batteries_area$community,
                      "</b>, home to an estimated ",
                      prettyNum(batteries_area$population, big.mark=","),
                      " people.
