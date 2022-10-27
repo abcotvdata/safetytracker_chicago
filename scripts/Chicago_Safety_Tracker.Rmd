@@ -199,10 +199,9 @@ chicago_population <- 2696561
 
 You can choose which crime to explore: <select onchange="window.location=this.value">
 <option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker.html">Homicides</option>
-<option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_Assaults.html">Batteries</option>
+<option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_Batteries.html">Batteries</option>
 <option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_AutoThefts.html">Auto Thefts</option>
 <option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_Burglaries.html">Burglaries</option>
-<option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_DrugCrimes.html">Drug Crimes</option>
 <option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker.html">Homicides</option>
 <option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_Robberies.html">Robberies</option>
 <option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_SexualAssaults.html">Sexual Assaults</option>
