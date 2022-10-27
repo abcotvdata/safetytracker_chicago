@@ -1,419 +1,410 @@
 category,fbi_code,index,type,iucr,detailed_description
-Criminal Sexual Assault,02,Index,Crimes Against People,0261,CRIM SEXUAL ASSAULT AGGRAVATED: HANDGUN
-Criminal Sexual Assault,02,Index,Crimes Against People,0262,CRIM SEXUAL ASSAULT AGGRAVATED: OTHER FIREARM
-Criminal Sexual Assault,02,Index,Crimes Against People,0263,CRIM SEXUAL ASSAULT AGGRAVATED: KNIFE/CUT INSTR
-Criminal Sexual Assault,02,Index,Crimes Against People,0264,CRIM SEXUAL ASSAULT AGGRAVATED: OTHER DANG WEAPON
-Criminal Sexual Assault,02,Index,Crimes Against People,0265,CRIM SEXUAL ASSAULT AGGRAVATED: OTHER
-Criminal Sexual Assault,02,Index,Crimes Against People,0266,CRIM SEXUAL ASSAULT PREDATORY
-Criminal Sexual Assault,02,Index,Crimes Against People,0271,CRIM SEXUAL ASSAULT ATTEMPT AGG: HANDGUN
-Criminal Sexual Assault,02,Index,Crimes Against People,0272,CRIM SEXUAL ASSAULT ATTEMPT AGG: OTHER FIREARM
-Criminal Sexual Assault,02,Index,Crimes Against People,0273,CRIM SEXUAL ASSAULT ATTEMPT AGG: KNIFE/CUT INSTR
-Criminal Sexual Assault,02,Index,Crimes Against People,0274,CRIM SEXUAL ASSAULT ATTEMPT AGG: OTHER DANG WEAPON
-Criminal Sexual Assault,02,Index,Crimes Against People,0275,CRIM SEXUAL ASSAULT ATTEMPT AGG: OTHER
-Criminal Sexual Assault,02,Index,Crimes Against People,0281,CRIM SEXUAL ASSAULT NON-AGGRAVATED
-Criminal Sexual Assault,02,Index,Crimes Against People,0291,CRIM SEXUAL ASSAULT ATTEMPT NON-AGGRAVATED
-Criminal Sexual Assault,02,Index,Crimes Against People,1753,OFFENSE INVOLVING CHILDREN SEX ASSLT OF CHILD BY FAM MBR
-Criminal Sexual Assault,02,Index,Crimes Against People,1754,OFFENSE INVOLVING CHILDREN AGG SEX ASSLT OF CHILD FAM MBR
-Robbery,03,Index,Crimes Against People,0312,ROBBERY ARMED:KNIFE/CUTTING INSTRUMENT
-Robbery,03,Index,Crimes Against People,0313,ROBBERY ARMED: OTHER DANGEROUS WEAPON
-Robbery,03,Index,Crimes Against People,0320,ROBBERY STRONGARM - NO WEAPON
-Robbery,03,Index,Crimes Against People,0325,ROBBERY VEHICULAR HIJACKING
-Robbery,03,Index,Crimes Against People,0326,ROBBERY AGGRAVATED VEHICULAR HIJACKING
-Robbery,03,Index,Crimes Against People,0330,ROBBERY AGGRAVATED
-Robbery,03,Index,Crimes Against People,0331,ROBBERY ATTEMPT: AGGRAVATED
-Robbery,03,Index,Crimes Against People,0334,ROBBERY ATTEMPT: ARMED-KNIFE/CUT INSTR
-Robbery,03,Index,Crimes Against People,0337,ROBBERY ATTEMPT: ARMED-OTHER DANG WEAP
-Robbery,03,Index,Crimes Against People,0340,ROBBERY ATTEMPT: STRONGARM-NO WEAPON
-Robbery,03,Index,Crimes Against People,031A,ROBBERY ARMED: HANDGUN
-Robbery,03,Index,Crimes Against People,031B,ROBBERY ARMED: OTHER FIREARM
-Robbery,03,Index,Crimes Against People,033A,ROBBERY ATTEMPT: ARMED-HANDGUN
-Robbery,03,Index,Crimes Against People,033B,ROBBERY ATTEMPT: ARMED-OTHER FIREARM
-Burglary,05,Index,Crime Against Property,0610,BURGLARY FORCIBLE ENTRY
-Burglary,05,Index,Crime Against Property,0620,BURGLARY UNLAWFUL ENTRY
-Burglary,05,Index,Crime Against Property,0630,BURGLARY ATTEMPT FORCIBLE ENTRY
-Burglary,05,Index,Crime Against Property,0650,BURGLARY HOME INVASION
-Theft Over $500,06,Index,Crimes Against Property,0810,THEFT OVER $500
-Theft,06,Non Index,Crimes Against Property,0820,THEFT $500 AND UNDER
-Theft,06,Non Index,Crimes Against Property,0840,THEFT FINANCIAL ID THEFT: OVER $500
-Theft,06,Non Index,Crimes Against Property,0841,THEFT FINANCIAL ID THEFT:$500 &UNDER
-Theft,06,Non Index,Crimes Against Property,0842,THEFT AGG: FINANCIAL ID THEFT
-Theft,06,Non Index,Crimes Against Property,0843,THEFT ATTEMPT FINANCIAL IDENTITY THEFT
-Theft,06,Non Index,Crimes Against Property,0850,THEFT ATTEMPT THEFT
-Theft,06,Non Index,Crimes Against Property,0860,THEFT RETAIL THEFT
-Theft,06,Non Index,Crimes Against Property,0865,THEFT DELIVERY CONTAINER THEFT
-Theft,06,Non Index,Crimes Against Property,0870,THEFT POCKET-PICKING
-Theft,06,Non Index,Crimes Against Property,0880,THEFT PURSE-SNATCHING
-Theft,06,Non Index,Crimes Against Property,0890,THEFT FROM BUILDING
-Theft,06,Non Index,Crimes Against Property,0895,THEFT FROM COIN-OP MACHINE/DEVICE
-Motor Vehicle Theft,07,Index,Crime Against Property,0910,MOTOR VEHICLE THEFT AUTOMOBILE
-Motor Vehicle Theft,07,Index,Crime Against Property,0915,"MOTOR VEHICLE THEFT TRUCK, BUS, MOTOR HOME"
-Motor Vehicle Theft,07,Index,Crime Against Property,0917,"MOTOR VEHICLE THEFT CYCLE, SCOOTER, BIKE W-VIN"
-Motor Vehicle Theft,07,Index,Crime Against Property,0918,"MOTOR VEHICLE THEFT CYCLE, SCOOTER, BIKE NO VIN"
-Motor Vehicle Theft,07,Index,Crime Against Property,0920,MOTOR VEHICLE THEFT ATT: AUTOMOBILE
-Motor Vehicle Theft,07,Index,Crime Against Property,0925,"MOTOR VEHICLE THEFT ATT: TRUCK, BUS, MOTOR HOME"
-Motor Vehicle Theft,07,Index,Crime Against Property,0927,"MOTOR VEHICLE THEFT ATTEMPT: CYCLE, SCOOTER, BIKE W-VIN"
-Motor Vehicle Theft,07,Index,Crime Against Property,0928,"MOTOR VEHICLE THEFT ATTEMPT: CYCLE, SCOOTER, BIKE NO VIN"
-Motor Vehicle Theft,07,Index,Crime Against Property,0930,MOTOR VEHICLE THEFT THEFT/RECOVERY: AUTOMOBILE
-Motor Vehicle Theft,07,Index,Crime Against Property,0935,"MOTOR VEHICLE THEFT THEFT/RECOVERY: TRUCK,BUS,MHOME"
-Motor Vehicle Theft,07,Index,Crime Against Property,0937,"MOTOR VEHICLE THEFT THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN"
-Motor Vehicle Theft,07,Index,Crime Against Property,0938,"MOTOR VEHICLE THEFT THEFT/RECOVERY: CYCLE, SCOOTER, BIKE NO VIN"
-Arson,09,Index,Crime Against Property,1010,ARSON BY EXPLOSIVE
-Arson,09,Index,Crime Against Property,1020,ARSON BY FIRE
-Arson,09,Index,Crime Against Property,1025,ARSON AGGRAVATED
-Arson,09,Index,Crime Against Property,1090,ARSON ATTEMPT ARSON
-Forgery & Counterfeiting,10,Non Index,Crime Against Property,1120,DECEPTIVE PRACTICE FORGERY
-Forgery & Counterfeiting,10,Non Index,Crime Against Property,1121,DECEPTIVE PRACTICE COUNTERFEITING DOCUMENT
-Forgery & Counterfeiting,10,Non Index,Crime Against Property,1122,DECEPTIVE PRACTICE COUNTERFEIT CHECK
-Fraud,11,Non Index,Crimes Against Property,1110,DECEPTIVE PRACTICE BOGUS CHECK
-Fraud,11,Non Index,Crimes Against Property,1130,DECEPTIVE PRACTICE FRAUD OR CONFIDENCE GAME
-Fraud,11,Non Index,Crimes Against Property,1135,DECEPTIVE PRACTICE INSURANCE FRAUD
-Fraud,11,Non Index,Crimes Against Property,1150,DECEPTIVE PRACTICE CREDIT CARD FRAUD
-Fraud,11,Non Index,Crimes Against Property,1151,DECEPTIVE PRACTICE ILLEGAL POSSESSION CASH CARD
-Fraud,11,Non Index,Crimes Against Property,1152,DECEPTIVE PRACTICE ILLEGAL USE CASH CARD
-Fraud,11,Non Index,Crimes Against Property,1153,FINANCIAL IDENTITY THEFT OVER $ 300
-Fraud,11,Non Index,Crimes Against Property,1154,FINANCIAL IDENTITY THEFT $300 AND UNDER
-Fraud,11,Non Index,Crimes Against Property,1155,AGGRAVATED FINANCIAL IDENTITY THEFT
-Fraud,11,Non Index,Crimes Against Property,1156,ATTEMPT - FINANCIAL IDENTITY THEFT
-Fraud,11,Non Index,Crimes Against Property,1160,DECEPTIVE PRACTICE ALTER COINS
-Fraud,11,Non Index,Crimes Against Property,1170,DECEPTIVE PRACTICE IMPERSONATION
-Fraud,11,Non Index,Crimes Against Property,1185,DECEPTIVE PRACTICE DECEPTIVE COLLECTION PRACTICES
-Fraud,11,Non Index,Crimes Against Property,1195,DECEPTIVE PRACTICE FINAN EXPLOIT-ELDERLY/DISABLED
-Fraud,11,Non Index,Crimes Against Property,1205,"DECEPTIVE PRACTICE THEFT BY LESSEE,NON-VEH"
-Fraud,11,Non Index,Crimes Against Property,1206,"DECEPTIVE PRACTICE THEFT BY LESSEE,MOTOR VEH"
-Fraud,11,Non Index,Crimes Against Property,1210,DECEPTIVE PRACTICE THEFT OF LABOR/SERVICES
-Fraud,11,Non Index,Crimes Against Property,1220,DECEPTIVE PRACTICE THEFT OF LOST/MISLAID PROP
-Fraud,11,Non Index,Crimes Against Property,1230,DECEPTIVE PRACTICE POSS. KEYS OR DEV.TO COIN MACH
-Fraud,11,Non Index,Crimes Against Property,1235,DECEPTIVE PRACTICE UNLAWFUL USE OF RECORDED SOUND
-Fraud,11,Non Index,Crimes Against Property,1240,DECEPTIVE PRACTICE UNLAWFUL USE OF A COMPUTER
-Fraud,11,Non Index,Crimes Against Property,1241,DECEPTIVE PRACTICE AGGRAVATED COMPUTER TAMPERING
-Fraud,11,Non Index,Crimes Against Property,1242,DECEPTIVE PRACTICE COMPUTER FRAUD
-Fraud,11,Non Index,Crimes Against Property,1245,DECEPTIVE PRACTICE PAY TV SERVICE OFFENSES
-Fraud,11,Non Index,Crimes Against Property,1255,DECEPTIVE PRACTICE UNIDENTIFIABLE RECORDING SOUND
-Fraud,11,Non Index,Crimes Against Property,1260,DECEPTIVE PRACTICE LIBRARY THEFT
-Fraud,11,Non Index,Crimes Against Property,1261,DECEPTIVE PRACTICE UNAUTHORIZED VIDEOTAPING
-Fraud,11,Non Index,Crimes Against Property,1265,CRIMINAL DAMAGE LIBRARY VANDALISM
-Fraud,11,Non Index,Crimes Against Property,1305,CRIMINAL DAMAGE CRIMINAL DEFACEMENT
-Embezzlement,12,Non Index,Crime Against Property,1140,DECEPTIVE PRACTICE EMBEZZLEMENT
-Stolen Property,13,Non Index,Crimes Against Property,1200,DECEPTIVE PRACTICE STOLEN PROP: BUY/RECEIVE/POS.
-Vandalism,14,Non Index,Crime Against Property,1310,CRIMINAL DAMAGE TO PROPERTY
-Vandalism,14,Non Index,Crime Against Property,1320,CRIMINAL DAMAGE TO VEHICLE
-Vandalism,14,Non Index,Crime Against Property,1340,CRIMINAL DAMAGE TO STATE SUP PROP
-Vandalism,14,Non Index,Crime Against Property,1345,CRIMINAL DAMAGE TO CITY OF CHICAGO PROPERTY
-Vandalism,14,Non Index,Crime Against Property,1370,CRIMINAL DAMAGE TO FIRE FIGHT.APP.EQUIP
-Vandalism,14,Non Index,Crime Against Property,1375,CRIMINAL DAMAGE INSTITUTIONAL VANDALISM
-Weapons Violation,15,Non Index,Crimes Against Society,1435,WEAPONS VIOLATION POS: FIREARM AT SCHOOL
-Weapons Violation,15,Non Index,Crimes Against Society,1440,WEAPONS VIOLATION REGISTER OF SALES BY DEALER
-Weapons Violation,15,Non Index,Crimes Against Society,1450,WEAPONS VIOLATION DEFACE IDENT MARKS OF FIREARM
-Weapons Violation,15,Non Index,Crimes Against Society,1460,WEAPONS VIOLATION POSS FIREARM/AMMO:NO FOID CARD
-Weapons Violation,15,Non Index,Crimes Against Society,1475,WEAPONS VIOLATION SALE OF METAL PIERCING BULLETS
-Weapons Violation,15,Non Index,Crimes Against Society,1476,WEAPONS VIOLATION USE OF METAL PIERCING BULLETS
-Weapons Violation,15,Non Index,Crimes Against Society,1477,WEAPONS VIOLATION RECKLESS FIREARM DISCHARGE
-Weapons Violation,15,Non Index,Crimes Against Society,1478,CONCEALED CARRY LICENSE VIOLATION PROHIBITED PLACES
-Weapons Violation,15,Non Index,Crimes Against Society,1479,ARMED WHILE UNDER THE INFLUENCE
-Weapons Violation,15,Non Index,Crimes Against Society,1480,CONCEALED CARRY LICENSE VIOLATION OTHER
-Weapons Violation,15,Non Index,Crimes Against Society,1481,NON-CRIMINAL CONCEALED CARRY LICENSE REVOCATION
-Weapons Violation,15,Non Index,Crimes Against Society,2900,WEAPONS VIOLATION UNLAWFUL USE/SALE AIR RIFLE
-Weapons Violation,15,Non Index,Crimes Against Society,141A,WEAPONS VIOLATION UNLAWFUL USE HANDGUN
-Weapons Violation,15,Non Index,Crimes Against Society,141B,WEAPONS VIOLATION UNLAWFUL USE OTHER FIREARM
-Weapons Violation,15,Non Index,Crimes Against Society,141C,WEAPONS VIOLATION UNLAWFUL USE OTHER DANG WEAPON
-Weapons Violation,15,Non Index,Crimes Against Society,142A,WEAPONS VIOLATION UNLAWFUL SALE HANDGUN
-Weapons Violation,15,Non Index,Crimes Against Society,142B,WEAPONS VIOLATION UNLAWFUL SALE OTHER FIREARM
-Weapons Violation,15,Non Index,Crimes Against Society,143A,WEAPONS VIOLATION UNLAWFUL POSS OF HANDGUN
-Weapons Violation,15,Non Index,Crimes Against Society,143B,WEAPONS VIOLATION UNLAWFUL POSS OTHER FIREARM
-Weapons Violation,15,Non Index,Crimes Against Society,143C,WEAPONS VIOLATION UNLAWFUL POSS AMMUNITION
-Prostitution,16,Non Index,Crimes Against Society,1505,PROSTITUTION CALL OPERATION
-Prostitution,16,Non Index,Crimes Against Society,1506,PROSTITUTION SOLICIT ON PUBLIC WAY
-Prostitution,16,Non Index,Crimes Against Society,1507,PROSTITUTION SOLICIT OFF PUBLIC WAY
-Prostitution,16,Non Index,Crimes Against Society,1510,PROSTITUTION CAB OPERATION
-Prostitution,16,Non Index,Crimes Against Society,1511,PROSTITUTION IN TAVERN
-Prostitution,16,Non Index,Crimes Against Society,1512,PROSTITUTION SOLICIT FOR PROSTITUTE
-Prostitution,16,Non Index,Crimes Against Society,1513,PROSTITUTION SOLICIT FOR BUSINESS
-Prostitution,16,Non Index,Crimes Against Society,1515,PROSTITUTION PANDERING
-Prostitution,16,Non Index,Crimes Against Society,1520,PROSTITUTION KEEP PLACE OF PROSTITUTION
-Prostitution,16,Non Index,Crimes Against Society,1521,PROSTITUTION KEEP PLACE OF JUV PROSTITUTION
-Prostitution,16,Non Index,Crimes Against Society,1525,PROSTITUTION PATRONIZING A PROSTITUTE
-Prostitution,16,Non Index,Crimes Against Society,1526,PROSTITUTION PATRONIZE JUVENILE PROSTITUTE
-Prostitution,16,Non Index,Crimes Against Society,1530,PROSTITUTION PIMPING
-Prostitution,16,Non Index,Crimes Against Society,1531,PROSTITUTION JUVENILE PIMPING
-Prostitution,16,Non Index,Crimes Against Society,1537,OFFENSE INVOLVING CHILDREN POS: PORNOGRAPHIC PRINT
-Prostitution,16,Non Index,Crimes Against Society,1542,OBSCENITY SALE OF OBSCENE MATERIALS
-Prostitution,16,Non Index,Crimes Against Society,1544,SEX OFFENSE SEXUAL EXPLOITATION OF A CHILD
-Prostitution,16,Non Index,Crimes Against Society,1549,PROSTITUTION OTHER PROSTITUTION OFFENSE
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1535,OBSCENITY OBSCENITY
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1536,PUBLIC INDECENCY LICENSED PREMISE
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1540,OBSCENITY OBSCENE MATTER
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1541,OBSCENITY SALE/DIST OBSCENE MAT TO MINOR
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1562,SEX OFFENSE AGG CRIMINAL SEXUAL ABUSE
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1563,SEX OFFENSE CRIMINAL SEXUAL ABUSE
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1564,SEX OFFENSE CRIMINAL TRANSMISSION OF HIV
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1565,SEX OFFENSE INDECENT SOLICITATION/CHILD
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1566,SEX OFFENSE INDECENT SOLICITATION/ADULT
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1570,SEX OFFENSE PUBLIC INDECENCY
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1572,SEX OFFENSE ADULTRY
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1574,SEX OFFENSE FORNICATION
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1576,SEX OFFENSE BIGAMY
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1578,SEX OFFENSE MARRYING A BIGAMIST
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1580,SEX OFFENSE SEX RELATION IN FAMILY
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1581,NON-CONSENSUAL DISSEMINATION OF PRIVATE SEXUAL IMAGES
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1581,NON-CONSENSUAL DISSEMINATION PRIVATE SEXUAL IMAGES
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1582,OFFENSE INVOLVING CHILDREN CHILD PORNOGRAPHY
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1585,SEX OFFENSE OTHER
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,1590,SEX OFFENSE ATT AGG CRIMINAL SEXUAL ABUSE
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,2830,OTHER OFFENSE OBSCENE TELEPHONE CALLS
-Criminal Sexual Abuse,17,Non Index,Crimes Against Persons and Society,5004,SEX OFFENSE ATT CRIM SEXUAL ABUSE
-Drug Abuse,18,Non Index,Crimes Against Society,1811,NARCOTICS POSS: CANNABIS 30GMS OR LESS
-Drug Abuse,18,Non Index,Crimes Against Society,1812,NARCOTICS POSS: CANNABIS MORE THAN 30GMS
-Drug Abuse,18,Non Index,Crimes Against Society,1821,NARCOTICS MANU/DEL:CANNABIS 10GM OR LESS
-Drug Abuse,18,Non Index,Crimes Against Society,1822,NARCOTICS MANU/DEL:CANNABIS OVER 10 GMS
-Drug Abuse,18,Non Index,Crimes Against Society,1840,NARCOTICS DELIVER CANNABIS TO PERSON <18
-Drug Abuse,18,Non Index,Crimes Against Society,1850,NARCOTICS CANNABIS PLANT
-Drug Abuse,18,Non Index,Crimes Against Society,1860,NARCOTICS CALCULATED CANNABIS CONSPIRACY
-Drug Abuse,18,Non Index,Crimes Against Society,1900,OTHER NARCOTIC VIOLATION INTOXICATING COMPOUNDS
-Drug Abuse,18,Non Index,Crimes Against Society,2010,NARCOTICS MANU/DELIVER:AMPHETAMINES
-Drug Abuse,18,Non Index,Crimes Against Society,2011,NARCOTICS MANU/DELIVER:BARBITUATES
-Drug Abuse,18,Non Index,Crimes Against Society,2012,NARCOTICS MANU/DELIVER:COCAINE
-Drug Abuse,18,Non Index,Crimes Against Society,2013,NARCOTICS MANU/DELIVER: HEROIN(BRN/TAN)
-Drug Abuse,18,Non Index,Crimes Against Society,2014,NARCOTICS MANU/DELIVER: HEROIN (WHITE)
-Drug Abuse,18,Non Index,Crimes Against Society,2015,NARCOTICS MANU/DELIVER: HALLUCINOGEN
-Drug Abuse,18,Non Index,Crimes Against Society,2016,NARCOTICS MANU/DELIVER:PCP
-Drug Abuse,18,Non Index,Crimes Against Society,2017,NARCOTICS MANU/DELIVER:CRACK
-Drug Abuse,18,Non Index,Crimes Against Society,2018,NARCOTICS MANU/DELIVER:SYNTHETIC DRUGS
-Drug Abuse,18,Non Index,Crimes Against Society,2019,NARCOTICS MANU/DELIVER:HEROIN(BLACK TAR)
-Drug Abuse,18,Non Index,Crimes Against Society,2020,NARCOTICS POSS: AMPHETAMINES
-Drug Abuse,18,Non Index,Crimes Against Society,2021,NARCOTICS POSS: BARBITUATES
-Drug Abuse,18,Non Index,Crimes Against Society,2022,NARCOTICS POSS: COCAINE
-Drug Abuse,18,Non Index,Crimes Against Society,2023,NARCOTICS POSS: HEROIN(BRN/TAN)
-Drug Abuse,18,Non Index,Crimes Against Society,2024,NARCOTICS POSS: HEROIN(WHITE)
-Drug Abuse,18,Non Index,Crimes Against Society,2025,NARCOTICS POSS: HALLUCINOGENS
-Drug Abuse,18,Non Index,Crimes Against Society,2026,NARCOTICS POSS: PCP
-Drug Abuse,18,Non Index,Crimes Against Society,2027,NARCOTICS POSS: CRACK
-Drug Abuse,18,Non Index,Crimes Against Society,2028,NARCOTICS POSS: SYNTHETIC DRUGS
-Drug Abuse,18,Non Index,Crimes Against Society,2029,NARCOTICS POSS: HEROIN(BLACK TAR)
-Drug Abuse,18,Non Index,Crimes Against Society,2030,NARCOTICS MANU/DELIVER:LOOK-ALIKE DRUG
-Drug Abuse,18,Non Index,Crimes Against Society,2031,NARCOTICS POSS: METHAMPHETAMINES
-Drug Abuse,18,Non Index,Crimes Against Society,2032,NARCOTICS MANU/DELIVER: METHAMPHETAMINES
-Drug Abuse,18,Non Index,Crimes Against Society,2033,NARCOTICS MANU/POSS. W/INTENT TO DELIVER: SYNTHETIC MARIJUANA
-Drug Abuse,18,Non Index,Crimes Against Society,2033,NARCOTICS MANUFACTURE / DELIVER - SYNTHETIC MARIJUANA
-Drug Abuse,18,Non Index,Crimes Against Society,2034,NARCOTICS POSSESSION: SYNTHETIC MARIJUANA
-Drug Abuse,18,Non Index,Crimes Against Society,2040,NARCOTICS POSS: LOOK-ALIKE DRUGS
-Drug Abuse,18,Non Index,Crimes Against Society,2050,NARCOTICS CRIMINAL DRUG CONSPIRACY
-Drug Abuse,18,Non Index,Crimes Against Society,2060,NARCOTICS FAIL REGISTER LIC:CONT SUBS
-Drug Abuse,18,Non Index,Crimes Against Society,2070,NARCOTICS DEL CONT SUBS TO PERSON <18
-Drug Abuse,18,Non Index,Crimes Against Society,2080,NARCOTICS CONT SUBS:FAIL TO MAINT RECORD
-Drug Abuse,18,Non Index,Crimes Against Society,2090,NARCOTICS ALTER/FORGE PRESCRIPTION
-Drug Abuse,18,Non Index,Crimes Against Society,2094,NARCOTICS ATTEMPT POSSESSION CANNABIS
-Drug Abuse,18,Non Index,Crimes Against Society,2095,NARCOTICS ATTEMPT POSSESSION NARCOTICS
-Drug Abuse,18,Non Index,Crimes Against Society,2110,NARCOTICS POS: HYPODERMIC NEEDLE
-Drug Abuse,18,Non Index,Crimes Against Society,2170,NARCOTICS POSSESSION OF DRUG EQUIPMENT
-Gambling,19,Non Index,Crimes Against Society,1610,GAMBLING BOOKMAKING/HORSES
-Gambling,19,Non Index,Crimes Against Society,1611,GAMBLING BOOKMAKING/SPORTS
-Gambling,19,Non Index,Crimes Against Society,1620,GAMBLING BOLITA OR BOLI PUL/OFFICE
-Gambling,19,Non Index,Crimes Against Society,1621,GAMBLING BOLITA OR BOLI PUL/RUNNER
-Gambling,19,Non Index,Crimes Against Society,1622,GAMBLING BOLITA OR BOLI PUL/WRITER
-Gambling,19,Non Index,Crimes Against Society,1623,GAMBLING BOLITA OR BOLI PUL/STATION
-Gambling,19,Non Index,Crimes Against Society,1624,GAMBLING LOTTERY/PARI-MUTUEL
-Gambling,19,Non Index,Crimes Against Society,1625,GAMBLING NATIONAL LOTTERY
-Gambling,19,Non Index,Crimes Against Society,1626,GAMBLING ILLEGAL ILL LOTTERY
-Gambling,19,Non Index,Crimes Against Society,1627,GAMBLING LOTTERY/OTHER
-Gambling,19,Non Index,Crimes Against Society,1630,GAMBLING WIREROOM/HORSES
-Gambling,19,Non Index,Crimes Against Society,1631,GAMBLING WIREROOM/SPORTS
-Gambling,19,Non Index,Crimes Against Society,1632,GAMBLING WIREROOM/NUMBERS
-Gambling,19,Non Index,Crimes Against Society,1633,GAMBLING SPORTS TAMPERING
-Gambling,19,Non Index,Crimes Against Society,1640,GAMBLING REGISTER FED GAMBLING STAMP
-Gambling,19,Non Index,Crimes Against Society,1650,GAMBLING VIOL CHARITABLE GAME ACT
-Gambling,19,Non Index,Crimes Against Society,1651,GAMBLING GAME/CARDS
-Gambling,19,Non Index,Crimes Against Society,1661,GAMBLING GAME/DICE
-Gambling,19,Non Index,Crimes Against Society,1670,GAMBLING GAME/AMUSEMENT DEVICE
-Gambling,19,Non Index,Crimes Against Society,1680,GAMBLING OTHER
-Gambling,19,Non Index,Crimes Against Society,1681,GAMBLING LOTTERY/PARLAY CARDS
-Gambling,19,Non Index,Crimes Against Society,1682,OTHER OFFENSE ANIMAL FIGHTING
-Gambling,19,Non Index,Crimes Against Society,1690,GAMBLING POLICY/HOUSEBOOK
-Gambling,19,Non Index,Crimes Against Society,1691,GAMBLING POLICY/STATION
-Gambling,19,Non Index,Crimes Against Society,1692,GAMBLING POLICY/RUNNER
-Gambling,19,Non Index,Crimes Against Society,1693,GAMBLING POLICY/TURN-IN
-Gambling,19,Non Index,Crimes Against Society,1694,GAMBLING POLICY/OFFICE
-Gambling,19,Non Index,Crimes Against Society,1695,GAMBLING POLICY/PRESS
-Gambling,19,Non Index,Crimes Against Society,1696,GAMBLING POLICY/WHEEL
-Gambling,19,Non Index,Crimes Against Society,1697,GAMBLING POLICY/OTHER
-Offenses Against Family,20,Non Index,Crimes Against Persons and Society,1720,OFFENSE INVOLVING CHILDREN CONTRIBUTE DELINQUENCY OF A CHILD
-Offenses Against Family,20,Non Index,Crimes Against Persons and Society,1750,OFFENSE INVOLVING CHILDREN CHILD ABUSE
-Offenses Against Family,17,Non Index,Crimes Against Persons and Society,1751,OFFENSE INVOLVING CHILDREN CRIM SEX ABUSE BY FAM MEMBER
-Offenses Against Family,17,Non Index,Crimes Against Persons and Society,1752,OFFENSE INVOLVING CHILDREN AGG CRIM SEX ABUSE FAM MEMBER
-Offenses Against Family,20,Non Index,Crimes Against Persons and Society,1790,OFFENSE INVOLVING CHILDREN CHILD ABDUCTION
-Offenses Against Family,20,Non Index,Crimes Against Persons and Society,1791,OFFENSE INVOLVING CHILDREN HARBOR RUNAWAY
-Offenses Against Family,20,Non Index,Crimes Against Persons and Society,1792,KIDNAPPING CHILD ABDUCTION/STRANGER
-Liquor License,22,Non Index,Crimes Against Society,2210,LIQUOR LAW VIOLATION SELL/GIVE/DEL LIQUOR TO MINOR
-Liquor License,22,Non Index,Crimes Against Society,2220,LIQUOR LAW VIOLATION ILLEGAL POSSESSION BY MINOR
-Liquor License,22,Non Index,Crimes Against Society,2230,LIQUOR LAW VIOLATION ILLEGAL CONSUMPTION BY MINOR
-Liquor License,22,Non Index,Crimes Against Society,2240,LIQUOR LAW VIOLATION MINOR MISREPRESENT AGE
-Liquor License,22,Non Index,Crimes Against Society,2250,LIQUOR LAW VIOLATION LIQUOR LICENSE VIOLATION
-Liquor License,22,Non Index,Crimes Against Society,2251,LIQUOR LAW VIOLATION EMPLOY MINOR
-Disorderly Conduct,24,Non Index,Crime Against Society,0470,PUBLIC PEACE VIOLATION RECKLESS CONDUCT
-Disorderly Conduct,24,Non Index,Crime Against Society,2840,PUBLIC PEACE VIOLATION FALSE FIRE ALARM
-Disorderly Conduct,24,Non Index,Crime Against Society,2860,PUBLIC PEACE VIOLATION FALSE POLICE REPORT
-Disorderly Conduct,24,Non Index,Crime Against Society,2870,PUBLIC PEACE VIOLATION PEEPING TOM
-Disorderly Conduct,24,Non Index,Crime Against Society,3100,PUBLIC PEACE VIOLATION MOB ACTION
-Disorderly Conduct,24,Non Index,Crime Against Society,3610,OTHER OFFENSE INTERFERE W/ HIGHER EDUCATION
-Disorderly Conduct,24,Non Index,Crime Against Society,3710,INTERFERE WITH PUBLIC OFFICER RESIST/OBSTRUCT/DISARM OFFICER
-Disorderly Conduct,24,Non Index,Crime Against Society,3720,INTERFERE WITH PUBLIC OFFICER REFUSING TO AID AN OFFICER
-Disorderly Conduct,24,Non Index,Crime Against Society,3730,INTERFERE WITH PUBLIC OFFICER OBSTRUCTING JUSTICE
-Disorderly Conduct,24,Non Index,Crime Against Society,3731,INTERFERENCE WITH PUBLIC OFFICER: OBSTRUCTING IDENTIFICATION
-Disorderly Conduct,24,Non Index,Crime Against Society,3740,INTERFERE WITH PUBLIC OFFICER CONCEALING/AIDING A FUGITIVE
-Disorderly Conduct,24,Non Index,Crime Against Society,3750,INTERFERE WITH PUBLIC OFFICER ESCAPE
-Disorderly Conduct,24,Non Index,Crime Against Society,3751,INTERFERE WITH PUBLIC OFFICER AIDING ARRESTEE ESCAPE
-Disorderly Conduct,24,Non Index,Crime Against Society,3760,INTERFERE WITH PUBLIC OFFICER OBSTRUCTING SERVICE
-Misc Non-Index Offense,26,Non Index,Crime Against Society,0584,VIOLATION OF STALKING NO CONTACT ORDER
-Arson,09,Non Index,Crime Against Society,1030,ARSON POS: EXPLOSIVE/INCENDIARY DEV
-Arson,09,Non Index,Crime Against Society,1035,ARSON POS: CHEMICAL/DRY-ICE DEVICE
-Human Trafficking,26,Non Index,Crime Against Society,1050,HUMAN TRAFFICKING COMMERCIAL SEX ACTS
-Human Trafficking,26,Non Index,Crime Against Society,1055,HUMAN TRAFFICKING INVOLUNTARY SERVITUDE
-Misc Non-Index Offense,26,Non Index,Crime Against Society,1330,CRIMINAL TRESPASS TO LAND
-Misc Non-Index Offense,26,Non Index,Crime Against Society,1335,CRIMINAL TRESPASS TO AIRPORT
-Misc Non-Index Offense,26,Non Index,Crime Against Society,1350,CRIMINAL TRESPASS TO STATE SUP LAND
-Misc Non-Index Offense,26,Non Index,Crime Against Society,1360,CRIMINAL TRESPASS TO VEHICLE
-Misc Non-Index Offense,26,Non Index,Crime Against Society,1365,CRIMINAL TRESPASS TO RESIDENCE
-Misc Non-Index Offense,26,Non Index,Crime Against Society,1710,OFFENSE INVOLVING CHILDREN ENDANGERING LIFE/HEALTH CHILD
-Misc Non-Index Offense,26,Non Index,Crime Against Society,1715,OFFENSES INVOLVING CHILDREN SALE TOBACCO PRODUCTS TOMINOR
-Misc Non-Index Offense,26,Non Index,Crime Against Society,1725,OFFENSES INVOLVING CHILDREN CONTRIBUTE CRIM DELINQUENCYJUVENILE
-Misc Non-Index Offense,26,Non Index,Crime Against Society,1755,OFFENSES INVOLVING CHILDREN CHILD ABANDONMENT
-Misc Non-Index Offense,26,Non Index,Crime Against Society,1775,OFFENSES INVOLVING CHILDREN SALE OF TRAVEL TICKET TO MINOR
-Misc Non-Index Offense,26,Non Index,Crime Against Society,1780,OFFENSE INVOLVING CHILDREN OTHER OFFENSE
-Misc Non-Index Offense,26,Non Index,Crime Against Society,2091,NARCOTICS FORFEIT PROPERTY
-Misc Non-Index Offense,26,Non Index,Crime Against Society,2092,NARCOTICS SOLICIT NARCOTICS ON PUBLICWAY
-Misc Non-Index Offense,26,Non Index,Crime Against Society,2093,NARCOTICS FOUND SUSPECT NARCOTICS
-Misc Non-Index Offense,26,Non Index,Crime Against Society,2111,NARCOTICS SALE/DEL HYPODERMIC NEEDLE
-Misc Non-Index Offense,26,Non Index,Crime Against Society,2120,NARCOTICS FAILURE TO KEEP HYPO RECORDS
-Misc Non-Index Offense,26,Non Index,Crime Against Society,2160,NARCOTICS SALE/DEL DRUG PARAPHERNALIA
-Misc Non-Index Offense,26,Non Index,Crime Against Society,2500,CRIMINAL ABORTION CRIMINAL ABORTION
-Misc Non-Index Offense,08A,Non Index,Crime Against Society,2820,OTHER OFFENSE TELEPHONE THREAT
-Misc Non-Index Offense,26,Non Index,Crime Against Society,2825,OTHER OFFENSE HARASSMENT BY TELEPHONE
-Misc Non-Index Offense,26,Non Index,Crime Against Society,2826,OTHER OFFENSE HARASSMENT BY ELECTRONIC MEANS
-Misc Non-Index Offense,26,Non Index,Crime Against Society,2850,PUBLIC PEACE VIOLATION BOMB THREAT
-Misc Non-Index Offense,26,Non Index,Crime Against Society,2851,PUBLIC PEACE VIOLATION ARSON THREAT
-Misc Non-Index Offense,26,Non Index,Crime Against Society,2890,PUBLIC PEACE VIOLATION OTHER VIOLATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,2895,PUBLIC PEACE VIOLATION INTERFERE W/ EMERGENCY EQUIP
-Misc Non-Index Offense,26,Non Index,Crime Against Society,3000,PUBLIC PEACE VIOLATION SELL/ADVERTISE FIREWORKS
-Misc Non-Index Offense,26,Non Index,Crime Against Society,3200,PUBLIC PEACE VIOLATION ARMED VIOLENCE
-Misc Non-Index Offense,26,Non Index,Crime Against Society,3300,PUBLIC PEACE VIOLATION PUBLIC DEMONSTRATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,3400,PUBLIC PEACE VIOLATION LOOTING
-Misc Non-Index Offense,26,Non Index,Crime Against Society,3770,INTERFERE WITH PUBLIC OFFICER CONTRABAND IN PRISON
-Misc Non-Index Offense,26,Non Index,Crime Against Society,3800,INTERFERE WITH PUBLIC OFFICER INTERFERENCE JUDICIAL PROCESS
-Misc Non-Index Offense,26,Non Index,Crime Against Society,3910,INTERFERE WITH PUBLIC OFFICER BRIBERY
-Misc Non-Index Offense,26,Non Index,Crime Against Society,3920,INTERFERE WITH PUBLIC OFFICER OFFICIAL MISCONDUCT
-Misc Non-Index Offense,26,Non Index,Crime Against Society,3960,INTIMIDATION INTIMIDATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,3966,INTIMIDATION EDUCATIONAL INTIMIDAITON
-Misc Non-Index Offense,26,Non Index,Crime Against Society,3970,INTIMIDATION EXTORTION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,3975,INTIMIDATION COMPELLING ORG MEMBERSHIP
-Misc Non-Index Offense,26,Non Index,Crime Against Society,3980,INTIMIDATION COMPELLING CONFESSION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4210,KIDNAPPING KIDNAPPING
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4220,KIDNAPPING AGGRAVATED
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4230,KIDNAPPING UNLAWFUL RESTRAINT
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4240,KIDNAPPING FORCIBLE DETENTION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4255,KIDNAPPING UNLAWFUL INTERFERE/VISITATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4310,OTHER OFFENSE POSSESSION OF BURGLARY TOOLS
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4386,VIOLATION OF CIVIL NO CONTACT ORDER
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4387,OTHER OFFENSE VIOLATE ORDER OF PROTECTION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4388,OTHER OFFENSE VIO BAIL BOND: DOM VIOLENCE
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4389,VIOLATION GPS MONITORING DEVICE
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4410,OTHER OFFENSE DESTRUCTION OF DRAFT CARD
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4420,OTHER OFFENSE CRIMINAL FORTIFICATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4510,OTHER OFFENSE PROBATION VIOLATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4625,OTHER OFFENSE PAROLE VIOLATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4650,OTHER OFFENSE SEX OFFENDER: FAIL TO REGISTER
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4651,OTHER OFFENSE SEX OFFENDER: FAIL REG NEW ADD
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4652,OTHER OFFENSE SEX OFFENDER: PROHIBITED ZONE
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4740,OTHER OFFENSE UNLAWFUL USE OF BODY ARMOR
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4750,OTHER OFFENSE DISCLOSE DV VICTIM LOCATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4800,OTHER OFFENSE MONEY LAUNDERING
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4810,OTHER OFFENSE COMPOUNDING A CRIME
-Misc Non-Index Offense,26,Non Index,Crime Against Society,4860,OTHER OFFENSE BOARD PLANE WITH WEAPON
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5000,OTHER OFFENSE OTHER CRIME AGAINST PERSON
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5001,OTHER OFFENSE OTHER CRIME INVOLVING PROPERTY
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5002,OTHER OFFENSE OTHER VEHICLE OFFENSE
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5003,OTHER OFFENSE OTHER ARSON/EXPLOSIVE INCIDENT
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5007,OTHER OFFENSE OTHER WEAPONS VIOLATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5008,OTHER OFFENSE FIREARM REGISTRATION VIOLATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5009,VIOLATION OF SMOKING BAN
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5011,OTHER OFFENSE LICENSE VIOLATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5013,VIOLATION OF SUMMARY CLOSURE
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5110,GUN OFFENDER - DUTY TO REGISTER
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5110,GUN OFFENDER: DUTY TO REGISTER
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5111,GUN OFFENDER - ANNUAL REGISTRATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5111,GUN OFFENDER: ANNUAL REGISTRATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5112,GUN OFFENDER - DUTY TO REPORT CHANGE OF INFORMATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5112,GUN OFFENDER: DUTY TO REPORT CHANGE OF INFORMATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5114,FOID - REVOCATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5121,ARSONIST - ANNUAL REGISTRATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5121,ARSONIST: ANNUAL REGISTRATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5122,ARSONIST - FAIL TO REGISTER NEW ADDRESS
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5130,VIOLENT OFFENDER - DUTY TO REGISTER
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5130,VIOLENT OFFENDER: DUTY TO REGISTER
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5131,VIOLENT OFFENDER - ANNUAL REGISTRATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5131,VIOLENT OFFENDER: ANNUAL REGISTRATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5132,VIOLENT OFFENDER - FAIL TO REGISTER NEW ADDRESS
-Misc Non-Index Offense,26,Non Index,Crime Against Society,5132,VIOLENT OFFENDER: FAIL TO REGISTER NEW ADDRESS
-Misc Non-Index Offense,26,Non Index,Crime Against Society,500E,OTHER OFFENSE EAVESDROPPING
-Misc Non-Index Offense,26,Non Index,Crime Against Society,500N,OTHER OFFENSE ABUSE/NEGLECT: CARE FACILITY
-Misc Non-Index Offense,26,Non Index,Crime Against Society,501A,OTHER OFFENSE ANIMAL ABUSE/NEGLECT
-Misc Non-Index Offense,26,Non Index,Crime Against Society,501H,OTHER OFFENSE HAZARDOUS MATERIALS VIOLATION
-Misc Non-Index Offense,26,Non Index,Crime Against Society,502P,OTHER OFFENSE FALSE/STOLEN/ALTERED TRP
-Misc Non-Index Offense,26,Non Index,Crime Against Society,502R,OTHER OFFENSE VEHICLE TITLE/REG OFFENSE
-Misc Non-Index Offense,26,Non Index,Crime Against Society,502T,OTHER OFFENSE TAMPER WITH MOTOR VEHICLE
-Murder,01A ,Index,Crimes Against People,0110,HOMICIDE FIRST DEGREE MURDER
-Murder,01A ,Index,Crimes Against People,0130,HOMICIDE SECOND DEGREE MURDER
-Involuntary Manslaughter,01B,Non Index,Crimes Against People,0141,HOMICIDE INVOLUNTARY MANSLAUGHTER
-Involuntary Manslaughter,01B,Non Index,Crimes Against People,0142,HOMICIDE RECKLESS HOMICIDE
-Aggravated Assault,04A ,Index,Crimes Against People,0520,ASSAULT AGGRAVATED:KNIFE/CUTTING INSTR
-Aggravated Assault,04A ,Index,Crimes Against People,0530,ASSAULT AGGRAVATED: OTHER DANG WEAPON
-Aggravated Assault,04A ,Index,Crimes Against People,0550,ASSAULT AGGRAVATED PO: HANDGUN
-Aggravated Assault,04A ,Index,Crimes Against People,0551,ASSAULT AGGRAVATED PO: OTHER FIREARM
-Aggravated Assault,04A ,Index,Crimes Against People,0552,ASSAULT AGGRAVATED PO:KNIFE/CUT INSTR
-Aggravated Assault,04A ,Index,Crimes Against People,0553,ASSAULT AGGRAVATED PO: OTHER DANG WEAP
-Aggravated Assault,04A ,Index,Crimes Against People,0555,ASSAULT AGG PRO.EMP: HANDGUN
-Aggravated Assault,04A ,Index,Crimes Against People,0556,ASSAULT AGG PRO.EMP: OTHER FIREARM
-Aggravated Assault,04A ,Index,Crimes Against People,0557,ASSAULT AGG PRO.EMP:KNIFE/CUTTING INST
-Aggravated Assault,04A ,Index,Crimes Against People,0558,ASSAULT AGG PRO.EMP: OTHER DANG WEAPON
-Aggravated Assault,04A ,Index,Crimes Against People,051A,ASSAULT AGGRAVATED: HANDGUN
-Aggravated Assault,04A ,Index,Crimes Against People,051B,ASSAULT AGGRAVATED: OTHER FIREARM
-Aggravated Battery,04B ,Index,Crimes Against Persons,0420,BATTERY AGGRAVATED:KNIFE/CUTTING INSTR
-Aggravated Battery,04B ,Index,Crimes Against Persons,0430,BATTERY AGGRAVATED: OTHER DANG WEAPON
-Aggravated Battery,04B ,Index,Crimes Against Persons,0450,BATTERY AGGRAVATED PO: HANDGUN
-Aggravated Battery,04B ,Index,Crimes Against Persons,0451,BATTERY AGGRAVATED PO: OTHER FIREARM
-Aggravated Battery,04B ,Index,Crimes Against Persons,0452,BATTERY AGGRAVATED PO: KNIFE/CUT INSTR
-Aggravated Battery,04B ,Index,Crimes Against Persons,0453,BATTERY AGGRAVATED PO: OTHER DANG WEAP
-Aggravated Battery,04B ,Index,Crimes Against Persons,0461,BATTERY AGG PO HANDS ETC SERIOUS INJ
-Aggravated Battery,04B ,Index,Crimes Against Persons,0462,BATTERY AGG PRO EMP HANDS SERIOUS INJ
-Aggravated Battery,04B ,Index,Crimes Against Persons,0479,BATTERY AGG: HANDS/FIST/FEET SERIOUS INJURY
-Aggravated Battery,04B ,Index,Crimes Against Persons,0480,BATTERY AGG PRO.EMP: HANDGUN
-Aggravated Battery,04B ,Index,Crimes Against Persons,0481,BATTERY AGG PRO.EMP: OTHER FIREARM
-Aggravated Battery,04B ,Index,Crimes Against Persons,0482,BATTERY AGG PRO.EMP:KNIFE/CUTTING INST
-Aggravated Battery,04B ,Index,Crimes Against Persons,0483,BATTERY AGG PRO.EMP: OTHER DANG WEAPON
-Aggravated Battery,04B ,Index,Crimes Against Persons,0485,BATTERY AGGRAVATED OF A CHILD
-Aggravated Battery,04B ,Index,Crimes Against Persons,0488,BATTERY AGGRAVATED DOMESTIC BATTERY: HANDGUN
-Aggravated Battery,04B ,Index,Crimes Against Persons,0489,BATTERY AGGRAVATED DOMESTIC BATTERY: OTHER FIREARM
-Aggravated Battery,04B ,Index,Crimes Against Persons,0490,RITUALISM AGG RITUAL MUT:HANDGUN
-Aggravated Battery,04B ,Index,Crimes Against Persons,0491,RITUALISM AGG RITUAL MUT:OTHER FIREARM
-Aggravated Battery,04B ,Index,Crimes Against Persons,0492,RITUALISM AGG RITUAL MUT:KNIFE/CUTTING I
-Aggravated Battery,04B ,Index,Crimes Against Persons,0493,RITUALISM AGG RITUAL MUT:OTH DANG WEAPON
-Aggravated Battery,04B ,Index,Crimes Against Persons,0495,BATTERY AGGRAVATED OF A SENIOR CITIZEN
-Aggravated Battery,04B ,Index,Crimes Against Persons,0496,BATTERY AGGRAVATED DOMESTIC BATTERY: KNIFE/CUTTING INST
-Aggravated Battery,04B ,Index,Crimes Against Persons,0497,BATTERY AGGRAVATED DOMESTIC BATTERY: OTHER DANG WEAPON
-Aggravated Battery,04B ,Index,Crimes Against Persons,0498,BATTERY AGGRAVATED DOMESTIC BATTERY: HANDS/FIST/FEET SERIOUS INJURY
-Aggravated Battery,04B ,Index,Crimes Against Persons,0510,RITUALISM AGG RIT MUT: HANDS/FIST/FEET SERIOUS INJURY
-Aggravated Battery,04B ,Index,Crimes Against Persons,041A,BATTERY AGGRAVATED: HANDGUN
-Aggravated Battery,04B ,Index,Crimes Against Persons,041B,BATTERY AGGRAVATED: OTHER FIREARM
-Simple Assault,08A,Non Index,Crimes Against Persons,0545,ASSAULT PRO EMP HANDS NO/MIN INJURY
-Simple Assault,08A,Non Index,Crimes Against Persons,0554,ASSAULT AGG PO HANDS NO/MIN INJURY
-Simple Assault,08A,Non Index,Crimes Against Persons,0560,ASSAULT SIMPLE
-Simple Assault,08A,Non Index,Crimes Against Persons,0580,STALKING SIMPLE
-Simple Assault,08A,Non Index,Crimes Against Persons,0581,STALKING AGGRAVATED
-Simple Assault,08A,Non Index,Crimes Against Persons,0583,STALKING CYBERSTALKING
-Simple Assault,08A,Non Index,Crimes Against Persons,3961,INTIMIDATION OF LAW ENFORCEMENT OFFICIAL
-Simple Battery,08B,Non Index,Crimes Against Persons,0440,BATTERY AGG: HANDS/FIST/FEET NO/MINOR INJURY
-Simple Battery,08B,Non Index,Crimes Against Persons,0454,BATTERY AGG PO HANDS NO/MIN INJURY
-Simple Battery,08B,Non Index,Crimes Against Persons,0460,BATTERY SIMPLE
-Simple Battery,08B,Non Index,Crimes Against Persons,0475,BATTERY OF UNBORN CHILD
-Simple Battery,08B,Non Index,Crimes Against Persons,0484,BATTERY PRO EMP HANDS NO/MIN INJURY
-Simple Battery,08B,Non Index,Crimes Against Persons,0486,BATTERY DOMESTIC BATTERY SIMPLE
-Simple Battery,08B,Non Index,Crimes Against Persons,0487,BATTERY AGGRAVATED OF A UNBORN CHILD
-Simple Battery,08B,Non Index,Crimes Against Persons,0494,RITUALISM AGG RIT MUT: HANDS/FIST/FEET NO/MINOR INJURY
+Murder,01A,Index,People,0110,HOMICIDE FIRST DEGREE MURDER
+Murder,01A,Index,People,0130,HOMICIDE SECOND DEGREE MURDER
+Involuntary Manslaughter,01B,Non Index,People,0141,HOMICIDE INVOLUNTARY MANSLAUGHTER
+Involuntary Manslaughter,01B,Non Index,People,0142,HOMICIDE RECKLESS HOMICIDE
+Criminal Sexual Assault,02,Index,People,0261,CRIM SEXUAL ASSAULT AGGRAVATED: HANDGUN
+Criminal Sexual Assault,02,Index,People,0262,CRIM SEXUAL ASSAULT AGGRAVATED: OTHER FIREARM
+Criminal Sexual Assault,02,Index,People,0263,CRIM SEXUAL ASSAULT AGGRAVATED: KNIFE/CUT INSTR
+Criminal Sexual Assault,02,Index,People,0264,CRIM SEXUAL ASSAULT AGGRAVATED: OTHER DANG WEAPON
+Criminal Sexual Assault,02,Index,People,0265,CRIM SEXUAL ASSAULT AGGRAVATED: OTHER
+Criminal Sexual Assault,02,Index,People,0266,CRIM SEXUAL ASSAULT PREDATORY
+Criminal Sexual Assault,02,Index,People,0271,CRIM SEXUAL ASSAULT ATTEMPT AGG: HANDGUN
+Criminal Sexual Assault,02,Index,People,0272,CRIM SEXUAL ASSAULT ATTEMPT AGG: OTHER FIREARM
+Criminal Sexual Assault,02,Index,People,0273,CRIM SEXUAL ASSAULT ATTEMPT AGG: KNIFE/CUT INSTR
+Criminal Sexual Assault,02,Index,People,0274,CRIM SEXUAL ASSAULT ATTEMPT AGG: OTHER DANG WEAPON
+Criminal Sexual Assault,02,Index,People,0275,CRIM SEXUAL ASSAULT ATTEMPT AGG: OTHER
+Criminal Sexual Assault,02,Index,People,0281,CRIM SEXUAL ASSAULT NON-AGGRAVATED
+Criminal Sexual Assault,02,Index,People,0291,CRIM SEXUAL ASSAULT ATTEMPT NON-AGGRAVATED
+Robbery,03,Index,People,0312,ROBBERY ARMED:KNIFE/CUTTING INSTRUMENT
+Robbery,03,Index,People,0313,ROBBERY ARMED: OTHER DANGEROUS WEAPON
+Robbery,03,Index,People,0320,ROBBERY STRONGARM - NO WEAPON
+Robbery,03,Index,People,0325,ROBBERY VEHICULAR HIJACKING
+Robbery,03,Index,People,0326,ROBBERY AGGRAVATED VEHICULAR HIJACKING
+Robbery,03,Index,People,0330,ROBBERY AGGRAVATED
+Robbery,03,Index,People,0331,ROBBERY ATTEMPT: AGGRAVATED
+Robbery,03,Index,People,0334,ROBBERY ATTEMPT: ARMED-KNIFE/CUT INSTR
+Robbery,03,Index,People,0337,ROBBERY ATTEMPT: ARMED-OTHER DANG WEAP
+Robbery,03,Index,People,0340,ROBBERY ATTEMPT: STRONGARM-NO WEAPON
+Aggravated Battery,04B,Index,People,0420,BATTERY AGGRAVATED:KNIFE/CUTTING INSTR
+Aggravated Battery,04B,Index,People,0430,BATTERY AGGRAVATED: OTHER DANG WEAPON
+Simple Battery,08B,Non Index,People,0440,BATTERY AGG: HANDS/FIST/FEET NO/MINOR INJURY
+Aggravated Battery,04B,Index,People,0450,BATTERY AGGRAVATED PO: HANDGUN
+Aggravated Battery,04B,Index,People,0451,BATTERY AGGRAVATED PO: OTHER FIREARM
+Aggravated Battery,04B,Index,People,0452,BATTERY AGGRAVATED PO: KNIFE/CUT INSTR
+Aggravated Battery,04B,Index,People,0453,BATTERY AGGRAVATED PO: OTHER DANG WEAP
+Simple Battery,08B,Non Index,People,0454,BATTERY AGG PO HANDS NO/MIN INJURY
+Simple Battery,08B,Non Index,People,0460,BATTERY SIMPLE
+Aggravated Battery,04B,Index,People,0461,BATTERY AGG PO HANDS ETC SERIOUS INJ
+Aggravated Battery,04B,Index,People,0462,BATTERY AGG PRO EMP HANDS SERIOUS INJ
+Disorderly Conduct,24,Non Index,Society,0470,PUBLIC PEACE VIOLATION RECKLESS CONDUCT
+Simple Battery,08B,Non Index,People,0475,BATTERY OF UNBORN CHILD
+Aggravated Battery,04B,Index,People,0479,BATTERY AGG: HANDS/FIST/FEET SERIOUS INJURY
+Aggravated Battery,04B,Index,People,0480,BATTERY AGG PRO.EMP: HANDGUN
+Aggravated Battery,04B,Index,People,0481,BATTERY AGG PRO.EMP: OTHER FIREARM
+Aggravated Battery,04B,Index,People,0482,BATTERY AGG PRO.EMP:KNIFE/CUTTING INST
+Aggravated Battery,04B,Index,People,0483,BATTERY AGG PRO.EMP: OTHER DANG WEAPON
+Simple Battery,08B,Non Index,People,0484,BATTERY PRO EMP HANDS NO/MIN INJURY
+Aggravated Battery,04B,Index,People,0485,BATTERY AGGRAVATED OF A CHILD
+Simple Battery,08B,Non Index,People,0486,BATTERY DOMESTIC BATTERY SIMPLE
+Simple Battery,08B,Non Index,People,0487,BATTERY AGGRAVATED OF A UNBORN CHILD
+Aggravated Battery,04B,Index,People,0488,BATTERY AGGRAVATED DOMESTIC BATTERY: HANDGUN
+Aggravated Battery,04B,Index,People,0489,BATTERY AGGRAVATED DOMESTIC BATTERY: OTHER FIREARM
+Aggravated Battery,04B,Index,People,0490,RITUALISM AGG RITUAL MUT:HANDGUN
+Aggravated Battery,04B,Index,People,0491,RITUALISM AGG RITUAL MUT:OTHER FIREARM
+Aggravated Battery,04B,Index,People,0492,RITUALISM AGG RITUAL MUT:KNIFE/CUTTING I
+Aggravated Battery,04B,Index,People,0493,RITUALISM AGG RITUAL MUT:OTH DANG WEAPON
+Simple Battery,08B,Non Index,People,0494,RITUALISM AGG RIT MUT: HANDS/FIST/FEET NO/MINOR INJURY
+Aggravated Battery,04B,Index,People,0495,BATTERY AGGRAVATED OF A SENIOR CITIZEN
+Aggravated Battery,04B,Index,People,0496,BATTERY AGGRAVATED DOMESTIC BATTERY: KNIFE/CUTTING INST
+Aggravated Battery,04B,Index,People,0497,BATTERY AGGRAVATED DOMESTIC BATTERY: OTHER DANG WEAPON
+Aggravated Battery,04B,Index,People,0498,BATTERY AGGRAVATED DOMESTIC BATTERY: HANDS/FIST/FEET SERIOUS INJURY
+Aggravated Battery,04B,Index,People,0510,RITUALISM AGG RIT MUT: HANDS/FIST/FEET SERIOUS INJURY
+Aggravated Assault,04A,Index,People,0520,ASSAULT AGGRAVATED:KNIFE/CUTTING INSTR
+Aggravated Assault,04A,Index,People,0530,ASSAULT AGGRAVATED: OTHER DANG WEAPON
+Simple Assault,08A,Non Index,People,0545,ASSAULT PRO EMP HANDS NO/MIN INJURY
+Aggravated Assault,04A,Index,People,0550,ASSAULT AGGRAVATED PO: HANDGUN
+Aggravated Assault,04A,Index,People,0551,ASSAULT AGGRAVATED PO: OTHER FIREARM
+Aggravated Assault,04A,Index,People,0552,ASSAULT AGGRAVATED PO:KNIFE/CUT INSTR
+Aggravated Assault,04A,Index,People,0553,ASSAULT AGGRAVATED PO: OTHER DANG WEAP
+Simple Assault,08A,Non Index,People,0554,ASSAULT AGG PO HANDS NO/MIN INJURY
+Aggravated Assault,04A,Index,People,0555,ASSAULT AGG PRO.EMP: HANDGUN
+Aggravated Assault,04A,Index,People,0556,ASSAULT AGG PRO.EMP: OTHER FIREARM
+Aggravated Assault,04A,Index,People,0557,ASSAULT AGG PRO.EMP:KNIFE/CUTTING INST
+Aggravated Assault,04A,Index,People,0558,ASSAULT AGG PRO.EMP: OTHER DANG WEAPON
+Simple Assault,08A,Non Index,People,0560,ASSAULT SIMPLE
+Simple Assault,08A,Non Index,People,0580,STALKING SIMPLE
+Simple Assault,08A,Non Index,People,0581,STALKING AGGRAVATED
+Simple Assault,08A,Non Index,People,0583,STALKING CYBERSTALKING
+Misc Non-Index Offense,26,Non Index,Society,0584,VIOLATION OF STALKING NO CONTACT ORDER
+Burglary,05,Index,Property,0610,BURGLARY FORCIBLE ENTRY
+Burglary,05,Index,Property,0620,BURGLARY UNLAWFUL ENTRY
+Burglary,05,Index,Property,0630,BURGLARY ATTEMPT FORCIBLE ENTRY
+Burglary,05,Index,Property,0650,BURGLARY HOME INVASION
+Theft Over $500,06,Index,Property,0810,THEFT OVER $500
+Theft,06,Non Index,Property,0820,THEFT $500 AND UNDER
+Theft,06,Non Index,Property,0840,THEFT FINANCIAL ID THEFT: OVER $500
+Theft,06,Non Index,Property,0841,THEFT FINANCIAL ID THEFT:$500 &UNDER
+Theft,06,Non Index,Property,0842,THEFT AGG: FINANCIAL ID THEFT
+Theft,06,Non Index,Property,0843,THEFT ATTEMPT FINANCIAL IDENTITY THEFT
+Theft,06,Non Index,Property,0850,THEFT ATTEMPT THEFT
+Theft,06,Non Index,Property,0860,THEFT RETAIL THEFT
+Theft,06,Non Index,Property,0865,THEFT DELIVERY CONTAINER THEFT
+Theft,06,Non Index,Property,0870,THEFT POCKET-PICKING
+Theft,06,Non Index,Property,0880,THEFT PURSE-SNATCHING
+Theft,06,Non Index,Property,0890,THEFT FROM BUILDING
+Theft,06,Non Index,Property,0895,THEFT FROM COIN-OP MACHINE/DEVICE
+Motor Vehicle Theft,07,Index,Property,0910,MOTOR VEHICLE THEFT AUTOMOBILE
+Motor Vehicle Theft,07,Index,Property,0915,"MOTOR VEHICLE THEFT TRUCK, BUS, MOTOR HOME"
+Motor Vehicle Theft,07,Index,Property,0917,"MOTOR VEHICLE THEFT CYCLE, SCOOTER, BIKE W-VIN"
+Motor Vehicle Theft,07,Index,Property,0918,"MOTOR VEHICLE THEFT CYCLE, SCOOTER, BIKE NO VIN"
+Motor Vehicle Theft,07,Index,Property,0920,MOTOR VEHICLE THEFT ATT: AUTOMOBILE
+Motor Vehicle Theft,07,Index,Property,0925,"MOTOR VEHICLE THEFT ATT: TRUCK, BUS, MOTOR HOME"
+Motor Vehicle Theft,07,Index,Property,0927,"MOTOR VEHICLE THEFT ATTEMPT: CYCLE, SCOOTER, BIKE W-VIN"
+Motor Vehicle Theft,07,Index,Property,0928,"MOTOR VEHICLE THEFT ATTEMPT: CYCLE, SCOOTER, BIKE NO VIN"
+Motor Vehicle Theft,07,Index,Property,0930,MOTOR VEHICLE THEFT THEFT/RECOVERY: AUTOMOBILE
+Motor Vehicle Theft,07,Index,Property,0935,"MOTOR VEHICLE THEFT THEFT/RECOVERY: TRUCK,BUS,MHOME"
+Motor Vehicle Theft,07,Index,Property,0937,"MOTOR VEHICLE THEFT THEFT/RECOVERY: CYCLE, SCOOTER, BIKE W-VIN"
+Motor Vehicle Theft,07,Index,Property,0938,"MOTOR VEHICLE THEFT THEFT/RECOVERY: CYCLE, SCOOTER, BIKE NO VIN"
+Arson,09,Index,Property,1010,ARSON BY EXPLOSIVE
+Arson,09,Index,Property,1020,ARSON BY FIRE
+Arson,09,Index,Property,1025,ARSON AGGRAVATED
+Arson,09,Non Index,Society,1030,ARSON POS: EXPLOSIVE/INCENDIARY DEV
+Arson,09,Non Index,Society,1035,ARSON POS: CHEMICAL/DRY-ICE DEVICE
+Human Trafficking,26,Non Index,Society,1050,HUMAN TRAFFICKING COMMERCIAL SEX ACTS
+Human Trafficking,26,Non Index,Society,1055,HUMAN TRAFFICKING INVOLUNTARY SERVITUDE
+Arson,09,Index,Property,1090,ARSON ATTEMPT ARSON
+Fraud,11,Non Index,Property,1110,DECEPTIVE PRACTICE BOGUS CHECK
+Forgery & Counterfeiting,10,Non Index,Property,1120,DECEPTIVE PRACTICE FORGERY
+Forgery & Counterfeiting,10,Non Index,Property,1121,DECEPTIVE PRACTICE COUNTERFEITING DOCUMENT
+Forgery & Counterfeiting,10,Non Index,Property,1122,DECEPTIVE PRACTICE COUNTERFEIT CHECK
+Fraud,11,Non Index,Property,1130,DECEPTIVE PRACTICE FRAUD OR CONFIDENCE GAME
+Fraud,11,Non Index,Property,1135,DECEPTIVE PRACTICE INSURANCE FRAUD
+Embezzlement,12,Non Index,Property,1140,DECEPTIVE PRACTICE EMBEZZLEMENT
+Fraud,11,Non Index,Property,1150,DECEPTIVE PRACTICE CREDIT CARD FRAUD
+Fraud,11,Non Index,Property,1151,DECEPTIVE PRACTICE ILLEGAL POSSESSION CASH CARD
+Fraud,11,Non Index,Property,1152,DECEPTIVE PRACTICE ILLEGAL USE CASH CARD
+Fraud,11,Non Index,Property,1153,FINANCIAL IDENTITY THEFT OVER $ 300
+Fraud,11,Non Index,Property,1154,FINANCIAL IDENTITY THEFT $300 AND UNDER
+Fraud,11,Non Index,Property,1155,AGGRAVATED FINANCIAL IDENTITY THEFT
+Fraud,11,Non Index,Property,1156,ATTEMPT - FINANCIAL IDENTITY THEFT
+Fraud,11,Non Index,Property,1160,DECEPTIVE PRACTICE ALTER COINS
+Fraud,11,Non Index,Property,1170,DECEPTIVE PRACTICE IMPERSONATION
+Fraud,11,Non Index,Property,1185,DECEPTIVE PRACTICE DECEPTIVE COLLECTION PRACTICES
+Fraud,11,Non Index,Property,1195,DECEPTIVE PRACTICE FINAN EXPLOIT-ELDERLY/DISABLED
+Stolen Property,13,Non Index,Property,1200,DECEPTIVE PRACTICE STOLEN PROP: BUY/RECEIVE/POS.
+Fraud,11,Non Index,Property,1205,"DECEPTIVE PRACTICE THEFT BY LESSEE,NON-VEH"
+Fraud,11,Non Index,Property,1206,"DECEPTIVE PRACTICE THEFT BY LESSEE,MOTOR VEH"
+Fraud,11,Non Index,Property,1210,DECEPTIVE PRACTICE THEFT OF LABOR/SERVICES
+Fraud,11,Non Index,Property,1220,DECEPTIVE PRACTICE THEFT OF LOST/MISLAID PROP
+Fraud,11,Non Index,Property,1230,DECEPTIVE PRACTICE POSS. KEYS OR DEV.TO COIN MACH
+Fraud,11,Non Index,Property,1235,DECEPTIVE PRACTICE UNLAWFUL USE OF RECORDED SOUND
+Fraud,11,Non Index,Property,1240,DECEPTIVE PRACTICE UNLAWFUL USE OF A COMPUTER
+Fraud,11,Non Index,Property,1241,DECEPTIVE PRACTICE AGGRAVATED COMPUTER TAMPERING
+Fraud,11,Non Index,Property,1242,DECEPTIVE PRACTICE COMPUTER FRAUD
+Fraud,11,Non Index,Property,1245,DECEPTIVE PRACTICE PAY TV SERVICE OFFENSES
+Fraud,11,Non Index,Property,1255,DECEPTIVE PRACTICE UNIDENTIFIABLE RECORDING SOUND
+Fraud,11,Non Index,Property,1260,DECEPTIVE PRACTICE LIBRARY THEFT
+Fraud,11,Non Index,Property,1261,DECEPTIVE PRACTICE UNAUTHORIZED VIDEOTAPING
+Fraud,11,Non Index,Property,1265,CRIMINAL DAMAGE LIBRARY VANDALISM
+Fraud,11,Non Index,Property,1305,CRIMINAL DAMAGE CRIMINAL DEFACEMENT
+Vandalism,14,Non Index,Property,1310,CRIMINAL DAMAGE TO PROPERTY
+Vandalism,14,Non Index,Property,1320,CRIMINAL DAMAGE TO VEHICLE
+Misc Non-Index Offense,26,Non Index,Society,1330,CRIMINAL TRESPASS TO LAND
+Misc Non-Index Offense,26,Non Index,Society,1335,CRIMINAL TRESPASS TO AIRPORT
+Vandalism,14,Non Index,Property,1340,CRIMINAL DAMAGE TO STATE SUP PROP
+Vandalism,14,Non Index,Property,1345,CRIMINAL DAMAGE TO CITY OF CHICAGO PROPERTY
+Misc Non-Index Offense,26,Non Index,Society,1350,CRIMINAL TRESPASS TO STATE SUP LAND
+Misc Non-Index Offense,26,Non Index,Society,1360,CRIMINAL TRESPASS TO VEHICLE
+Misc Non-Index Offense,26,Non Index,Society,1365,CRIMINAL TRESPASS TO RESIDENCE
+Vandalism,14,Non Index,Property,1370,CRIMINAL DAMAGE TO FIRE FIGHT.APP.EQUIP
+Vandalism,14,Non Index,Property,1375,CRIMINAL DAMAGE INSTITUTIONAL VANDALISM
+Weapons Violation,15,Non Index,Society,1435,WEAPONS VIOLATION POS: FIREARM AT SCHOOL
+Weapons Violation,15,Non Index,Society,1440,WEAPONS VIOLATION REGISTER OF SALES BY DEALER
+Weapons Violation,15,Non Index,Society,1450,WEAPONS VIOLATION DEFACE IDENT MARKS OF FIREARM
+Weapons Violation,15,Non Index,Society,1460,WEAPONS VIOLATION POSS FIREARM/AMMO:NO FOID CARD
+Weapons Violation,15,Non Index,Society,1475,WEAPONS VIOLATION SALE OF METAL PIERCING BULLETS
+Weapons Violation,15,Non Index,Society,1476,WEAPONS VIOLATION USE OF METAL PIERCING BULLETS
+Weapons Violation,15,Non Index,Society,1477,WEAPONS VIOLATION RECKLESS FIREARM DISCHARGE
+Weapons Violation,15,Non Index,Society,1478,CONCEALED CARRY LICENSE VIOLATION PROHIBITED PLACES
+Weapons Violation,15,Non Index,Society,1479,ARMED WHILE UNDER THE INFLUENCE
+Weapons Violation,15,Non Index,Society,1480,CONCEALED CARRY LICENSE VIOLATION OTHER
+Weapons Violation,15,Non Index,Society,1481,NON-CRIMINAL CONCEALED CARRY LICENSE REVOCATION
+Prostitution,16,Non Index,Society,1505,PROSTITUTION CALL OPERATION
+Prostitution,16,Non Index,Society,1506,PROSTITUTION SOLICIT ON PUBLIC WAY
+Prostitution,16,Non Index,Society,1507,PROSTITUTION SOLICIT OFF PUBLIC WAY
+Prostitution,16,Non Index,Society,1510,PROSTITUTION CAB OPERATION
+Prostitution,16,Non Index,Society,1511,PROSTITUTION IN TAVERN
+Prostitution,16,Non Index,Society,1512,PROSTITUTION SOLICIT FOR PROSTITUTE
+Prostitution,16,Non Index,Society,1513,PROSTITUTION SOLICIT FOR BUSINESS
+Prostitution,16,Non Index,Society,1515,PROSTITUTION PANDERING
+Prostitution,16,Non Index,Society,1520,PROSTITUTION KEEP PLACE OF PROSTITUTION
+Prostitution,16,Non Index,Society,1521,PROSTITUTION KEEP PLACE OF JUV PROSTITUTION
+Prostitution,16,Non Index,Society,1525,PROSTITUTION PATRONIZING A PROSTITUTE
+Prostitution,16,Non Index,Society,1526,PROSTITUTION PATRONIZE JUVENILE PROSTITUTE
+Prostitution,16,Non Index,Society,1530,PROSTITUTION PIMPING
+Prostitution,16,Non Index,Society,1531,PROSTITUTION JUVENILE PIMPING
+Criminal Sexual Abuse,17,Non Index,People,1535,OBSCENITY OBSCENITY
+Criminal Sexual Abuse,17,Non Index,People,1536,PUBLIC INDECENCY LICENSED PREMISE
+Prostitution,16,Non Index,Society,1537,OFFENSE INVOLVING CHILDREN POS: PORNOGRAPHIC PRINT
+Criminal Sexual Abuse,17,Non Index,People,1540,OBSCENITY OBSCENE MATTER
+Criminal Sexual Abuse,17,Non Index,People,1541,OBSCENITY SALE/DIST OBSCENE MAT TO MINOR
+Prostitution,16,Non Index,Society,1542,OBSCENITY SALE OF OBSCENE MATERIALS
+Prostitution,16,Non Index,Society,1544,SEX OFFENSE SEXUAL EXPLOITATION OF A CHILD
+Prostitution,16,Non Index,Society,1549,PROSTITUTION OTHER PROSTITUTION OFFENSE
+Criminal Sexual Abuse,17,Non Index,People,1562,SEX OFFENSE AGG CRIMINAL SEXUAL ABUSE
+Criminal Sexual Abuse,17,Non Index,People,1563,SEX OFFENSE CRIMINAL SEXUAL ABUSE
+Criminal Sexual Abuse,17,Non Index,People,1564,SEX OFFENSE CRIMINAL TRANSMISSION OF HIV
+Criminal Sexual Abuse,17,Non Index,People,1565,SEX OFFENSE INDECENT SOLICITATION/CHILD
+Criminal Sexual Abuse,17,Non Index,People,1566,SEX OFFENSE INDECENT SOLICITATION/ADULT
+Criminal Sexual Abuse,17,Non Index,People,1570,SEX OFFENSE PUBLIC INDECENCY
+Criminal Sexual Abuse,17,Non Index,People,1572,SEX OFFENSE ADULTRY
+Criminal Sexual Abuse,17,Non Index,People,1574,SEX OFFENSE FORNICATION
+Criminal Sexual Abuse,17,Non Index,People,1576,SEX OFFENSE BIGAMY
+Criminal Sexual Abuse,17,Non Index,People,1578,SEX OFFENSE MARRYING A BIGAMIST
+Criminal Sexual Abuse,17,Non Index,People,1580,SEX OFFENSE SEX RELATION IN FAMILY
+Criminal Sexual Abuse,17,Non Index,People,1581,NON-CONSENSUAL DISSEMINATION OF PRIVATE SEXUAL IMAGES
+Criminal Sexual Abuse,17,Non Index,People,1582,OFFENSE INVOLVING CHILDREN CHILD PORNOGRAPHY
+Criminal Sexual Abuse,17,Non Index,People,1585,SEX OFFENSE OTHER
+Criminal Sexual Abuse,17,Non Index,People,1590,SEX OFFENSE ATT AGG CRIMINAL SEXUAL ABUSE
+Gambling,19,Non Index,Society,1610,GAMBLING BOOKMAKING/HORSES
+Gambling,19,Non Index,Society,1611,GAMBLING BOOKMAKING/SPORTS
+Gambling,19,Non Index,Society,1620,GAMBLING BOLITA OR BOLI PUL/OFFICE
+Gambling,19,Non Index,Society,1621,GAMBLING BOLITA OR BOLI PUL/RUNNER
+Gambling,19,Non Index,Society,1622,GAMBLING BOLITA OR BOLI PUL/WRITER
+Gambling,19,Non Index,Society,1623,GAMBLING BOLITA OR BOLI PUL/STATION
+Gambling,19,Non Index,Society,1624,GAMBLING LOTTERY/PARI-MUTUEL
+Gambling,19,Non Index,Society,1625,GAMBLING NATIONAL LOTTERY
+Gambling,19,Non Index,Society,1626,GAMBLING ILLEGAL ILL LOTTERY
+Gambling,19,Non Index,Society,1627,GAMBLING LOTTERY/OTHER
+Gambling,19,Non Index,Society,1630,GAMBLING WIREROOM/HORSES
+Gambling,19,Non Index,Society,1631,GAMBLING WIREROOM/SPORTS
+Gambling,19,Non Index,Society,1632,GAMBLING WIREROOM/NUMBERS
+Gambling,19,Non Index,Society,1633,GAMBLING SPORTS TAMPERING
+Gambling,19,Non Index,Society,1640,GAMBLING REGISTER FED GAMBLING STAMP
+Gambling,19,Non Index,Society,1650,GAMBLING VIOL CHARITABLE GAME ACT
+Gambling,19,Non Index,Society,1651,GAMBLING GAME/CARDS
+Gambling,19,Non Index,Society,1661,GAMBLING GAME/DICE
+Gambling,19,Non Index,Society,1670,GAMBLING GAME/AMUSEMENT DEVICE
+Gambling,19,Non Index,Society,1680,GAMBLING OTHER
+Gambling,19,Non Index,Society,1681,GAMBLING LOTTERY/PARLAY CARDS
+Gambling,19,Non Index,Society,1682,OTHER OFFENSE ANIMAL FIGHTING
+Gambling,19,Non Index,Society,1690,GAMBLING POLICY/HOUSEBOOK
+Gambling,19,Non Index,Society,1691,GAMBLING POLICY/STATION
+Gambling,19,Non Index,Society,1692,GAMBLING POLICY/RUNNER
+Gambling,19,Non Index,Society,1693,GAMBLING POLICY/TURN-IN
+Gambling,19,Non Index,Society,1694,GAMBLING POLICY/OFFICE
+Gambling,19,Non Index,Society,1695,GAMBLING POLICY/PRESS
+Gambling,19,Non Index,Society,1696,GAMBLING POLICY/WHEEL
+Gambling,19,Non Index,Society,1697,GAMBLING POLICY/OTHER
+Misc Non-Index Offense,26,Non Index,Society,1710,OFFENSE INVOLVING CHILDREN ENDANGERING LIFE/HEALTH CHILD
+Misc Non-Index Offense,26,Non Index,Society,1715,OFFENSES INVOLVING CHILDREN SALE TOBACCO PRODUCTS TOMINOR
+Offenses Against Family,20,Non Index,People,1720,OFFENSE INVOLVING CHILDREN CONTRIBUTE DELINQUENCY OF A CHILD
+Misc Non-Index Offense,26,Non Index,Society,1725,OFFENSES INVOLVING CHILDREN CONTRIBUTE CRIM DELINQUENCYJUVENILE
+Offenses Against Family,20,Non Index,People,1750,OFFENSE INVOLVING CHILDREN CHILD ABUSE
+Offenses Against Family,17,Non Index,People,1751,OFFENSE INVOLVING CHILDREN CRIM SEX ABUSE BY FAM MEMBER
+Offenses Against Family,17,Non Index,People,1752,OFFENSE INVOLVING CHILDREN AGG CRIM SEX ABUSE FAM MEMBER
+Criminal Sexual Assault,02,Index,People,1753,OFFENSE INVOLVING CHILDREN SEX ASSLT OF CHILD BY FAM MBR
+Criminal Sexual Assault,02,Index,People,1754,OFFENSE INVOLVING CHILDREN AGG SEX ASSLT OF CHILD FAM MBR
+Misc Non-Index Offense,26,Non Index,Society,1755,OFFENSES INVOLVING CHILDREN CHILD ABANDONMENT
+Misc Non-Index Offense,26,Non Index,Society,1775,OFFENSES INVOLVING CHILDREN SALE OF TRAVEL TICKET TO MINOR
+Misc Non-Index Offense,26,Non Index,Society,1780,OFFENSE INVOLVING CHILDREN OTHER OFFENSE
+Offenses Against Family,20,Non Index,People,1790,OFFENSE INVOLVING CHILDREN CHILD ABDUCTION
+Offenses Against Family,20,Non Index,People,1791,OFFENSE INVOLVING CHILDREN HARBOR RUNAWAY
+Offenses Against Family,20,Non Index,People,1792,KIDNAPPING CHILD ABDUCTION/STRANGER
+Drug Abuse,18,Non Index,Society,1811,NARCOTICS POSS: CANNABIS 30GMS OR LESS
+Drug Abuse,18,Non Index,Society,1812,NARCOTICS POSS: CANNABIS MORE THAN 30GMS
+Drug Abuse,18,Non Index,Society,1821,NARCOTICS MANU/DEL:CANNABIS 10GM OR LESS
+Drug Abuse,18,Non Index,Society,1822,NARCOTICS MANU/DEL:CANNABIS OVER 10 GMS
+Drug Abuse,18,Non Index,Society,1840,NARCOTICS DELIVER CANNABIS TO PERSON <18
+Drug Abuse,18,Non Index,Society,1850,NARCOTICS CANNABIS PLANT
+Drug Abuse,18,Non Index,Society,1860,NARCOTICS CALCULATED CANNABIS CONSPIRACY
+Drug Abuse,18,Non Index,Society,1900,OTHER NARCOTIC VIOLATION INTOXICATING COMPOUNDS
+Drug Abuse,18,Non Index,Society,2010,NARCOTICS MANU/DELIVER:AMPHETAMINES
+Drug Abuse,18,Non Index,Society,2011,NARCOTICS MANU/DELIVER:BARBITUATES
+Drug Abuse,18,Non Index,Society,2012,NARCOTICS MANU/DELIVER:COCAINE
+Drug Abuse,18,Non Index,Society,2013,NARCOTICS MANU/DELIVER: HEROIN(BRN/TAN)
+Drug Abuse,18,Non Index,Society,2014,NARCOTICS MANU/DELIVER: HEROIN (WHITE)
+Drug Abuse,18,Non Index,Society,2015,NARCOTICS MANU/DELIVER: HALLUCINOGEN
+Drug Abuse,18,Non Index,Society,2016,NARCOTICS MANU/DELIVER:PCP
+Drug Abuse,18,Non Index,Society,2017,NARCOTICS MANU/DELIVER:CRACK
+Drug Abuse,18,Non Index,Society,2018,NARCOTICS MANU/DELIVER:SYNTHETIC DRUGS
+Drug Abuse,18,Non Index,Society,2019,NARCOTICS MANU/DELIVER:HEROIN(BLACK TAR)
+Drug Abuse,18,Non Index,Society,2020,NARCOTICS POSS: AMPHETAMINES
+Drug Abuse,18,Non Index,Society,2021,NARCOTICS POSS: BARBITUATES
+Drug Abuse,18,Non Index,Society,2022,NARCOTICS POSS: COCAINE
+Drug Abuse,18,Non Index,Society,2023,NARCOTICS POSS: HEROIN(BRN/TAN)
+Drug Abuse,18,Non Index,Society,2024,NARCOTICS POSS: HEROIN(WHITE)
+Drug Abuse,18,Non Index,Society,2025,NARCOTICS POSS: HALLUCINOGENS
+Drug Abuse,18,Non Index,Society,2026,NARCOTICS POSS: PCP
+Drug Abuse,18,Non Index,Society,2027,NARCOTICS POSS: CRACK
+Drug Abuse,18,Non Index,Society,2028,NARCOTICS POSS: SYNTHETIC DRUGS
+Drug Abuse,18,Non Index,Society,2029,NARCOTICS POSS: HEROIN(BLACK TAR)
+Drug Abuse,18,Non Index,Society,2030,NARCOTICS MANU/DELIVER:LOOK-ALIKE DRUG
+Drug Abuse,18,Non Index,Society,2031,NARCOTICS POSS: METHAMPHETAMINES
+Drug Abuse,18,Non Index,Society,2032,NARCOTICS MANU/DELIVER: METHAMPHETAMINES
+Drug Abuse,18,Non Index,Society,2033,NARCOTICS MANUFACTURE / DELIVER - SYNTHETIC MARIJUANA
+Drug Abuse,18,Non Index,Society,2034,NARCOTICS POSSESSION: SYNTHETIC MARIJUANA
+Drug Abuse,18,Non Index,Society,2040,NARCOTICS POSS: LOOK-ALIKE DRUGS
+Drug Abuse,18,Non Index,Society,2050,NARCOTICS CRIMINAL DRUG CONSPIRACY
+Drug Abuse,18,Non Index,Society,2060,NARCOTICS FAIL REGISTER LIC:CONT SUBS
+Drug Abuse,18,Non Index,Society,2070,NARCOTICS DEL CONT SUBS TO PERSON <18
+Drug Abuse,18,Non Index,Society,2080,NARCOTICS CONT SUBS:FAIL TO MAINT RECORD
+Drug Abuse,18,Non Index,Society,2090,NARCOTICS ALTER/FORGE PRESCRIPTION
+Misc Non-Index Offense,26,Non Index,Society,2091,NARCOTICS FORFEIT PROPERTY
+Misc Non-Index Offense,26,Non Index,Society,2092,NARCOTICS SOLICIT NARCOTICS ON PUBLICWAY
+Misc Non-Index Offense,26,Non Index,Society,2093,NARCOTICS FOUND SUSPECT NARCOTICS
+Drug Abuse,18,Non Index,Society,2094,NARCOTICS ATTEMPT POSSESSION CANNABIS
+Drug Abuse,18,Non Index,Society,2095,NARCOTICS ATTEMPT POSSESSION NARCOTICS
+Drug Abuse,18,Non Index,Society,2110,NARCOTICS POS: HYPODERMIC NEEDLE
+Misc Non-Index Offense,26,Non Index,Society,2111,NARCOTICS SALE/DEL HYPODERMIC NEEDLE
+Misc Non-Index Offense,26,Non Index,Society,2120,NARCOTICS FAILURE TO KEEP HYPO RECORDS
+Misc Non-Index Offense,26,Non Index,Society,2160,NARCOTICS SALE/DEL DRUG PARAPHERNALIA
+Drug Abuse,18,Non Index,Society,2170,NARCOTICS POSSESSION OF DRUG EQUIPMENT
+Liquor License,22,Non Index,Society,2210,LIQUOR LAW VIOLATION SELL/GIVE/DEL LIQUOR TO MINOR
+Liquor License,22,Non Index,Society,2220,LIQUOR LAW VIOLATION ILLEGAL POSSESSION BY MINOR
+Liquor License,22,Non Index,Society,2230,LIQUOR LAW VIOLATION ILLEGAL CONSUMPTION BY MINOR
+Liquor License,22,Non Index,Society,2240,LIQUOR LAW VIOLATION MINOR MISREPRESENT AGE
+Liquor License,22,Non Index,Society,2250,LIQUOR LAW VIOLATION LIQUOR LICENSE VIOLATION
+Liquor License,22,Non Index,Society,2251,LIQUOR LAW VIOLATION EMPLOY MINOR
+Misc Non-Index Offense,26,Non Index,Society,2500,CRIMINAL ABORTION CRIMINAL ABORTION
+Misc Non-Index Offense,08A,Non Index,Society,2820,OTHER OFFENSE TELEPHONE THREAT
+Misc Non-Index Offense,26,Non Index,Society,2825,OTHER OFFENSE HARASSMENT BY TELEPHONE
+Misc Non-Index Offense,26,Non Index,Society,2826,OTHER OFFENSE HARASSMENT BY ELECTRONIC MEANS
+Criminal Sexual Abuse,17,Non Index,People,2830,OTHER OFFENSE OBSCENE TELEPHONE CALLS
+Disorderly Conduct,24,Non Index,Society,2840,PUBLIC PEACE VIOLATION FALSE FIRE ALARM
+Misc Non-Index Offense,26,Non Index,Society,2850,PUBLIC PEACE VIOLATION BOMB THREAT
+Misc Non-Index Offense,26,Non Index,Society,2851,PUBLIC PEACE VIOLATION ARSON THREAT
+Disorderly Conduct,24,Non Index,Society,2860,PUBLIC PEACE VIOLATION FALSE POLICE REPORT
+Disorderly Conduct,24,Non Index,Society,2870,PUBLIC PEACE VIOLATION PEEPING TOM
+Misc Non-Index Offense,26,Non Index,Society,2890,PUBLIC PEACE VIOLATION OTHER VIOLATION
+Misc Non-Index Offense,26,Non Index,Society,2895,PUBLIC PEACE VIOLATION INTERFERE W/ EMERGENCY EQUIP
+Weapons Violation,15,Non Index,Society,2900,WEAPONS VIOLATION UNLAWFUL USE/SALE AIR RIFLE
+Misc Non-Index Offense,26,Non Index,Society,3000,PUBLIC PEACE VIOLATION SELL/ADVERTISE FIREWORKS
+Disorderly Conduct,24,Non Index,Society,3100,PUBLIC PEACE VIOLATION MOB ACTION
+Misc Non-Index Offense,26,Non Index,Society,3200,PUBLIC PEACE VIOLATION ARMED VIOLENCE
+Misc Non-Index Offense,26,Non Index,Society,3300,PUBLIC PEACE VIOLATION PUBLIC DEMONSTRATION
+Misc Non-Index Offense,26,Non Index,Society,3400,PUBLIC PEACE VIOLATION LOOTING
+Disorderly Conduct,24,Non Index,Society,3610,OTHER OFFENSE INTERFERE W/ HIGHER EDUCATION
+Disorderly Conduct,24,Non Index,Society,3710,INTERFERE WITH PUBLIC OFFICER RESIST/OBSTRUCT/DISARM OFFICER
+Disorderly Conduct,24,Non Index,Society,3720,INTERFERE WITH PUBLIC OFFICER REFUSING TO AID AN OFFICER
+Disorderly Conduct,24,Non Index,Society,3730,INTERFERE WITH PUBLIC OFFICER OBSTRUCTING JUSTICE
+Disorderly Conduct,24,Non Index,Society,3731,INTERFERENCE WITH PUBLIC OFFICER: OBSTRUCTING IDENTIFICATION
+Disorderly Conduct,24,Non Index,Society,3740,INTERFERE WITH PUBLIC OFFICER CONCEALING/AIDING A FUGITIVE
+Disorderly Conduct,24,Non Index,Society,3750,INTERFERE WITH PUBLIC OFFICER ESCAPE
+Disorderly Conduct,24,Non Index,Society,3751,INTERFERE WITH PUBLIC OFFICER AIDING ARRESTEE ESCAPE
+Disorderly Conduct,24,Non Index,Society,3760,INTERFERE WITH PUBLIC OFFICER OBSTRUCTING SERVICE
+Misc Non-Index Offense,26,Non Index,Society,3770,INTERFERE WITH PUBLIC OFFICER CONTRABAND IN PRISON
+Misc Non-Index Offense,26,Non Index,Society,3800,INTERFERE WITH PUBLIC OFFICER INTERFERENCE JUDICIAL PROCESS
+Misc Non-Index Offense,26,Non Index,Society,3910,INTERFERE WITH PUBLIC OFFICER BRIBERY
+Misc Non-Index Offense,26,Non Index,Society,3920,INTERFERE WITH PUBLIC OFFICER OFFICIAL MISCONDUCT
+Misc Non-Index Offense,26,Non Index,Society,3960,INTIMIDATION INTIMIDATION
+Simple Assault,08A,Non Index,People,3961,INTIMIDATION OF LAW ENFORCEMENT OFFICIAL
+Misc Non-Index Offense,26,Non Index,Society,3966,INTIMIDATION EDUCATIONAL INTIMIDAITON
+Misc Non-Index Offense,26,Non Index,Society,3970,INTIMIDATION EXTORTION
+Misc Non-Index Offense,26,Non Index,Society,3975,INTIMIDATION COMPELLING ORG MEMBERSHIP
+Misc Non-Index Offense,26,Non Index,Society,3980,INTIMIDATION COMPELLING CONFESSION
+Misc Non-Index Offense,26,Non Index,Society,4210,KIDNAPPING KIDNAPPING
+Misc Non-Index Offense,26,Non Index,Society,4220,KIDNAPPING AGGRAVATED
+Misc Non-Index Offense,26,Non Index,Society,4230,KIDNAPPING UNLAWFUL RESTRAINT
+Misc Non-Index Offense,26,Non Index,Society,4240,KIDNAPPING FORCIBLE DETENTION
+Misc Non-Index Offense,26,Non Index,Society,4255,KIDNAPPING UNLAWFUL INTERFERE/VISITATION
+Misc Non-Index Offense,26,Non Index,Society,4310,OTHER OFFENSE POSSESSION OF BURGLARY TOOLS
+Misc Non-Index Offense,26,Non Index,Society,4386,VIOLATION OF CIVIL NO CONTACT ORDER
+Misc Non-Index Offense,26,Non Index,Society,4387,OTHER OFFENSE VIOLATE ORDER OF PROTECTION
+Misc Non-Index Offense,26,Non Index,Society,4388,OTHER OFFENSE VIO BAIL BOND: DOM VIOLENCE
+Misc Non-Index Offense,26,Non Index,Society,4389,VIOLATION GPS MONITORING DEVICE
+Misc Non-Index Offense,26,Non Index,Society,4410,OTHER OFFENSE DESTRUCTION OF DRAFT CARD
+Misc Non-Index Offense,26,Non Index,Society,4420,OTHER OFFENSE CRIMINAL FORTIFICATION
+Misc Non-Index Offense,26,Non Index,Society,4510,OTHER OFFENSE PROBATION VIOLATION
+Misc Non-Index Offense,26,Non Index,Society,4625,OTHER OFFENSE PAROLE VIOLATION
+Misc Non-Index Offense,26,Non Index,Society,4650,OTHER OFFENSE SEX OFFENDER: FAIL TO REGISTER
+Misc Non-Index Offense,26,Non Index,Society,4651,OTHER OFFENSE SEX OFFENDER: FAIL REG NEW ADD
+Misc Non-Index Offense,26,Non Index,Society,4652,OTHER OFFENSE SEX OFFENDER: PROHIBITED ZONE
+Misc Non-Index Offense,26,Non Index,Society,4740,OTHER OFFENSE UNLAWFUL USE OF BODY ARMOR
+Misc Non-Index Offense,26,Non Index,Society,4750,OTHER OFFENSE DISCLOSE DV VICTIM LOCATION
+Misc Non-Index Offense,26,Non Index,Society,4800,OTHER OFFENSE MONEY LAUNDERING
+Misc Non-Index Offense,26,Non Index,Society,4810,OTHER OFFENSE COMPOUNDING A CRIME
+Misc Non-Index Offense,26,Non Index,Society,4860,OTHER OFFENSE BOARD PLANE WITH WEAPON
+Misc Non-Index Offense,26,Non Index,Society,5000,OTHER OFFENSE OTHER CRIME AGAINST PERSON
+Misc Non-Index Offense,26,Non Index,Society,5001,OTHER OFFENSE OTHER CRIME INVOLVING PROPERTY
+Misc Non-Index Offense,26,Non Index,Society,5002,OTHER OFFENSE OTHER VEHICLE OFFENSE
+Misc Non-Index Offense,26,Non Index,Society,5003,OTHER OFFENSE OTHER ARSON/EXPLOSIVE INCIDENT
+Criminal Sexual Abuse,17,Non Index,People,5004,SEX OFFENSE ATT CRIM SEXUAL ABUSE
+Misc Non-Index Offense,26,Non Index,Society,5007,OTHER OFFENSE OTHER WEAPONS VIOLATION
+Misc Non-Index Offense,26,Non Index,Society,5008,OTHER OFFENSE FIREARM REGISTRATION VIOLATION
+Misc Non-Index Offense,26,Non Index,Society,5009,VIOLATION OF SMOKING BAN
+Misc Non-Index Offense,26,Non Index,Society,5011,OTHER OFFENSE LICENSE VIOLATION
+Misc Non-Index Offense,26,Non Index,Society,5013,VIOLATION OF SUMMARY CLOSURE
+Misc Non-Index Offense,26,Non Index,Society,5110,GUN OFFENDER - DUTY TO REGISTER
+Misc Non-Index Offense,26,Non Index,Society,5111,GUN OFFENDER - ANNUAL REGISTRATION
+Misc Non-Index Offense,26,Non Index,Society,5112,GUN OFFENDER - DUTY TO REPORT CHANGE OF INFORMATION
+Misc Non-Index Offense,26,Non Index,Society,5114,FOID - REVOCATION
+Misc Non-Index Offense,26,Non Index,Society,5121,ARSONIST - ANNUAL REGISTRATION
+Misc Non-Index Offense,26,Non Index,Society,5122,ARSONIST - FAIL TO REGISTER NEW ADDRESS
+Misc Non-Index Offense,26,Non Index,Society,5130,VIOLENT OFFENDER - DUTY TO REGISTER
+Misc Non-Index Offense,26,Non Index,Society,5131,VIOLENT OFFENDER - ANNUAL REGISTRATION
+Misc Non-Index Offense,26,Non Index,Society,5132,VIOLENT OFFENDER - FAIL TO REGISTER NEW ADDRESS
+Robbery,03,Index,People,031A,ROBBERY ARMED: HANDGUN
+Robbery,03,Index,People,031B,ROBBERY ARMED: OTHER FIREARM
+Robbery,03,Index,People,033A,ROBBERY ATTEMPT: ARMED-HANDGUN
+Robbery,03,Index,People,033B,ROBBERY ATTEMPT: ARMED-OTHER FIREARM
+Aggravated Battery,04B,Index,People,041A,BATTERY AGGRAVATED: HANDGUN
+Aggravated Battery,04B,Index,People,041B,BATTERY AGGRAVATED: OTHER FIREARM
+Aggravated Assault,04A,Index,People,051A,ASSAULT AGGRAVATED: HANDGUN
+Aggravated Assault,04A,Index,People,051B,ASSAULT AGGRAVATED: OTHER FIREARM
+Weapons Violation,15,Non Index,Society,141A,WEAPONS VIOLATION UNLAWFUL USE HANDGUN
+Weapons Violation,15,Non Index,Society,141B,WEAPONS VIOLATION UNLAWFUL USE OTHER FIREARM
+Weapons Violation,15,Non Index,Society,141C,WEAPONS VIOLATION UNLAWFUL USE OTHER DANG WEAPON
+Weapons Violation,15,Non Index,Society,142A,WEAPONS VIOLATION UNLAWFUL SALE HANDGUN
+Weapons Violation,15,Non Index,Society,142B,WEAPONS VIOLATION UNLAWFUL SALE OTHER FIREARM
+Weapons Violation,15,Non Index,Society,143A,WEAPONS VIOLATION UNLAWFUL POSS OF HANDGUN
+Weapons Violation,15,Non Index,Society,143B,WEAPONS VIOLATION UNLAWFUL POSS OTHER FIREARM
+Weapons Violation,15,Non Index,Society,143C,WEAPONS VIOLATION UNLAWFUL POSS AMMUNITION
+Misc Non-Index Offense,26,Non Index,Society,500E,OTHER OFFENSE EAVESDROPPING
+Misc Non-Index Offense,26,Non Index,Society,500N,OTHER OFFENSE ABUSE/NEGLECT: CARE FACILITY
+Misc Non-Index Offense,26,Non Index,Society,501A,OTHER OFFENSE ANIMAL ABUSE/NEGLECT
+Misc Non-Index Offense,26,Non Index,Society,501H,OTHER OFFENSE HAZARDOUS MATERIALS VIOLATION
+Misc Non-Index Offense,26,Non Index,Society,502P,OTHER OFFENSE FALSE/STOLEN/ALTERED TRP
+Misc Non-Index Offense,26,Non Index,Society,502R,OTHER OFFENSE VEHICLE TITLE/REG OFFENSE
+Misc Non-Index Offense,26,Non Index,Society,502T,OTHER OFFENSE TAMPER WITH MOTOR VEHICLE

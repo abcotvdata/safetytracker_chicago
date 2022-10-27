@@ -44,7 +44,7 @@ rm(chicago2019,chicago2020,chicago2021,chicago2022)
 # eliminate unnecessarily duplicative date,location fields
 chicago_crime$date <- lubridate::mdy_hms(chicago_crime$date)
 chicago_crime$hour <- lubridate::hour(chicago_crime$date)
-chicago_crime$month <- lubridate::month(chicago_crime$date)
+chicago_crime$month <- lubridate::floor_date(as.Date(chicago_crime$date),"month")
 chicago_crime$updated_on <- NULL
 chicago_crime$location <- NULL
 
@@ -52,54 +52,186 @@ chicago_crime$location <- NULL
 chicago_class_codes <- read_csv("data/source/reference/chicago_crime_classifications.csv")
 
 # merge
-chicago_crime <- left_join(chicago_crime,chicago_class_codes %>% select(1,3,4,5),by="iucr")
+chicago_crime <- left_join(chicago_crime,chicago_class_codes %>% select(1,4,5),by="iucr")
 
 # If community area is blank, add word Unknown
 chicago_crime$community_area[is.na(chicago_crime$community_area)] <- "Unknown"
 
-
 # clean up premise names throughout file
 # the case when is stored once as a value by separate script
-chicago_crime$location_description <- case_when(chicago_crime$location_description == 'BARBER SHOP/BEAUTY SALON' ~ 'Business',
-                                   chicago_crime$location_description == 'BASEMENT' ~ 'Residence',
-                                   chicago_crime$location_description == 'CHA Grounds' ~ 'Housing Authority',
-                                   chicago_crime$location_description == 'CHA Parking Lot' ~ 'Housing Authority',
-                                   chicago_crime$location_description == 'CHA Play Lot' ~ 'Housing Authority',
-                                   chicago_crime$location_description == 'CHA Apartment' ~ 'Housing Authority',
-                                   chicago_crime$location_description == 'CHA Hallway' ~ 'Housing Authority',
-                                   chicago_crime$location_description == 'CHA Elevator' ~ 'Housing Authority',
-                                   chicago_crime$location_description == 'CHA Lobby' ~ 'Housing Authority',
-                                   chicago_crime$location_description == 'CTA "L" PLATFORM' ~ 'Transit',
-                                   chicago_crime$location_description == 'CTA SUBWAY STATION' ~ 'Transit',
-                                   chicago_crime$location_description == 'CTA "L" TRAIN' ~ 'Transit',
-                                   chicago_crime$location_description == 'CTA TRAIN' ~ 'Transit',
-                                   chicago_crime$location_description == 'CTA PROPERTY' ~ 'Transit',
-                                   chicago_crime$location_description == 'CTA BUS' ~ 'Transit',
-                                   chicago_crime$location_description == 'GAS STATION' ~ 'Business',
-                                   chicago_crime$location_description == 'GAS STATION DRIVE/PROP.' ~ 'Business',
-                                   chicago_crime$location_description == 'LIQUOR STORE' ~ 'Business',
-                                   chicago_crime$location_description == 'HOSPITAL' ~ 'Medical care facility',
-                                   chicago_crime$location_description == 'NURSING HOME' ~ 'Medical care facility',
-                                   chicago_crime$location_description == 'CAR WASH' ~ 'Business',
-                                   chicago_crime$location_description == 'PARKING LOT' ~ 'Parking Lot/Garage',
-                                   chicago_crime$location_description == 'SCHOOL YARD' ~ 'School Property',
-                                   chicago_crime$location_description == 'HOTEL' ~ 'Hotel',
-                                   chicago_crime$location_description == 'MOTEL' ~ 'Hotel',
-                                   chicago_crime$location_description == 'GAS STATION DRIVE/PROP.' ~ 'Business',
-                                   chicago_crime$location_description == 'OFFICE' ~ 'Business',
-                                   chicago_crime$location_description == 'VESTIBULE' ~ 'Other',
-                                   chicago_crime$location_description == 'BANK' ~ 'Business',
-                                   chicago_crime$location_description == 'DRIVEWAY' ~ 'Other',
-                                   chicago_crime$location_description == 'ELEVATOR' ~ 'Other',
-                                   chicago_crime$location_description == 'Banquet Hall' ~ 'Business',
-                                   chicago_crime$location_description == 'TAVERN' ~ 'Business',
-                                   chicago_crime$location_description == 'TRAILER' ~ 'Other',
-                                   chicago_crime$location_description == 'CLUB' ~ 'Business',
-                                   chicago_crime$location_description == 'STAIRWELL' ~ 'Other',
-                                   chicago_crime$location_description == 'PORCH' ~ 'Residence',
-                                   chicago_crime$location_description == 'HOUSE' ~ 'Residence',
-                                   chicago_crime$location_description == 'APARTMENT' ~ 'Residence',
-                                   TRUE ~ str_to_title(chicago_crime$location_description, locale = "en"))
+chicago_crime$location_description <- case_when(chicago_crime$location_description == 'AIRPORT BUILDING NON-TERMINAL - NON-SECURE AREA' ~ 'Airport',
+                                                chicago_crime$location_description == 'AIRPORT BUILDING NON-TERMINAL - SECURE AREA' ~ 'Airport',
+                                                chicago_crime$location_description == 'AIRPORT EXTERIOR - NON-SECURE AREA' ~ 'Airport',
+                                                chicago_crime$location_description == 'AIRPORT EXTERIOR - SECURE AREA' ~ 'Airport',
+                                                chicago_crime$location_description == 'AIRPORT PARKING LOT' ~ 'Airport',
+                                                chicago_crime$location_description == 'AIRPORT TERMINAL LOWER LEVEL - NON-SECURE AREA' ~ 'Airport',
+                                                chicago_crime$location_description == 'AIRPORT TERMINAL LOWER LEVEL - SECURE AREA' ~ 'Airport',
+                                                chicago_crime$location_description == 'AIRPORT TERMINAL MEZZANINE - NON-SECURE AREA' ~ 'Airport',
+                                                chicago_crime$location_description == 'AIRPORT TERMINAL UPPER LEVEL - NON-SECURE AREA' ~ 'Airport',
+                                                chicago_crime$location_description == 'AIRPORT TERMINAL UPPER LEVEL - SECURE AREA' ~ 'Airport',
+                                                chicago_crime$location_description == 'AIRPORT TRANSPORTATION SYSTEM (ATS)' ~ 'Airport',
+                                                chicago_crime$location_description == 'AIRPORT VENDING ESTABLISHMENT' ~ 'Airport',
+                                                chicago_crime$location_description == 'AIRPORT/AIRCRAFT' ~ 'Airport',
+                                                chicago_crime$location_description == 'ANIMAL HOSPITAL' ~ 'Business',
+                                                chicago_crime$location_description == 'APARTMENT' ~ 'Residence',
+                                                chicago_crime$location_description == 'APPLIANCE STORE' ~ 'Business',
+                                                chicago_crime$location_description == 'ATHLETIC CLUB' ~ 'Business',
+                                                chicago_crime$location_description == 'ATM (AUTOMATIC TELLER MACHINE)' ~ 'Bank',
+                                                chicago_crime$location_description == 'AUTO' ~ 'Automobile',
+                                                chicago_crime$location_description == 'AUTO / BOAT / RV DEALERSHIP' ~ 'Business',
+                                                chicago_crime$location_description == 'BANK' ~ 'Bank',
+                                                chicago_crime$location_description == 'BANQUET HALL' ~ 'Business',
+                                                chicago_crime$location_description == 'BAR OR TAVERN' ~ 'Bar, Tavern or Club',
+                                                chicago_crime$location_description == 'BARBER SHOP/BEAUTY SALON' ~ 'Business',
+                                                chicago_crime$location_description == 'BARBERSHOP' ~ 'Business',
+                                                chicago_crime$location_description == 'BASEMENT' ~ 'Residence',
+                                                chicago_crime$location_description == 'BOAT / WATERCRAFT' ~ 'Watercraft',
+                                                chicago_crime$location_description == 'BOAT/WATERCRAFT' ~ 'Watercraft',
+                                                chicago_crime$location_description == 'BOWLING ALLEY' ~ 'Business',
+                                                chicago_crime$location_description == 'CAR WASH' ~ 'Business',
+                                                chicago_crime$location_description == 'CHA APARTMENT' ~ 'Housing Authority',
+                                                chicago_crime$location_description == 'CHA ELEVATOR' ~ 'Housing Authority',
+                                                chicago_crime$location_description == 'CHA GROUNDS' ~ 'Housing Authority',
+                                                chicago_crime$location_description == 'CHA HALLWAY' ~ 'Housing Authority',
+                                                chicago_crime$location_description == 'CHA HALLWAY / STAIRWELL / ELEVATOR' ~ 'Housing Authority',
+                                                chicago_crime$location_description == 'CHA HALLWAY/STAIRWELL/ELEVATOR' ~ 'Housing Authority',
+                                                chicago_crime$location_description == 'CHA LOBBY' ~ 'Housing Authority',
+                                                chicago_crime$location_description == 'CHA PARKING LOT' ~ 'Housing Authority',
+                                                chicago_crime$location_description == 'CHA PARKING LOT / GROUNDS' ~ 'Housing Authority',
+                                                chicago_crime$location_description == 'CHA PARKING LOT/GROUNDS' ~ 'Housing Authority',
+                                                chicago_crime$location_description == 'CHA PLAY LOT' ~ 'Housing Authority',
+                                                chicago_crime$location_description == 'CHURCH / SYNAGOGUE / PLACE OF WORSHIP' ~ 'Place of Worship',
+                                                chicago_crime$location_description == 'CHURCH/SYNAGOGUE/PLACE OF WORSHIP' ~ 'Place of Worship',
+                                                chicago_crime$location_description == 'CLEANING STORE' ~ 'Business',
+                                                chicago_crime$location_description == 'CLUB' ~ 'Bar, Tavern or Club',
+                                                chicago_crime$location_description == 'COIN OPERATED MACHINE' ~ 'Other',
+                                                chicago_crime$location_description == 'COLLEGE / UNIVERSITY - GROUNDS' ~ 'College or University',
+                                                chicago_crime$location_description == 'COLLEGE / UNIVERSITY - RESIDENCE HALL' ~ 'College or University',
+                                                chicago_crime$location_description == 'COLLEGE/UNIVERSITY GROUNDS' ~ 'College or University',
+                                                chicago_crime$location_description == 'COLLEGE/UNIVERSITY RESIDENCE HALL' ~ 'College or University',
+                                                chicago_crime$location_description == 'COMMERCIAL / BUSINESS OFFICE' ~ 'Business',
+                                                chicago_crime$location_description == 'CONVENIENCE STORE' ~ 'Business',
+                                                chicago_crime$location_description == 'CREDIT UNION' ~ 'Bank',
+                                                chicago_crime$location_description == 'CTA "L" PLATFORM' ~ 'Transit',
+                                                chicago_crime$location_description == 'CTA "L" TRAIN' ~ 'Transit',
+                                                chicago_crime$location_description == 'CTA BUS' ~ 'Transit',
+                                                chicago_crime$location_description == 'CTA BUS STOP' ~ 'Transit',
+                                                chicago_crime$location_description == 'CTA GARAGE / OTHER PROPERTY' ~ 'Transit',
+                                                chicago_crime$location_description == 'CTA PARKING LOT / GARAGE / OTHER PROPERTY' ~ 'Transit',
+                                                chicago_crime$location_description == 'CTA PLATFORM' ~ 'Transit',
+                                                chicago_crime$location_description == 'CTA PROPERTY' ~ 'Transit',
+                                                chicago_crime$location_description == 'CTA STATION' ~ 'Transit',
+                                                chicago_crime$location_description == 'CTA SUBWAY STATION' ~ 'Transit',
+                                                chicago_crime$location_description == 'CTA TRACKS - RIGHT OF WAY' ~ 'Transit',
+                                                chicago_crime$location_description == 'CTA TRAIN' ~ 'Transit',
+                                                chicago_crime$location_description == 'CURRENCY EXCHANGE' ~ 'Business',
+                                                chicago_crime$location_description == 'DAY CARE CENTER' ~ 'Business',
+                                                chicago_crime$location_description == 'DEPARTMENT STORE' ~ 'Business',
+                                                chicago_crime$location_description == 'DRIVEWAY' ~ 'Other',
+                                                chicago_crime$location_description == 'DRIVEWAY - RESIDENTIAL' ~ 'Residence',
+                                                chicago_crime$location_description == 'DRUG STORE' ~ 'Business',
+                                                chicago_crime$location_description == 'ELEVATOR' ~ 'Other',
+                                                chicago_crime$location_description == 'FACTORY / MANUFACTURING BUILDING' ~ 'Business',
+                                                chicago_crime$location_description == 'FACTORY/MANUFACTURING BUILDING' ~ 'Business',
+                                                chicago_crime$location_description == 'FEDERAL BUILDING' ~ 'Government Building or Property',
+                                                chicago_crime$location_description == 'FIRE STATION' ~ 'Government Building or Property',
+                                                chicago_crime$location_description == 'FOREST PRESERVE' ~ 'Recreation Area',
+                                                chicago_crime$location_description == 'GANGWAY' ~ 'Other',
+                                                chicago_crime$location_description == 'GARAGE' ~ 'Parking Lot/Garage',
+                                                chicago_crime$location_description == 'GAS STATION' ~ 'Business',
+                                                chicago_crime$location_description == 'GAS STATION DRIVE/PROP.' ~ 'Business',
+                                                chicago_crime$location_description == 'GOVERNMENT BUILDING / PROPERTY' ~ 'Government Building or Property',
+                                                chicago_crime$location_description == 'GOVERNMENT BUILDING/PROPERTY' ~ 'Government Building or Property',
+                                                chicago_crime$location_description == 'GROCERY FOOD STORE' ~ 'Business',
+                                                chicago_crime$location_description == 'HALLWAY' ~ 'Other',
+                                                chicago_crime$location_description == 'HIGHWAY / EXPRESSWAY' ~ 'Street or Highway',
+                                                chicago_crime$location_description == 'HIGHWAY/EXPRESSWAY' ~ 'Street or Highway',
+                                                chicago_crime$location_description == 'HORSE STABLE' ~ 'Other',
+                                                chicago_crime$location_description == 'HOSPITAL' ~ 'Medical Facility',
+                                                chicago_crime$location_description == 'HOSPITAL BUILDING / GROUNDS' ~ 'Medical Facility',
+                                                chicago_crime$location_description == 'HOSPITAL BUILDING/GROUNDS' ~ 'Medical Facility',
+                                                chicago_crime$location_description == 'HOTEL' ~ 'Hotel or Motel',
+                                                chicago_crime$location_description == 'HOTEL / MOTEL' ~ 'Hotel or Motel',
+                                                chicago_crime$location_description == 'HOTEL/MOTEL' ~ 'Hotel or Motel',
+                                                chicago_crime$location_description == 'HOUSE' ~ 'Residence',
+                                                chicago_crime$location_description == 'JAIL / LOCK-UP FACILITY' ~ 'Jail or Prison',
+                                                chicago_crime$location_description == 'KENNEL' ~ 'Other',
+                                                chicago_crime$location_description == 'LAKE' ~ 'Recreation Area',
+                                                chicago_crime$location_description == 'LAKEFRONT / WATERFRONT / RIVERBANK' ~ 'Recreation Area',
+                                                chicago_crime$location_description == 'LAKEFRONT/WATERFRONT/RIVERBANK' ~ 'Recreation Area',
+                                                chicago_crime$location_description == 'LIBRARY' ~ 'Government Building or Property',
+                                                chicago_crime$location_description == 'LIQUOR STORE' ~ 'Business',
+                                                chicago_crime$location_description == 'MEDICAL / DENTAL OFFICE' ~ 'Medical Facility',
+                                                chicago_crime$location_description == 'MEDICAL/DENTAL OFFICE' ~ 'Medical Facility',
+                                                chicago_crime$location_description == 'MOTEL' ~ 'Hotel or Motel',
+                                                chicago_crime$location_description == 'MOVIE HOUSE / THEATER' ~ 'Business',
+                                                chicago_crime$location_description == 'MOVIE HOUSE/THEATER' ~ 'Business',
+                                                chicago_crime$location_description == 'NEWSSTAND' ~ 'Business',
+                                                chicago_crime$location_description == 'NURSING / RETIREMENT HOME' ~ 'Medical Facility',
+                                                chicago_crime$location_description == 'NURSING HOME' ~ 'Medical Facility',
+                                                chicago_crime$location_description == 'NURSING HOME/RETIREMENT HOME' ~ 'Medical Facility',
+                                                chicago_crime$location_description == 'OFFICE' ~ 'Business',
+                                                chicago_crime$location_description == 'OTHER (SPECIFY)' ~ 'Other',
+                                                chicago_crime$location_description == 'OTHER COMMERCIAL TRANSPORTATION' ~ 'Other Transportation Facility',
+                                                chicago_crime$location_description == 'OTHER RAILROAD PROP / TRAIN DEPOT' ~ 'Other Transportation Facility',
+                                                chicago_crime$location_description == 'OTHER RAILROAD PROPERTY / TRAIN DEPOT' ~ 'Other Transportation Facility',
+                                                chicago_crime$location_description == 'PARK PROPERTY' ~ 'Recreation Area',
+                                                chicago_crime$location_description == 'PARKING LOT' ~ 'Parking Lot/Garage',
+                                                chicago_crime$location_description == 'PARKING LOT / GARAGE (NON RESIDENTIAL)' ~ 'Parking Lot/Garage',
+                                                chicago_crime$location_description == 'PARKING LOT/GARAGE(NON.RESID.)' ~ 'Parking Lot/Garage',
+                                                chicago_crime$location_description == 'PAWN SHOP' ~ 'Business',
+                                                chicago_crime$location_description == 'POLICE FACILITY / VEHICLE PARKING LOT' ~ 'Police Facility',
+                                                chicago_crime$location_description == 'POLICE FACILITY/VEH PARKING LOT' ~ 'Police Facility',
+                                                chicago_crime$location_description == 'POOL ROOM' ~ 'Recreation Area',
+                                                chicago_crime$location_description == 'PORCH' ~ 'Residence',
+                                                chicago_crime$location_description == 'RAILROAD PROPERTY' ~ 'Other Transportation Facility',
+                                                chicago_crime$location_description == 'RESIDENCE' ~ 'Residence',
+                                                chicago_crime$location_description == 'RESIDENCE - GARAGE' ~ 'Residence',
+                                                chicago_crime$location_description == 'RESIDENCE - PORCH / HALLWAY' ~ 'Residence',
+                                                chicago_crime$location_description == 'RESIDENCE - YARD (FRONT / BACK)' ~ 'Residence',
+                                                chicago_crime$location_description == 'RESIDENCE PORCH/HALLWAY' ~ 'Residence',
+                                                chicago_crime$location_description == 'RESIDENCE-GARAGE' ~ 'Residence',
+                                                chicago_crime$location_description == 'RESIDENTIAL YARD (FRONT/BACK)' ~ 'Residence',
+                                                chicago_crime$location_description == 'RESTAURANT' ~ 'Business',
+                                                chicago_crime$location_description == 'RETAIL STORE' ~ 'Business',
+                                                chicago_crime$location_description == 'RIVER BANK' ~ 'Recreation Area',
+                                                chicago_crime$location_description == 'SAVINGS AND LOAN' ~ 'Bank',
+                                                chicago_crime$location_description == 'SCHOOL - PRIVATE BUILDING' ~ 'School',
+                                                chicago_crime$location_description == 'SCHOOL - PRIVATE GROUNDS' ~ 'School',
+                                                chicago_crime$location_description == 'SCHOOL - PUBLIC BUILDING' ~ 'School',
+                                                chicago_crime$location_description == 'SCHOOL - PUBLIC GROUNDS' ~ 'School',
+                                                chicago_crime$location_description == 'SCHOOL YARD' ~ 'School',
+                                                chicago_crime$location_description == 'SCHOOL, PRIVATE, BUILDING' ~ 'School',
+                                                chicago_crime$location_description == 'SCHOOL, PRIVATE, GROUNDS' ~ 'School',
+                                                chicago_crime$location_description == 'SCHOOL, PUBLIC, BUILDING' ~ 'School',
+                                                chicago_crime$location_description == 'SCHOOL, PUBLIC, GROUNDS' ~ 'School',
+                                                chicago_crime$location_description == 'SMALL RETAIL STORE' ~ 'Business',
+                                                chicago_crime$location_description == 'SPORTS ARENA / STADIUM' ~ 'Sports Facility',
+                                                chicago_crime$location_description == 'SPORTS ARENA/STADIUM' ~ 'Sports Facility',
+                                                chicago_crime$location_description == 'STAIRWELL' ~ 'Other',
+                                                chicago_crime$location_description == 'STREET' ~ 'Street or Highway',
+                                                chicago_crime$location_description == 'TAVERN' ~ 'Bar, Tavern or Club',
+                                                chicago_crime$location_description == 'TAVERN / LIQUOR STORE' ~ 'Bar, Tavern or Club',
+                                                chicago_crime$location_description == 'TAVERN/LIQUOR STORE' ~ 'Bar, Tavern or Club',
+                                                chicago_crime$location_description == 'TAXICAB' ~ 'Vehicle',
+                                                chicago_crime$location_description == 'TRAILER' ~ 'Vehicle',
+                                                chicago_crime$location_description == 'TRUCK' ~ 'Vehicle',
+                                                chicago_crime$location_description == 'VACANT LOT / LAND' ~ 'Vacant Lot',
+                                                chicago_crime$location_description == 'VACANT LOT/LAND' ~ 'Vacant Lot',
+                                                chicago_crime$location_description == 'VEHICLE - COMMERCIAL' ~ 'Vehicle',
+                                                chicago_crime$location_description == 'VEHICLE - COMMERCIAL: ENTERTAINMENT / PARTY BUS' ~ 'Vehicle',
+                                                chicago_crime$location_description == 'VEHICLE - COMMERCIAL: TROLLEY BUS' ~ 'Vehicle',
+                                                chicago_crime$location_description == 'VEHICLE - DELIVERY TRUCK' ~ 'Vehicle',
+                                                chicago_crime$location_description == 'VEHICLE - OTHER RIDE SHARE SERVICE (E.G., UBER, LYFT)' ~ 'Vehicle',
+                                                chicago_crime$location_description == 'VEHICLE - OTHER RIDE SHARE SERVICE (LYFT, UBER, ETC.)' ~ 'Vehicle',
+                                                chicago_crime$location_description == 'VEHICLE NON-COMMERCIAL' ~ 'Vehicle',
+                                                chicago_crime$location_description == 'VEHICLE-COMMERCIAL' ~ 'Vehicle',
+                                                chicago_crime$location_description == 'VEHICLE-COMMERCIAL - ENTERTAINMENT/PARTY BUS' ~ 'Vehicle',
+                                                chicago_crime$location_description == 'VEHICLE-COMMERCIAL - TROLLEY BUS' ~ 'Vehicle',
+                                                chicago_crime$location_description == 'VESTIBULE' ~ 'Other',
+                                                chicago_crime$location_description == 'WAREHOUSE' ~ 'Business',
+                                                chicago_crime$location_description == 'NA' ~ 'Other',
+                                                TRUE ~ str_to_title(chicago_crime$location_description, locale = "en"))
 
 # Get latest date in our file and save for
 # automating the updated date text in building tracker
@@ -138,6 +270,7 @@ citywide_detailed_last12 <- chicago_crime_last12 %>%
 citywide_detailed <- left_join(citywide_detailed,citywide_detailed_last12,by=c("category","description"))
 # add zeros where there were no crimes tallied that year
 citywide_detailed[is.na(citywide_detailed)] <- 0
+rm(citywide_detailed_last12)
 # Calculate a total across the 3 prior years
 citywide_detailed$total_prior3years <- citywide_detailed$total19+citywide_detailed$total20+citywide_detailed$total21
 citywide_detailed$avg_prior3years <- round(citywide_detailed$total_prior3years/3,1)
@@ -161,7 +294,7 @@ citywide_detailed <- citywide_detailed %>%
 
 # Calculate of each detailed offense type CITYWIDE
 citywide_detailed_monthly <- chicago_crime %>%
-  group_by(category,description,year,month) %>%
+  group_by(category,description,month) %>%
   summarise(count = n())
 # add rolling average of 3 months for chart trend line & round to clean
 citywide_detailed_monthly <- citywide_detailed_monthly %>%
@@ -206,11 +339,11 @@ citywide_category$rate_prior3years <- round(citywide_category$avg_prior3years/ch
 
 # Calculate monthly totals for categories of crimes CITYWIDE
 citywide_category_monthly <- chicago_crime %>%
-  group_by(category,year,month) %>%
+  group_by(category,month) %>%
   summarise(count = n())
 # add rolling average of 3 months for chart trend line & round to clean
 citywide_category_monthly <- citywide_category_monthly %>%
-  arrange(category,year,month) %>%
+  arrange(category,month) %>%
   dplyr::mutate(rollavg_3month = rollsum(count, k = 3, fill = NA, align = "right")/3)
 citywide_category_monthly$rollavg_3month <- round(citywide_category_monthly$rollavg_3month,0)
 
@@ -265,6 +398,17 @@ citywide_type$rate_prior3years <- round(citywide_type$avg_prior3years/chicago_po
 # source(process_chicago_areas_map.R)
 areas <- st_read("data/source/geo/areas.geojson")
 
+# we need these unique lists for making the beat tables below
+# this ensures that we get crime details for beats even with zero
+# incidents of certain types over the entirety of the time period
+list_area_category <- crossing(community_area = unique(chicago_crime$community_area), category = unique(chicago_crime$category))
+list_area_type <- crossing(community_area = unique(chicago_crime$community_area), type = unique(chicago_crime$type))
+
+# Test that all beats show in data and identify beat #s that do not
+# areasindata <- chicago_crime %>% group_by(community_area,year) %>% summarise(count=n()) %>% pivot_wider(names_from=year, values_from=count)
+# anti_join(areasindata,areas,by="community_area")
+# OPEN WORK: Only 1 total record in 2020; we can go back and manually geocode later
+
 # Calculate total of each detailed offense type by community area
 area_detailed <- chicago_crime %>%
   group_by(community_area,category,description,year) %>%
@@ -312,6 +456,8 @@ area_category <- chicago_crime %>%
   group_by(community_area,category,year) %>%
   summarise(count = n()) %>%
   pivot_wider(names_from=year, values_from=count)
+# merging with full list so we have data for every beat, every category_name
+area_category <- left_join(list_area_category,area_category,by=c("community_area"="community_area","category"="category"))
 # rename the year columns
 area_category <- area_category %>% 
   rename("total19" = "2019",
@@ -335,7 +481,7 @@ area_category$inc_19tolast12 <- round(area_category$last12mos/area_category$tota
 area_category$inc_21tolast12 <- round(area_category$last12mos/area_category$total21*100-100,1)
 area_category$inc_prior3yearavgtolast12 <- round((area_category$last12mos/area_category$avg_prior3years)*100-100,0)
 # add population for beats
-area_category <- full_join(areas,area_category,by=c("community"="community_area"))
+area_category <- full_join(areas,area_category,by=c("community_area"="community_area"))
 # calculate the beat by beat rates PER 1K people
 area_category$rate19 <- round(area_category$total19/area_category$population*100000,1)
 area_category$rate20 <- round(area_category$total20/area_category$population*100000,1)
@@ -354,6 +500,8 @@ area_type <- chicago_crime %>%
   group_by(community_area,type,year) %>%
   summarise(count = n()) %>%
   pivot_wider(names_from=year, values_from=count)
+# merging with full list so we have data for every beat, every type
+area_type <- left_join(list_area_type,area_type,by=c("community_area"="community_area","type"="type"))
 # rename the year columns
 area_type <- area_type %>% 
   rename("total19" = "2019",
@@ -377,7 +525,7 @@ area_type$inc_19tolast12 <- round(area_type$last12mos/area_type$total19*100-100,
 area_type$inc_21tolast12 <- round(area_type$last12mos/area_type$total21*100-100,1)
 area_type$inc_prior3yearavgtolast12 <- round((area_type$last12mos/area_type$avg_prior3years)*100-100,0)
 # add population for beats
-area_type <- full_join(areas,area_type,by=c("community"="community_area"))
+area_type <- full_join(areas,area_type,by=c("community_area"="community_area"))
 # calculate the beat by beat rates PER 1K people
 area_type$rate19 <- round(area_type$total19/area_type$population*100000,1)
 area_type$rate20 <- round(area_type$total20/area_type$population*100000,1)
@@ -401,7 +549,7 @@ citywide_category %>% write_csv("data/output/city/citywide_category.csv")
 citywide_type %>% write_csv("data/output/city/citywide_type.csv")
 
 # Create individual spatial tables of crimes by major categories and types
-murders_area <- area_detailed %>% filter(category=="Murder")
+murders_area <- area_category %>% filter(category=="Murder")
 sexassaults_area <- area_category %>% filter(category=="Criminal Sexual Assault")
 autothefts_area <- area_category %>% filter(category=="Auto Theft")
 thefts_area <- area_category %>% filter(category=="Theft Over $500")

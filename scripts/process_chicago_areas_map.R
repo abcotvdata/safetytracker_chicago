@@ -48,6 +48,9 @@ areas$population <- round(areas$population,-3)
 areas <- areas %>% st_transform(4326)
 areas <- st_make_valid(areas)
 
+areas <- areas %>% select(1,5,10)
+areas <- areas %>% rename("community_area" = "area_num_1")
+
 # saving a clean geojson and separate RDS for use in tracker
 file.remove("data/source/geo/areas.geojson")
 st_write(areas,"data/source/geo/areas.geojson")
@@ -56,15 +59,15 @@ saveRDS(areas,"scripts/rds/areas.rds")
 # BARE AREAS MAP JUST FOR TESTING PURPOSES
 # CAN COMMENT OUT ONCE FINALIZED
 # Set bins for beats pop map
-popbins <- c(0,1000, 10000,25000,50000,100000, Inf)
-poppal <- colorBin("YlOrRd", areas$population, bins = popbins)
-poplabel <- paste(sep = "<br>", areas$community,prettyNum(areas$population, big.mark = ","))
-
-chicago_areas_map <- leaflet(areas) %>%
-  setView(-87.65, 41.83, zoom = 10) %>% 
-  addProviderTiles(provider = "Esri.WorldImagery") %>%
-  addProviderTiles(provider = "Stamen.TonerLabels") %>%
-  addPolygons(color = "white", popup = poplabel, weight = 1, smoothFactor = 0.5,
-              opacity = 0.5, fillOpacity = 0.3,
-              fillColor = ~poppal(`population`))
-chicago_areas_map
+# popbins <- c(0,1000, 10000,25000,50000,100000, Inf)
+#poppal <- colorBin("YlOrRd", areas$population, bins = popbins)
+#poplabel <- paste(sep = "<br>", areas$community,prettyNum(areas$population, big.mark = ","))
+#
+#chicago_areas_map <- leaflet(areas) %>%
+#  setView(-87.65, 41.83, zoom = 10) %>% 
+#  addProviderTiles(provider = "Esri.WorldImagery") %>%
+#  addProviderTiles(provider = "Stamen.TonerLabels") %>%
+#  addPolygons(color = "white", popup = poplabel, weight = 1, smoothFactor = 0.5,
+#              opacity = 0.5, fillOpacity = 0.3,
+#              fillColor = ~poppal(`population`))
+#chicago_areas_map
