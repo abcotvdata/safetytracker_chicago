@@ -355,7 +355,7 @@ citywide_category_monthly %>% filter(category=="Theft Over $500") %>% write_csv(
 citywide_category_monthly %>% filter(category=="Burglary") %>% write_csv("data/output/monthly/burglaries_monthly.csv")
 citywide_category_monthly %>% filter(category=="Robbery") %>% write_csv("data/output/monthly/robberies_monthly.csv")
 citywide_category_monthly %>% filter(category=="Aggravated Battery") %>% write_csv("data/output/monthly/batteries_monthly.csv")
-citywide_category_monthly %>% filter(category=="Murder") %>% write_csv("data/output/monthly/murder_monthly.csv")
+citywide_category_monthly %>% filter(category=="Murder") %>% write_csv("data/output/monthly/murders_monthly.csv")
 
 # Calculate of each type of crime CITYWIDE
 citywide_type <- chicago_crime %>%
