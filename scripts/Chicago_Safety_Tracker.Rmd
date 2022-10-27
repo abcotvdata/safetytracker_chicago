@@ -238,14 +238,16 @@ However, the murder rate over the last 12 months is<h8>`r ifelse(murders_city$in
 
 The city averaged <h8>`r round(murders_city$last12mos/52,0)`</h8> homicides a week over the last 12 months. In 2019, that number was <h8>`r round(murders_city$total19/52,0)`</h8> a week.
 
-One way to think about the danger: three years ago, the murder rate was <h8>`r murders_city$rate19`</h8> per 100,000 residents. That's slightly less than risk as dying in a vehicle crash in Illinois.
+One way to think about the danger: three years ago, the murder rate was <h8>`r murders_city$rate19`</h8> per 100,000 residents. 
 
-During the pandemic, a person's chance of being murdered in CHicago rose above the likelihood of dying in a vehicle crash. 
+That was already considerably higher than the risk as dying in a vehicle crash in Illinois.
+
+During the pandemic, a person's chance of being murdered in Chicago rose to almost three times the likelihood of dying in a crash. 
 <br>
 <br>
 <!-- <subhead>Risk of being murdered in Chicago vs. other causes of death in Harris County</subhead> -->
 
-<iframe title="Risk of homicide in Houston vs. other causes of death" aria-label="Dot Plot" id="datawrapper-chart-kjiot" src="https://datawrapper.dwcdn.net/kjiot/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="342" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+<iframe title="Comparing homicide to other causes of death" aria-label="Dot Plot" id="datawrapper-chart-o2NTu" src="https://datawrapper.dwcdn.net/o2NTu/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="342" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
 <br>
 
@@ -423,7 +425,7 @@ chicago_murder_map
 <br>
 <!-- <subhead>Homicides month by month, 2019 through last month</subhead> -->
 
-<iframe title="Homicides month by month, 2019 through last month" aria-label="Column Chart" id="datawrapper-chart-3NHzG" src="https://datawrapper.dwcdn.net/3NHzG/9/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+<iframe title="Homicides month by month since 2019" aria-label="Column Chart" id="datawrapper-chart-l3qZb" src="https://datawrapper.dwcdn.net/l3qZb/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
   <br>
 <br>
