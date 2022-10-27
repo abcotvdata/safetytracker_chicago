@@ -297,7 +297,7 @@ murderlabel <- paste(sep="",
                      murders_area$last12mos,
                      " homicides </popuptitle><br>",
                      " in the last 12 months in <b>",
-                     murders_area$community_area,
+                     murders_area$community,
                      "</b>, home to an estimated ",
                      prettyNum(murders_area$population, big.mark=","),
                      " people.

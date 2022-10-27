@@ -279,7 +279,7 @@ burglarylabel <- paste(sep="",
                      burglaries_area$last12mos,
                      " burglaries </popuptitle><br>",
                      " in the last 12 months in <b>",
-                     burglaries_area$community_area,
+                     burglaries_area$community,
                      "</b>, home to an estimated ",
                      prettyNum(burglaries_area$population, big.mark=","),
                      " people.
