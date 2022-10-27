@@ -8,7 +8,6 @@
 # User-specific files
 .Ruserdata
 *oldcode*
-data/source/annual/*
 data/source/recent/*
 data/output/chicago_crime.csv
 
