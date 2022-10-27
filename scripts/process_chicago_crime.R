@@ -349,7 +349,7 @@ citywide_category_monthly$rollavg_3month <- round(citywide_category_monthly$roll
 
 # write series of monthly files for charts (NOTE murder is written above in detailed section)
 write_csv(citywide_category_monthly,"data/output/monthly/citywide_category_monthly.csv")
-citywide_category_monthly %>% filter(category=="Sexual Assault") %>% write_csv("data/output/monthly/sexassaults_monthly.csv")
+citywide_category_monthly %>% filter(category=="Criminal Sexual Assault") %>% write_csv("data/output/monthly/sexassaults_monthly.csv")
 citywide_category_monthly %>% filter(category=="Auto Theft") %>% write_csv("data/output/monthly/autothefts_monthly.csv")
 citywide_category_monthly %>% filter(category=="Theft Over $500") %>% write_csv("data/output/monthly/thefts_monthly.csv")
 citywide_category_monthly %>% filter(category=="Burglary") %>% write_csv("data/output/monthly/burglaries_monthly.csv")

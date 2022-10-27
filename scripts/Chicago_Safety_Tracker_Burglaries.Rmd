@@ -279,7 +279,7 @@ burglarylabel <- paste(sep="",
                      burglaries_area$last12mos,
                      " burglaries </popuptitle><br>",
                      " in the last 12 months in <b>",
-                     burglaries_area$area,
+                     burglaries_area$community_area,
                      "</b>, home to an estimated ",
                      prettyNum(burglaries_area$population, big.mark=","),
                      " people.
@@ -342,7 +342,7 @@ chicago_burglary_map <- leaflet(burglaries_area, options = leafletOptions(zoomCo
   htmlwidgets::onRender("function(el, x) {
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
-  setView(-87.65, 41.83, zoom = 10) %>% 
+  setView(-87.65, 41.83, zoom = 10.5) %>% 
   addProviderTiles(provider = "CartoDB.Positron") %>%
   addPolygons(color = "white", 
               popup = burglarylabel,

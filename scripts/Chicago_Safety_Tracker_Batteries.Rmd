@@ -278,7 +278,7 @@ batterylabel <- paste(sep="",
                      prettyNum(batteries_area$last12mos, big.mark=","),
                      " batteries </popuptitle><br>",
                      " in the last 12 months in <b>",
-                     batteries_area$area,
+                     batteries_area$community_area,
                      "</b>, home to an estimated ",
                      prettyNum(batteries_area$population, big.mark=","),
                      " people.
@@ -341,7 +341,7 @@ chicago_battery_map <- leaflet(batteries_area, options = leafletOptions(zoomCont
   htmlwidgets::onRender("function(el, x) {
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
-  setView(-87.65, 41.83, zoom = 10) %>% 
+  setView(-87.65, 41.83, zoom = 10.5) %>% 
   addProviderTiles(provider = "CartoDB.Positron") %>%
   addPolygons(color = "white", 
               popup = batterylabel,

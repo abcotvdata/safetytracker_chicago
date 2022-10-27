@@ -280,7 +280,7 @@ sexassaultlabel <- paste(sep="",
                      sexassaults_area$last12mos,
                      " sexual assaults</popuptitle><br>",
                      " in the last 12 months in <b>",
-                     sexassaults_area$area,
+                     sexassaults_area$community_area,
                      "</b>, home to an estimated ",
                      prettyNum(sexassaults_area$population, big.mark=","),
                      " people.
@@ -343,7 +343,7 @@ chicago_sexassault_map <- leaflet(sexassaults_area, options = leafletOptions(zoo
   htmlwidgets::onRender("function(el, x) {
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
-  setView(-87.65, 41.83, zoom = 10) %>% 
+  setView(-87.65, 41.83, zoom = 10.5) %>% 
   addProviderTiles(provider = "CartoDB.Positron") %>%
   addPolygons(color = "white", 
               popup = sexassaultlabel,

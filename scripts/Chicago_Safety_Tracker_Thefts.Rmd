@@ -279,7 +279,7 @@ theftlabel <- paste(sep="",
                      prettyNum(thefts_area$last12mos, big.mark=","),
                      " thefts </popuptitle><br>",
                      " in the last 12 months in <b>",
-                     thefts_area$area,
+                     thefts_area$community_area,
                      "</b>, home to an estimated ",
                      prettyNum(thefts_area$population, big.mark=","),
                      " people.
@@ -342,7 +342,7 @@ chicago_theft_map <- leaflet(thefts_area, options = leafletOptions(zoomControl =
   htmlwidgets::onRender("function(el, x) {
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
-  setView(-87.65, 41.83, zoom = 10) %>% 
+  setView(-87.65, 41.83, zoom = 10.5) %>% 
   addProviderTiles(provider = "CartoDB.Positron") %>%
   setMaxBounds( lng1 = -93
                  , lat1 = 27
