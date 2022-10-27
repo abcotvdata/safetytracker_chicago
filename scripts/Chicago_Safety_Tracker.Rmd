@@ -18,7 +18,7 @@ library(sf)
 ```
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-![<popupchatter>Updated `r format(Sys.time(), '%B %d, %Y')` by the ABC13 Data Team</popupchatter>](https://github.com/abcotvdata/safetytracker_chicago/raw/main/docs/header.png)
+![<popupchatter>Updated `r format(Sys.time(), '%B %d, %Y')` by the ABC7 Data Team</popupchatter>](https://github.com/abcotvdata/safetytracker_chicago/raw/main/docs/banner_placeholder.png)
 
 ```{css, echo=FALSE}
 
@@ -184,29 +184,29 @@ th {
    }
 ```
 
-```{r beats, include=FALSE}
-# set value of houston_population
-houston_population <- 2304580
+```{r population, include=FALSE}
+# set value of chicago_population
+chicago_population <- 2696561
 ```
 
 
 ```{r crimedata, include=FALSE}
-# Source data pre-processed separately at process_houston_crime_combined.R
+# Source data pre-processed separately at process_chicago_crime.R
 ```
 
 <br>
 <h2>ABC7 is tracking crime and safety across Chicago and in your neighborhood. 
 
 You can choose which crime to explore: <select onchange="window.location=this.value">
-<option value="https://abcotvdata.github.io/safetytracker_houston/Houston_Safety_Tracker.html">Homicides</option>
-<option value="https://abcotvdata.github.io/safetytracker_houston/Houston_Safety_Tracker_Assaults.html">Assaults</option>
-<option value="https://abcotvdata.github.io/safetytracker_houston/Houston_Safety_Tracker_AutoThefts.html">Auto Thefts</option>
-<option value="https://abcotvdata.github.io/safetytracker_houston/Houston_Safety_Tracker_Burglaries.html">Burglaries</option>
-<option value="https://abcotvdata.github.io/safetytracker_houston/Houston_Safety_Tracker_DrugCrimes.html">Drug Crimes</option>
-<option value="https://abcotvdata.github.io/safetytracker_houston/Houston_Safety_Tracker.html">Homicides</option>
-<option value="https://abcotvdata.github.io/safetytracker_houston/Houston_Safety_Tracker_Robberies.html">Robberies</option>
-<option value="https://abcotvdata.github.io/safetytracker_houston/Houston_Safety_Tracker_SexualAssaults.html">Sexual Assaults</option>
-<option value="https://abcotvdata.github.io/safetytracker_houston/Houston_Safety_Tracker_Thefts.html">Thefts</option>
+<option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker.html">Homicides</option>
+<option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_Assaults.html">Batteries</option>
+<option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_AutoThefts.html">Auto Thefts</option>
+<option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_Burglaries.html">Burglaries</option>
+<option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_DrugCrimes.html">Drug Crimes</option>
+<option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker.html">Homicides</option>
+<option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_Robberies.html">Robberies</option>
+<option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_SexualAssaults.html">Sexual Assaults</option>
+<option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_Thefts.html">Thefts</option>
 </select></h2>
 
 <div class="cardContainer">
@@ -238,12 +238,12 @@ However, the murder rate over the last 12 months is<h8>`r ifelse(murders_city$in
 
 The city averaged <h8>`r round(murders_city$last12mos/52,0)`</h8> homicides a week over the last 12 months. In 2019, that number was <h8>`r round(murders_city$total19/52,0)`</h8> a week.
 
-One way to think about the danger: three years ago, the murder rate was <h8>`r murders_city$rate19`</h8> per 100,000 residents. That's slightly less than risk as dying in a vehicle crash in Texas.
+One way to think about the danger: three years ago, the murder rate was <h8>`r murders_city$rate19`</h8> per 100,000 residents. That's slightly less than risk as dying in a vehicle crash in Illinois.
 
-During the pandemic, a person's chance of being murdered in Houston rose above the likelihood of dying in a vehicle crash. 
+During the pandemic, a person's chance of being murdered in CHicago rose above the likelihood of dying in a vehicle crash. 
 <br>
 <br>
-<!-- <subhead>Risk of being murdered in Houston vs. other causes of death in Harris County</subhead> -->
+<!-- <subhead>Risk of being murdered in Chicago vs. other causes of death in Harris County</subhead> -->
 
 <iframe title="Risk of homicide in Houston vs. other causes of death" aria-label="Dot Plot" id="datawrapper-chart-kjiot" src="https://datawrapper.dwcdn.net/kjiot/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="342" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
@@ -251,9 +251,9 @@ During the pandemic, a person's chance of being murdered in Houston rose above t
 
 The risk is not the same neighborhood to neighborhood.
 
-ABC13's data team looked at the Houston Police Department's data by neighborhood from 2019 through `r format(asofdate, "%B %d")`.
+ABC13's data team looked at the Chicago Police Department's data by neighborhood from 2019 through `r format(asofdate, "%B %d")`.
 
-<subhead>A closer look at Houston homicides by neighborhood</subhead>
+<subhead>A closer look at Chicago homicides by neighborhood</subhead>
 
 The map color-codes each neighborhood by the homicide rate over the last 12 months. The three darker blues highlight neighborhoods where the murder rate is higher than the citywide rate.
 
@@ -280,24 +280,24 @@ murderpal1 <- colorBin(c("#99a0a5",
                              "#2787d6",
                              "#0058f6",
                              "#003ca6",
-                             "#00215c"), murders_beat$rate_last12, bins = murderbins1,na.color = "#51585f")
+                             "#00215c"), murders_area$rate_last12, bins = murderbins1,na.color = "#51585f")
 
 murderpal2 <- colorBin(c("#99a0a5",
                              "#2787d6",
                              "#0058f6",
                              "#003ca6",
-                             "#00215c"), murders_beat$last12mos, bins = murderbins2,na.color = "#51585f")
+                             "#00215c"), murders_area$last12mos, bins = murderbins2,na.color = "#51585f")
 
                             
 # Create labels for murders map
 murderlabel <- paste(sep="",
                      "<popuptitle>",
-                     murders_beat$last12mos,
+                     murders_area$last12mos,
                      " homicides </popuptitle><br>",
-                     " in the last 12 months in the area including <b>",
-                     murders_beat$placename,
+                     " in the last 12 months in <b>",
+                     murders_area$area,
                      "</b>, home to an estimated ",
-                     prettyNum(murders_beat$population, big.mark=","),
+                     prettyNum(murders_area$population, big.mark=","),
                      " people.
 <br>
 <table>      
@@ -309,53 +309,53 @@ murderlabel <- paste(sep="",
 			<tr>
 				<td>2019</td>
 				<td>",
-murders_beat$total19,
+murders_area$total19,
 "</td>
 				<td>",
-murders_beat$rate19,
+murders_area$rate19,
 "</td>
 			</tr>
 			<tr>
 				<td>2020</td>
 				<td>",
-murders_beat$total20,
+murders_area$total20,
 "</td>
 				<td>",
-murders_beat$rate20,
+murders_area$rate20,
 "</td>
 			</tr>
 						<tr>
 				<td>2021</td>
 				<td>",
-murders_beat$total21,
+murders_area$total21,
 "</td>
 				<td>",
-murders_beat$rate21,
+murders_area$rate21,
 "</td>
 			</tr>
 						<tr>
 				<td>Last 12 months</td>
 				<td>",
-murders_beat$last12mos,
+murders_area$last12mos,
 "</td>
 				<td>",
-murders_beat$rate_last12,
+murders_area$rate_last12,
 "</td>
 			</tr>
 						<tr>
 				<td>3-year Average</td>
 				<td>",
-murders_beat$avg_prior3years,
+murders_area$avg_prior3years,
 "</td>
 				<td>",
-murders_beat$rate_prior3years,
+murders_area$rate_prior3years,
 "</td>
 			</tr>
 </table>")
 
 
 # Creating police beats map for types of crimes
-houston_murder_map <- leaflet(murders_beat, options = leafletOptions(zoomControl = FALSE, zoomSnap = 0.5, zoomDelta=0.5)) %>%
+chicago_murder_map <- leaflet(murders_area, options = leafletOptions(zoomControl = FALSE, zoomSnap = 0.5, zoomDelta=0.5)) %>%
   htmlwidgets::onRender("function(el, x) {
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
@@ -386,14 +386,14 @@ L.control.zoom({ position: 'topright' }).addTo(this)
         $('input.search-input')[0].placeholder = 'Search street, place or zip code'
         }") %>%
   addLegend(opacity = 0.6,
-            values = murders_beat$rate_last12, 
+            values = murders_area$rate_last12, 
             pal = murderpal1,
             position = "bottomleft", 
             title = paste(sep="","<popuptitle>Murder Rate<br><popupchatter>Murders/100K people<br>Citywide: ",murders_city$rate_last12),
             group = "Rate",
             className = "info legend Rate") %>%
   addLegend(opacity = 0.6,
-            values = murders_beat$last12mos, 
+            values = murders_area$last12mos, 
             pal = murderpal2,
             position = "bottomleft", 
             title = paste(sep="","<popuptitle>Murders<br><popupchatter>Total murders<br>Citywide: ",murders_city$last12mos),
@@ -417,7 +417,7 @@ L.control.zoom({ position: 'topright' }).addTo(this)
          this.on('baselayerchange', el => updateLegend());
       }"
    )
-houston_murder_map
+chicago_murder_map
 ```
 <br>
 <br>
@@ -428,7 +428,7 @@ houston_murder_map
   <br>
 <br>
 
-<!-- <subhead>What kinds of places do murders happen in Houston</subhead> -->
+<!-- <subhead>What kinds of places do murders happen in Chicago</subhead> -->
 
 <iframe title="What kinds of places do murders happen in Houston" aria-label="Table" id="datawrapper-chart-xI2y0" src="https://datawrapper.dwcdn.net/xI2y0/19/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="350" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>

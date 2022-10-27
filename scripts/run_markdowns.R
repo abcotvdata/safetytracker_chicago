@@ -54,10 +54,10 @@ rmarkdown::render('scripts/Houston_Safety_Tracker_Robberies.Rmd',
                   output_dir = "docs",
                   output_file = 'Houston_Safety_Tracker_Robberies.html')
 
-# ASSAULTS
+# BATTERIES
 # Load RDS
-assaults_beat <- readRDS("scripts/rds/assaults_beat.rds")
-assaults_city <- readRDS("scripts/rds/assaults_city.rds")
+batteries_beat <- readRDS("scripts/rds/batteries_area.rds")
+batteries_city <- readRDS("scripts/rds/batteries_city.rds")
 asofdate <- readRDS("scripts/rds/asofdate.rds")
 # Render page
 rmarkdown::render('scripts/Houston_Safety_Tracker_Assaults.Rmd', 
