@@ -1,0 +1,1220 @@
+category,year,month,count,rollavg_3month
+Aggravated Assault,2019,1,443,NA
+Aggravated Assault,2019,2,373,NA
+Aggravated Assault,2019,3,460,425
+Aggravated Assault,2019,4,493,442
+Aggravated Assault,2019,5,568,507
+Aggravated Assault,2019,6,555,539
+Aggravated Assault,2019,7,576,566
+Aggravated Assault,2019,8,531,554
+Aggravated Assault,2019,9,474,527
+Aggravated Assault,2019,10,495,500
+Aggravated Assault,2019,11,435,468
+Aggravated Assault,2019,12,437,456
+Aggravated Assault,2020,1,438,NA
+Aggravated Assault,2020,2,388,NA
+Aggravated Assault,2020,3,458,428
+Aggravated Assault,2020,4,405,417
+Aggravated Assault,2020,5,545,469
+Aggravated Assault,2020,6,653,534
+Aggravated Assault,2020,7,656,618
+Aggravated Assault,2020,8,621,643
+Aggravated Assault,2020,9,564,614
+Aggravated Assault,2020,10,588,591
+Aggravated Assault,2020,11,485,546
+Aggravated Assault,2020,12,462,512
+Aggravated Assault,2021,1,468,NA
+Aggravated Assault,2021,2,435,NA
+Aggravated Assault,2021,3,518,474
+Aggravated Assault,2021,4,584,512
+Aggravated Assault,2021,5,637,580
+Aggravated Assault,2021,6,677,633
+Aggravated Assault,2021,7,710,675
+Aggravated Assault,2021,8,704,697
+Aggravated Assault,2021,9,711,708
+Aggravated Assault,2021,10,657,691
+Aggravated Assault,2021,11,566,645
+Aggravated Assault,2021,12,574,599
+Aggravated Assault,2022,1,461,NA
+Aggravated Assault,2022,2,431,NA
+Aggravated Assault,2022,3,543,478
+Aggravated Assault,2022,4,542,505
+Aggravated Assault,2022,5,697,594
+Aggravated Assault,2022,6,711,650
+Aggravated Assault,2022,7,685,698
+Aggravated Assault,2022,8,731,709
+Aggravated Assault,2022,9,647,688
+Aggravated Assault,2022,10,369,582
+Aggravated Battery,2019,1,468,NA
+Aggravated Battery,2019,2,476,NA
+Aggravated Battery,2019,3,576,507
+Aggravated Battery,2019,4,611,554
+Aggravated Battery,2019,5,746,644
+Aggravated Battery,2019,6,792,716
+Aggravated Battery,2019,7,890,809
+Aggravated Battery,2019,8,771,818
+Aggravated Battery,2019,9,689,783
+Aggravated Battery,2019,10,639,700
+Aggravated Battery,2019,11,594,641
+Aggravated Battery,2019,12,600,611
+Aggravated Battery,2020,1,544,NA
+Aggravated Battery,2020,2,493,NA
+Aggravated Battery,2020,3,540,526
+Aggravated Battery,2020,4,503,512
+Aggravated Battery,2020,5,745,596
+Aggravated Battery,2020,6,935,728
+Aggravated Battery,2020,7,901,860
+Aggravated Battery,2020,8,930,922
+Aggravated Battery,2020,9,742,858
+Aggravated Battery,2020,10,844,839
+Aggravated Battery,2020,11,617,734
+Aggravated Battery,2020,12,515,659
+Aggravated Battery,2021,1,512,NA
+Aggravated Battery,2021,2,412,NA
+Aggravated Battery,2021,3,613,512
+Aggravated Battery,2021,4,603,543
+Aggravated Battery,2021,5,790,669
+Aggravated Battery,2021,6,835,743
+Aggravated Battery,2021,7,893,839
+Aggravated Battery,2021,8,850,859
+Aggravated Battery,2021,9,839,861
+Aggravated Battery,2021,10,781,823
+Aggravated Battery,2021,11,616,745
+Aggravated Battery,2021,12,593,663
+Aggravated Battery,2022,1,501,NA
+Aggravated Battery,2022,2,440,NA
+Aggravated Battery,2022,3,566,502
+Aggravated Battery,2022,4,582,529
+Aggravated Battery,2022,5,700,616
+Aggravated Battery,2022,6,669,650
+Aggravated Battery,2022,7,785,718
+Aggravated Battery,2022,8,741,732
+Aggravated Battery,2022,9,742,756
+Aggravated Battery,2022,10,331,605
+Arson,2019,1,22,NA
+Arson,2019,2,29,NA
+Arson,2019,3,28,26
+Arson,2019,4,31,29
+Arson,2019,5,25,28
+Arson,2019,6,29,28
+Arson,2019,7,46,33
+Arson,2019,8,36,37
+Arson,2019,9,29,37
+Arson,2019,10,28,31
+Arson,2019,11,32,30
+Arson,2019,12,41,34
+Arson,2020,1,23,NA
+Arson,2020,2,31,NA
+Arson,2020,3,27,27
+Arson,2020,4,36,31
+Arson,2020,5,78,47
+Arson,2020,6,74,63
+Arson,2020,7,63,72
+Arson,2020,8,57,65
+Arson,2020,9,56,59
+Arson,2020,10,54,56
+Arson,2020,11,50,53
+Arson,2020,12,40,48
+Arson,2021,1,39,NA
+Arson,2021,2,23,NA
+Arson,2021,3,49,37
+Arson,2021,4,41,38
+Arson,2021,5,49,46
+Arson,2021,6,49,46
+Arson,2021,7,50,49
+Arson,2021,8,48,49
+Arson,2021,9,46,48
+Arson,2021,10,44,46
+Arson,2021,11,42,44
+Arson,2021,12,47,44
+Arson,2022,1,29,NA
+Arson,2022,2,25,NA
+Arson,2022,3,23,26
+Arson,2022,4,34,27
+Arson,2022,5,45,34
+Arson,2022,6,37,39
+Arson,2022,7,41,41
+Arson,2022,8,39,39
+Arson,2022,9,49,43
+Arson,2022,10,19,36
+Burglary,2019,1,797,NA
+Burglary,2019,2,671,NA
+Burglary,2019,3,677,715
+Burglary,2019,4,700,683
+Burglary,2019,5,815,731
+Burglary,2019,6,790,768
+Burglary,2019,7,928,844
+Burglary,2019,8,904,874
+Burglary,2019,9,875,902
+Burglary,2019,10,863,881
+Burglary,2019,11,792,843
+Burglary,2019,12,827,827
+Burglary,2020,1,740,NA
+Burglary,2020,2,619,NA
+Burglary,2020,3,567,642
+Burglary,2020,4,528,571
+Burglary,2020,5,1323,806
+Burglary,2020,6,754,868
+Burglary,2020,7,738,938
+Burglary,2020,8,1062,851
+Burglary,2020,9,613,804
+Burglary,2020,10,643,773
+Burglary,2020,11,618,625
+Burglary,2020,12,549,603
+Burglary,2021,1,486,NA
+Burglary,2021,2,351,NA
+Burglary,2021,3,394,410
+Burglary,2021,4,416,387
+Burglary,2021,5,472,427
+Burglary,2021,6,508,465
+Burglary,2021,7,556,512
+Burglary,2021,8,600,555
+Burglary,2021,9,666,607
+Burglary,2021,10,757,674
+Burglary,2021,11,732,718
+Burglary,2021,12,718,736
+Burglary,2022,1,578,NA
+Burglary,2022,2,510,NA
+Burglary,2022,3,582,557
+Burglary,2022,4,562,551
+Burglary,2022,5,607,584
+Burglary,2022,6,675,615
+Burglary,2022,7,700,661
+Burglary,2022,8,672,682
+Burglary,2022,9,635,669
+Burglary,2022,10,357,555
+Criminal Sexual Abuse,2019,1,124,NA
+Criminal Sexual Abuse,2019,2,136,NA
+Criminal Sexual Abuse,2019,3,138,133
+Criminal Sexual Abuse,2019,4,100,125
+Criminal Sexual Abuse,2019,5,172,137
+Criminal Sexual Abuse,2019,6,144,139
+Criminal Sexual Abuse,2019,7,143,153
+Criminal Sexual Abuse,2019,8,172,153
+Criminal Sexual Abuse,2019,9,166,160
+Criminal Sexual Abuse,2019,10,145,161
+Criminal Sexual Abuse,2019,11,154,155
+Criminal Sexual Abuse,2019,12,162,154
+Criminal Sexual Abuse,2020,1,134,NA
+Criminal Sexual Abuse,2020,2,129,NA
+Criminal Sexual Abuse,2020,3,132,132
+Criminal Sexual Abuse,2020,4,81,114
+Criminal Sexual Abuse,2020,5,88,100
+Criminal Sexual Abuse,2020,6,124,98
+Criminal Sexual Abuse,2020,7,123,112
+Criminal Sexual Abuse,2020,8,127,125
+Criminal Sexual Abuse,2020,9,88,113
+Criminal Sexual Abuse,2020,10,124,113
+Criminal Sexual Abuse,2020,11,85,99
+Criminal Sexual Abuse,2020,12,81,97
+Criminal Sexual Abuse,2021,1,103,NA
+Criminal Sexual Abuse,2021,2,94,NA
+Criminal Sexual Abuse,2021,3,100,99
+Criminal Sexual Abuse,2021,4,90,95
+Criminal Sexual Abuse,2021,5,131,107
+Criminal Sexual Abuse,2021,6,121,114
+Criminal Sexual Abuse,2021,7,122,125
+Criminal Sexual Abuse,2021,8,113,119
+Criminal Sexual Abuse,2021,9,132,122
+Criminal Sexual Abuse,2021,10,128,124
+Criminal Sexual Abuse,2021,11,130,130
+Criminal Sexual Abuse,2021,12,107,122
+Criminal Sexual Abuse,2022,1,115,NA
+Criminal Sexual Abuse,2022,2,96,NA
+Criminal Sexual Abuse,2022,3,158,123
+Criminal Sexual Abuse,2022,4,128,127
+Criminal Sexual Abuse,2022,5,137,141
+Criminal Sexual Abuse,2022,6,122,129
+Criminal Sexual Abuse,2022,7,132,130
+Criminal Sexual Abuse,2022,8,138,131
+Criminal Sexual Abuse,2022,9,139,136
+Criminal Sexual Abuse,2022,10,45,107
+Criminal Sexual Assault,2019,1,181,NA
+Criminal Sexual Assault,2019,2,128,NA
+Criminal Sexual Assault,2019,3,134,148
+Criminal Sexual Assault,2019,4,141,134
+Criminal Sexual Assault,2019,5,182,152
+Criminal Sexual Assault,2019,6,145,156
+Criminal Sexual Assault,2019,7,191,173
+Criminal Sexual Assault,2019,8,176,171
+Criminal Sexual Assault,2019,9,162,176
+Criminal Sexual Assault,2019,10,158,165
+Criminal Sexual Assault,2019,11,135,152
+Criminal Sexual Assault,2019,12,134,142
+Criminal Sexual Assault,2020,1,179,NA
+Criminal Sexual Assault,2020,2,140,NA
+Criminal Sexual Assault,2020,3,122,147
+Criminal Sexual Assault,2020,4,72,111
+Criminal Sexual Assault,2020,5,107,100
+Criminal Sexual Assault,2020,6,116,98
+Criminal Sexual Assault,2020,7,138,120
+Criminal Sexual Assault,2020,8,119,124
+Criminal Sexual Assault,2020,9,117,125
+Criminal Sexual Assault,2020,10,119,118
+Criminal Sexual Assault,2020,11,117,118
+Criminal Sexual Assault,2020,12,98,111
+Criminal Sexual Assault,2021,1,107,NA
+Criminal Sexual Assault,2021,2,112,NA
+Criminal Sexual Assault,2021,3,141,120
+Criminal Sexual Assault,2021,4,125,126
+Criminal Sexual Assault,2021,5,151,139
+Criminal Sexual Assault,2021,6,163,146
+Criminal Sexual Assault,2021,7,159,158
+Criminal Sexual Assault,2021,8,151,158
+Criminal Sexual Assault,2021,9,143,151
+Criminal Sexual Assault,2021,10,145,146
+Criminal Sexual Assault,2021,11,138,142
+Criminal Sexual Assault,2021,12,138,140
+Criminal Sexual Assault,2022,1,119,NA
+Criminal Sexual Assault,2022,2,141,NA
+Criminal Sexual Assault,2022,3,135,132
+Criminal Sexual Assault,2022,4,143,140
+Criminal Sexual Assault,2022,5,157,145
+Criminal Sexual Assault,2022,6,141,147
+Criminal Sexual Assault,2022,7,171,156
+Criminal Sexual Assault,2022,8,154,155
+Criminal Sexual Assault,2022,9,140,155
+Criminal Sexual Assault,2022,10,91,128
+Disorderly Conduct,2019,1,153,NA
+Disorderly Conduct,2019,2,187,NA
+Disorderly Conduct,2019,3,212,184
+Disorderly Conduct,2019,4,233,211
+Disorderly Conduct,2019,5,282,242
+Disorderly Conduct,2019,6,250,255
+Disorderly Conduct,2019,7,306,279
+Disorderly Conduct,2019,8,272,276
+Disorderly Conduct,2019,9,257,278
+Disorderly Conduct,2019,10,213,247
+Disorderly Conduct,2019,11,182,217
+Disorderly Conduct,2019,12,173,189
+Disorderly Conduct,2020,1,198,NA
+Disorderly Conduct,2020,2,176,NA
+Disorderly Conduct,2020,3,129,168
+Disorderly Conduct,2020,4,43,116
+Disorderly Conduct,2020,5,101,91
+Disorderly Conduct,2020,6,89,78
+Disorderly Conduct,2020,7,92,94
+Disorderly Conduct,2020,8,107,96
+Disorderly Conduct,2020,9,70,90
+Disorderly Conduct,2020,10,102,93
+Disorderly Conduct,2020,11,72,81
+Disorderly Conduct,2020,12,67,80
+Disorderly Conduct,2021,1,61,NA
+Disorderly Conduct,2021,2,34,NA
+Disorderly Conduct,2021,3,59,51
+Disorderly Conduct,2021,4,46,46
+Disorderly Conduct,2021,5,61,55
+Disorderly Conduct,2021,6,69,59
+Disorderly Conduct,2021,7,71,67
+Disorderly Conduct,2021,8,37,59
+Disorderly Conduct,2021,9,75,61
+Disorderly Conduct,2021,10,51,54
+Disorderly Conduct,2021,11,49,58
+Disorderly Conduct,2021,12,57,52
+Disorderly Conduct,2022,1,33,NA
+Disorderly Conduct,2022,2,67,NA
+Disorderly Conduct,2022,3,60,53
+Disorderly Conduct,2022,4,65,64
+Disorderly Conduct,2022,5,94,73
+Disorderly Conduct,2022,6,104,88
+Disorderly Conduct,2022,7,81,93
+Disorderly Conduct,2022,8,75,87
+Disorderly Conduct,2022,9,67,74
+Disorderly Conduct,2022,10,41,61
+Drug Abuse,2019,1,1156,NA
+Drug Abuse,2019,2,1142,NA
+Drug Abuse,2019,3,1233,1177
+Drug Abuse,2019,4,1125,1167
+Drug Abuse,2019,5,1052,1137
+Drug Abuse,2019,6,1085,1087
+Drug Abuse,2019,7,1156,1098
+Drug Abuse,2019,8,1275,1172
+Drug Abuse,2019,9,1059,1163
+Drug Abuse,2019,10,1029,1121
+Drug Abuse,2019,11,991,1026
+Drug Abuse,2019,12,935,985
+Drug Abuse,2020,1,1137,NA
+Drug Abuse,2020,2,1042,NA
+Drug Abuse,2020,3,648,942
+Drug Abuse,2020,4,135,608
+Drug Abuse,2020,5,411,398
+Drug Abuse,2020,6,285,277
+Drug Abuse,2020,7,417,371
+Drug Abuse,2020,8,448,383
+Drug Abuse,2020,9,436,434
+Drug Abuse,2020,10,535,473
+Drug Abuse,2020,11,447,473
+Drug Abuse,2020,12,441,474
+Drug Abuse,2021,1,431,NA
+Drug Abuse,2021,2,528,NA
+Drug Abuse,2021,3,713,557
+Drug Abuse,2021,4,428,556
+Drug Abuse,2021,5,459,533
+Drug Abuse,2021,6,358,415
+Drug Abuse,2021,7,270,362
+Drug Abuse,2021,8,216,281
+Drug Abuse,2021,9,195,227
+Drug Abuse,2021,10,236,216
+Drug Abuse,2021,11,218,216
+Drug Abuse,2021,12,177,210
+Drug Abuse,2022,1,189,NA
+Drug Abuse,2022,2,365,NA
+Drug Abuse,2022,3,361,305
+Drug Abuse,2022,4,333,353
+Drug Abuse,2022,5,298,331
+Drug Abuse,2022,6,253,295
+Drug Abuse,2022,7,241,264
+Drug Abuse,2022,8,276,257
+Drug Abuse,2022,9,258,258
+Drug Abuse,2022,10,164,233
+Embezzlement,2019,1,6,NA
+Embezzlement,2019,2,3,NA
+Embezzlement,2019,3,5,5
+Embezzlement,2019,4,3,4
+Embezzlement,2019,5,3,4
+Embezzlement,2019,6,3,3
+Embezzlement,2019,7,4,3
+Embezzlement,2019,8,2,3
+Embezzlement,2019,9,6,4
+Embezzlement,2019,10,7,5
+Embezzlement,2019,12,2,5
+Embezzlement,2020,1,5,NA
+Embezzlement,2020,2,1,NA
+Embezzlement,2020,4,1,2
+Embezzlement,2020,6,1,1
+Embezzlement,2020,7,4,2
+Embezzlement,2020,9,3,3
+Embezzlement,2020,11,3,3
+Embezzlement,2020,12,3,3
+Embezzlement,2021,1,3,NA
+Embezzlement,2021,3,2,NA
+Embezzlement,2021,4,5,3
+Embezzlement,2021,5,1,3
+Embezzlement,2021,6,2,3
+Embezzlement,2021,8,3,2
+Embezzlement,2021,10,2,2
+Embezzlement,2021,11,1,2
+Embezzlement,2021,12,6,3
+Embezzlement,2022,1,2,NA
+Embezzlement,2022,2,1,NA
+Embezzlement,2022,3,2,2
+Embezzlement,2022,5,1,1
+Embezzlement,2022,6,2,2
+Embezzlement,2022,7,1,1
+Embezzlement,2022,8,1,1
+Embezzlement,2022,9,1,1
+Embezzlement,2022,10,1,1
+Forgery & Counterfeiting,2019,1,145,NA
+Forgery & Counterfeiting,2019,2,95,NA
+Forgery & Counterfeiting,2019,3,85,108
+Forgery & Counterfeiting,2019,4,125,102
+Forgery & Counterfeiting,2019,5,138,116
+Forgery & Counterfeiting,2019,6,135,133
+Forgery & Counterfeiting,2019,7,142,138
+Forgery & Counterfeiting,2019,8,177,151
+Forgery & Counterfeiting,2019,9,120,146
+Forgery & Counterfeiting,2019,10,144,147
+Forgery & Counterfeiting,2019,11,135,133
+Forgery & Counterfeiting,2019,12,133,137
+Forgery & Counterfeiting,2020,1,131,NA
+Forgery & Counterfeiting,2020,2,128,NA
+Forgery & Counterfeiting,2020,3,87,115
+Forgery & Counterfeiting,2020,4,111,109
+Forgery & Counterfeiting,2020,5,76,91
+Forgery & Counterfeiting,2020,6,62,83
+Forgery & Counterfeiting,2020,7,64,67
+Forgery & Counterfeiting,2020,8,77,68
+Forgery & Counterfeiting,2020,9,75,72
+Forgery & Counterfeiting,2020,10,74,75
+Forgery & Counterfeiting,2020,11,75,75
+Forgery & Counterfeiting,2020,12,77,75
+Forgery & Counterfeiting,2021,1,70,NA
+Forgery & Counterfeiting,2021,2,59,NA
+Forgery & Counterfeiting,2021,3,57,62
+Forgery & Counterfeiting,2021,4,55,57
+Forgery & Counterfeiting,2021,5,60,57
+Forgery & Counterfeiting,2021,6,63,59
+Forgery & Counterfeiting,2021,7,73,65
+Forgery & Counterfeiting,2021,8,84,73
+Forgery & Counterfeiting,2021,9,81,79
+Forgery & Counterfeiting,2021,10,115,93
+Forgery & Counterfeiting,2021,11,136,111
+Forgery & Counterfeiting,2021,12,153,135
+Forgery & Counterfeiting,2022,1,152,NA
+Forgery & Counterfeiting,2022,2,123,NA
+Forgery & Counterfeiting,2022,3,167,147
+Forgery & Counterfeiting,2022,4,143,144
+Forgery & Counterfeiting,2022,5,127,146
+Forgery & Counterfeiting,2022,6,152,141
+Forgery & Counterfeiting,2022,7,168,149
+Forgery & Counterfeiting,2022,8,239,186
+Forgery & Counterfeiting,2022,9,255,221
+Forgery & Counterfeiting,2022,10,126,207
+Fraud,2019,1,1502,NA
+Fraud,2019,2,1373,NA
+Fraud,2019,3,1549,1475
+Fraud,2019,4,1505,1476
+Fraud,2019,5,1563,1539
+Fraud,2019,6,1472,1513
+Fraud,2019,7,1613,1549
+Fraud,2019,8,1583,1556
+Fraud,2019,9,1491,1562
+Fraud,2019,10,1547,1540
+Fraud,2019,11,1552,1530
+Fraud,2019,12,1494,1531
+Fraud,2020,1,1520,NA
+Fraud,2020,2,1299,NA
+Fraud,2020,3,1183,1334
+Fraud,2020,4,1052,1178
+Fraud,2020,5,1013,1083
+Fraud,2020,6,1136,1067
+Fraud,2020,7,1353,1167
+Fraud,2020,8,1148,1212
+Fraud,2020,9,1155,1219
+Fraud,2020,10,2038,1447
+Fraud,2020,11,2016,1736
+Fraud,2020,12,2807,2287
+Fraud,2021,1,2502,NA
+Fraud,2021,2,1571,NA
+Fraud,2021,3,1573,1882
+Fraud,2021,4,1168,1437
+Fraud,2021,5,1230,1324
+Fraud,2021,6,1461,1286
+Fraud,2021,7,1280,1324
+Fraud,2021,8,1243,1328
+Fraud,2021,9,1222,1248
+Fraud,2021,10,1143,1203
+Fraud,2021,11,1043,1136
+Fraud,2021,12,1022,1069
+Fraud,2022,1,1098,NA
+Fraud,2022,2,902,NA
+Fraud,2022,3,1179,1060
+Fraud,2022,4,1140,1074
+Fraud,2022,5,1112,1144
+Fraud,2022,6,1118,1123
+Fraud,2022,7,1056,1095
+Fraud,2022,8,1063,1079
+Fraud,2022,9,1039,1053
+Fraud,2022,10,484,862
+Gambling,2019,1,4,NA
+Gambling,2019,2,2,NA
+Gambling,2019,3,5,4
+Gambling,2019,4,3,3
+Gambling,2019,5,14,7
+Gambling,2019,6,28,15
+Gambling,2019,7,13,18
+Gambling,2019,8,32,24
+Gambling,2019,9,24,23
+Gambling,2019,10,12,23
+Gambling,2019,11,4,13
+Gambling,2019,12,2,6
+Gambling,2020,1,2,NA
+Gambling,2020,3,4,NA
+Gambling,2020,5,1,2
+Gambling,2020,6,7,4
+Gambling,2020,7,2,3
+Gambling,2020,8,3,4
+Gambling,2020,9,3,3
+Gambling,2020,10,1,2
+Gambling,2020,11,3,2
+Gambling,2021,3,1,NA
+Gambling,2021,4,2,NA
+Gambling,2021,5,1,1
+Gambling,2021,6,3,2
+Gambling,2021,7,1,2
+Gambling,2021,9,1,2
+Gambling,2021,10,3,2
+Gambling,2021,11,1,2
+Gambling,2022,3,1,NA
+Gambling,2022,5,3,NA
+Gambling,2022,6,2,2
+Gambling,2022,7,2,2
+Gambling,2022,8,2,2
+Human Trafficking,2019,1,3,NA
+Human Trafficking,2019,3,1,NA
+Human Trafficking,2019,4,1,2
+Human Trafficking,2019,6,4,2
+Human Trafficking,2019,7,1,2
+Human Trafficking,2019,8,3,3
+Human Trafficking,2019,9,1,2
+Human Trafficking,2019,10,1,2
+Human Trafficking,2020,2,2,NA
+Human Trafficking,2020,5,1,NA
+Human Trafficking,2020,7,1,1
+Human Trafficking,2020,9,1,1
+Human Trafficking,2021,1,2,NA
+Human Trafficking,2021,2,1,NA
+Human Trafficking,2021,5,2,2
+Human Trafficking,2021,7,1,1
+Human Trafficking,2021,9,3,2
+Human Trafficking,2021,10,1,2
+Human Trafficking,2021,11,1,2
+Human Trafficking,2022,1,2,NA
+Human Trafficking,2022,2,4,NA
+Human Trafficking,2022,3,2,3
+Human Trafficking,2022,6,3,3
+Human Trafficking,2022,7,2,2
+Human Trafficking,2022,8,2,2
+Involuntary Manslaughter,2019,3,3,NA
+Involuntary Manslaughter,2019,4,1,NA
+Involuntary Manslaughter,2019,5,1,2
+Involuntary Manslaughter,2019,6,1,1
+Involuntary Manslaughter,2019,8,2,1
+Involuntary Manslaughter,2019,12,2,2
+Involuntary Manslaughter,2020,2,2,NA
+Involuntary Manslaughter,2020,5,1,NA
+Involuntary Manslaughter,2020,7,2,2
+Involuntary Manslaughter,2020,10,2,2
+Involuntary Manslaughter,2020,11,1,2
+Involuntary Manslaughter,2020,12,1,1
+Involuntary Manslaughter,2021,1,1,NA
+Involuntary Manslaughter,2021,2,1,NA
+Involuntary Manslaughter,2021,4,1,1
+Involuntary Manslaughter,2021,8,1,1
+Involuntary Manslaughter,2021,9,1,1
+Involuntary Manslaughter,2021,10,1,1
+Involuntary Manslaughter,2022,1,1,NA
+Involuntary Manslaughter,2022,4,1,NA
+Involuntary Manslaughter,2022,9,2,1
+Liquor License,2019,1,21,NA
+Liquor License,2019,2,9,NA
+Liquor License,2019,3,18,16
+Liquor License,2019,4,13,13
+Liquor License,2019,5,15,15
+Liquor License,2019,6,23,17
+Liquor License,2019,7,36,25
+Liquor License,2019,8,29,29
+Liquor License,2019,9,25,30
+Liquor License,2019,10,18,24
+Liquor License,2019,11,19,21
+Liquor License,2019,12,6,14
+Liquor License,2020,1,15,NA
+Liquor License,2020,2,21,NA
+Liquor License,2020,3,11,16
+Liquor License,2020,4,1,11
+Liquor License,2020,5,4,5
+Liquor License,2020,6,1,2
+Liquor License,2020,7,29,11
+Liquor License,2020,8,28,19
+Liquor License,2020,9,15,24
+Liquor License,2020,10,11,18
+Liquor License,2020,11,3,10
+Liquor License,2020,12,4,6
+Liquor License,2021,1,5,NA
+Liquor License,2021,2,18,NA
+Liquor License,2021,3,10,11
+Liquor License,2021,4,8,12
+Liquor License,2021,5,17,12
+Liquor License,2021,6,17,14
+Liquor License,2021,7,10,15
+Liquor License,2021,8,9,12
+Liquor License,2021,9,25,15
+Liquor License,2021,10,20,18
+Liquor License,2021,11,29,25
+Liquor License,2021,12,16,22
+Liquor License,2022,1,5,NA
+Liquor License,2022,2,4,NA
+Liquor License,2022,3,21,10
+Liquor License,2022,4,15,13
+Liquor License,2022,5,25,20
+Liquor License,2022,6,33,24
+Liquor License,2022,7,22,27
+Liquor License,2022,8,7,21
+Liquor License,2022,9,19,16
+Liquor License,2022,10,10,12
+Misc Non-Index Offense,2019,1,2348,NA
+Misc Non-Index Offense,2019,2,2223,NA
+Misc Non-Index Offense,2019,3,2335,2302
+Misc Non-Index Offense,2019,4,2414,2324
+Misc Non-Index Offense,2019,5,2565,2438
+Misc Non-Index Offense,2019,6,2407,2462
+Misc Non-Index Offense,2019,7,2473,2482
+Misc Non-Index Offense,2019,8,2306,2395
+Misc Non-Index Offense,2019,9,2324,2368
+Misc Non-Index Offense,2019,10,2319,2316
+Misc Non-Index Offense,2019,11,2057,2233
+Misc Non-Index Offense,2019,12,2040,2139
+Misc Non-Index Offense,2020,1,2353,NA
+Misc Non-Index Offense,2020,2,2112,NA
+Misc Non-Index Offense,2020,3,1768,2078
+Misc Non-Index Offense,2020,4,1101,1660
+Misc Non-Index Offense,2020,5,1673,1514
+Misc Non-Index Offense,2020,6,1507,1427
+Misc Non-Index Offense,2020,7,1661,1614
+Misc Non-Index Offense,2020,8,1672,1613
+Misc Non-Index Offense,2020,9,1704,1679
+Misc Non-Index Offense,2020,10,1622,1666
+Misc Non-Index Offense,2020,11,1383,1570
+Misc Non-Index Offense,2020,12,1413,1473
+Misc Non-Index Offense,2021,1,1471,NA
+Misc Non-Index Offense,2021,2,1346,NA
+Misc Non-Index Offense,2021,3,1667,1495
+Misc Non-Index Offense,2021,4,1666,1560
+Misc Non-Index Offense,2021,5,1885,1739
+Misc Non-Index Offense,2021,6,1911,1821
+Misc Non-Index Offense,2021,7,1727,1841
+Misc Non-Index Offense,2021,8,1583,1740
+Misc Non-Index Offense,2021,9,1677,1662
+Misc Non-Index Offense,2021,10,1693,1651
+Misc Non-Index Offense,2021,11,1526,1632
+Misc Non-Index Offense,2021,12,1488,1569
+Misc Non-Index Offense,2022,1,1449,NA
+Misc Non-Index Offense,2022,2,1567,NA
+Misc Non-Index Offense,2022,3,1916,1644
+Misc Non-Index Offense,2022,4,1914,1799
+Misc Non-Index Offense,2022,5,1961,1930
+Misc Non-Index Offense,2022,6,1827,1901
+Misc Non-Index Offense,2022,7,1865,1884
+Misc Non-Index Offense,2022,8,1777,1823
+Misc Non-Index Offense,2022,9,1678,1773
+Misc Non-Index Offense,2022,10,913,1456
+Motor Vehicle Theft,2019,1,708,NA
+Motor Vehicle Theft,2019,2,654,NA
+Motor Vehicle Theft,2019,3,717,693
+Motor Vehicle Theft,2019,4,770,714
+Motor Vehicle Theft,2019,5,764,750
+Motor Vehicle Theft,2019,6,773,769
+Motor Vehicle Theft,2019,7,885,807
+Motor Vehicle Theft,2019,8,843,834
+Motor Vehicle Theft,2019,9,679,802
+Motor Vehicle Theft,2019,10,726,749
+Motor Vehicle Theft,2019,11,692,699
+Motor Vehicle Theft,2019,12,767,728
+Motor Vehicle Theft,2020,1,668,NA
+Motor Vehicle Theft,2020,2,652,NA
+Motor Vehicle Theft,2020,3,628,649
+Motor Vehicle Theft,2020,4,659,646
+Motor Vehicle Theft,2020,5,829,705
+Motor Vehicle Theft,2020,6,794,761
+Motor Vehicle Theft,2020,7,959,861
+Motor Vehicle Theft,2020,8,996,916
+Motor Vehicle Theft,2020,9,921,959
+Motor Vehicle Theft,2020,10,1000,972
+Motor Vehicle Theft,2020,11,938,953
+Motor Vehicle Theft,2020,12,911,950
+Motor Vehicle Theft,2021,1,802,NA
+Motor Vehicle Theft,2021,2,630,NA
+Motor Vehicle Theft,2021,3,787,740
+Motor Vehicle Theft,2021,4,714,710
+Motor Vehicle Theft,2021,5,746,749
+Motor Vehicle Theft,2021,6,834,765
+Motor Vehicle Theft,2021,7,836,805
+Motor Vehicle Theft,2021,8,910,860
+Motor Vehicle Theft,2021,9,1016,921
+Motor Vehicle Theft,2021,10,1159,1028
+Motor Vehicle Theft,2021,11,1063,1079
+Motor Vehicle Theft,2021,12,1096,1106
+Motor Vehicle Theft,2022,1,1107,NA
+Motor Vehicle Theft,2022,2,959,NA
+Motor Vehicle Theft,2022,3,1070,1045
+Motor Vehicle Theft,2022,4,1004,1011
+Motor Vehicle Theft,2022,5,1022,1032
+Motor Vehicle Theft,2022,6,1136,1054
+Motor Vehicle Theft,2022,7,1752,1303
+Motor Vehicle Theft,2022,8,2104,1664
+Motor Vehicle Theft,2022,9,2400,2085
+Motor Vehicle Theft,2022,10,1728,2077
+Murder,2019,1,23,NA
+Murder,2019,2,25,NA
+Murder,2019,3,34,27
+Murder,2019,4,60,40
+Murder,2019,5,54,49
+Murder,2019,6,51,55
+Murder,2019,7,44,50
+Murder,2019,8,49,48
+Murder,2019,9,51,48
+Murder,2019,10,41,47
+Murder,2019,11,34,42
+Murder,2019,12,32,36
+Murder,2020,1,36,NA
+Murder,2020,2,36,NA
+Murder,2020,3,30,34
+Murder,2020,4,62,43
+Murder,2020,5,85,59
+Murder,2020,6,94,80
+Murder,2020,7,109,96
+Murder,2020,8,68,90
+Murder,2020,9,83,87
+Murder,2020,10,66,72
+Murder,2020,11,62,70
+Murder,2020,12,56,61
+Murder,2021,1,54,NA
+Murder,2021,2,37,NA
+Murder,2021,3,45,45
+Murder,2021,4,54,45
+Murder,2021,5,66,55
+Murder,2021,6,84,68
+Murder,2021,7,112,87
+Murder,2021,8,82,93
+Murder,2021,9,91,95
+Murder,2021,10,62,78
+Murder,2021,11,62,72
+Murder,2021,12,54,59
+Murder,2022,1,52,NA
+Murder,2022,2,44,NA
+Murder,2022,3,39,45
+Murder,2022,4,52,45
+Murder,2022,5,62,51
+Murder,2022,6,73,62
+Murder,2022,7,66,67
+Murder,2022,8,68,69
+Murder,2022,9,72,69
+Murder,2022,10,33,58
+Offenses Against Family,2019,1,117,NA
+Offenses Against Family,2019,2,108,NA
+Offenses Against Family,2019,3,118,114
+Offenses Against Family,2019,4,130,119
+Offenses Against Family,2019,5,148,132
+Offenses Against Family,2019,6,107,128
+Offenses Against Family,2019,7,87,114
+Offenses Against Family,2019,8,81,92
+Offenses Against Family,2019,9,106,91
+Offenses Against Family,2019,10,94,94
+Offenses Against Family,2019,11,104,101
+Offenses Against Family,2019,12,93,97
+Offenses Against Family,2020,1,119,NA
+Offenses Against Family,2020,2,105,NA
+Offenses Against Family,2020,3,78,101
+Offenses Against Family,2020,4,64,82
+Offenses Against Family,2020,5,68,70
+Offenses Against Family,2020,6,80,71
+Offenses Against Family,2020,7,71,73
+Offenses Against Family,2020,8,64,72
+Offenses Against Family,2020,9,64,66
+Offenses Against Family,2020,10,63,64
+Offenses Against Family,2020,11,54,60
+Offenses Against Family,2020,12,59,59
+Offenses Against Family,2021,1,76,NA
+Offenses Against Family,2021,2,48,NA
+Offenses Against Family,2021,3,72,65
+Offenses Against Family,2021,4,83,68
+Offenses Against Family,2021,5,106,87
+Offenses Against Family,2021,6,80,90
+Offenses Against Family,2021,7,73,86
+Offenses Against Family,2021,8,53,69
+Offenses Against Family,2021,9,81,69
+Offenses Against Family,2021,10,77,70
+Offenses Against Family,2021,11,86,81
+Offenses Against Family,2021,12,70,78
+Offenses Against Family,2022,1,72,NA
+Offenses Against Family,2022,2,85,NA
+Offenses Against Family,2022,3,100,86
+Offenses Against Family,2022,4,81,89
+Offenses Against Family,2022,5,101,94
+Offenses Against Family,2022,6,68,83
+Offenses Against Family,2022,7,71,80
+Offenses Against Family,2022,8,90,76
+Offenses Against Family,2022,9,88,83
+Offenses Against Family,2022,10,39,72
+Prostitution,2019,1,74,NA
+Prostitution,2019,2,45,NA
+Prostitution,2019,3,55,58
+Prostitution,2019,4,51,50
+Prostitution,2019,5,73,60
+Prostitution,2019,6,54,59
+Prostitution,2019,7,106,78
+Prostitution,2019,8,85,82
+Prostitution,2019,9,39,77
+Prostitution,2019,10,50,58
+Prostitution,2019,11,72,54
+Prostitution,2019,12,59,60
+Prostitution,2020,1,47,NA
+Prostitution,2020,2,30,NA
+Prostitution,2020,3,21,33
+Prostitution,2020,4,10,20
+Prostitution,2020,5,16,16
+Prostitution,2020,6,33,20
+Prostitution,2020,7,84,44
+Prostitution,2020,8,16,44
+Prostitution,2020,9,54,51
+Prostitution,2020,10,11,27
+Prostitution,2020,11,12,26
+Prostitution,2020,12,6,10
+Prostitution,2021,1,10,NA
+Prostitution,2021,2,14,NA
+Prostitution,2021,3,14,13
+Prostitution,2021,4,8,12
+Prostitution,2021,5,13,12
+Prostitution,2021,6,12,11
+Prostitution,2021,7,23,16
+Prostitution,2021,8,11,15
+Prostitution,2021,9,26,20
+Prostitution,2021,10,6,14
+Prostitution,2021,11,7,13
+Prostitution,2021,12,29,14
+Prostitution,2022,1,25,NA
+Prostitution,2022,2,48,NA
+Prostitution,2022,3,7,27
+Prostitution,2022,4,41,32
+Prostitution,2022,5,43,30
+Prostitution,2022,6,16,33
+Prostitution,2022,7,11,23
+Prostitution,2022,8,33,20
+Prostitution,2022,9,63,36
+Prostitution,2022,10,24,40
+Robbery,2019,1,658,NA
+Robbery,2019,2,497,NA
+Robbery,2019,3,509,555
+Robbery,2019,4,599,535
+Robbery,2019,5,632,580
+Robbery,2019,6,767,666
+Robbery,2019,7,776,725
+Robbery,2019,8,769,771
+Robbery,2019,9,691,745
+Robbery,2019,10,686,715
+Robbery,2019,11,666,681
+Robbery,2019,12,744,699
+Robbery,2020,1,725,NA
+Robbery,2020,2,637,NA
+Robbery,2020,3,496,619
+Robbery,2020,4,455,529
+Robbery,2020,5,599,517
+Robbery,2020,6,574,543
+Robbery,2020,7,734,636
+Robbery,2020,8,816,708
+Robbery,2020,9,743,764
+Robbery,2020,10,756,772
+Robbery,2020,11,755,751
+Robbery,2020,12,565,692
+Robbery,2021,1,727,NA
+Robbery,2021,2,478,NA
+Robbery,2021,3,482,562
+Robbery,2021,4,466,475
+Robbery,2021,5,505,484
+Robbery,2021,6,600,524
+Robbery,2021,7,712,606
+Robbery,2021,8,655,656
+Robbery,2021,9,773,713
+Robbery,2021,10,837,755
+Robbery,2021,11,781,797
+Robbery,2021,12,903,840
+Robbery,2022,1,685,NA
+Robbery,2022,2,616,NA
+Robbery,2022,3,591,631
+Robbery,2022,4,601,603
+Robbery,2022,5,668,620
+Robbery,2022,6,733,667
+Robbery,2022,7,767,723
+Robbery,2022,8,753,751
+Robbery,2022,9,871,797
+Robbery,2022,10,542,722
+Simple Assault,2019,1,1032,NA
+Simple Assault,2019,2,1062,NA
+Simple Assault,2019,3,1231,1108
+Simple Assault,2019,4,1251,1181
+Simple Assault,2019,5,1491,1324
+Simple Assault,2019,6,1469,1404
+Simple Assault,2019,7,1375,1445
+Simple Assault,2019,8,1318,1387
+Simple Assault,2019,9,1336,1343
+Simple Assault,2019,10,1241,1298
+Simple Assault,2019,11,1057,1211
+Simple Assault,2019,12,1111,1136
+Simple Assault,2020,1,1093,NA
+Simple Assault,2020,2,1014,NA
+Simple Assault,2020,3,1035,1047
+Simple Assault,2020,4,713,921
+Simple Assault,2020,5,951,900
+Simple Assault,2020,6,1093,919
+Simple Assault,2020,7,1250,1098
+Simple Assault,2020,8,1237,1193
+Simple Assault,2020,9,1148,1212
+Simple Assault,2020,10,941,1109
+Simple Assault,2020,11,872,987
+Simple Assault,2020,12,827,880
+Simple Assault,2021,1,889,NA
+Simple Assault,2021,2,858,NA
+Simple Assault,2021,3,950,899
+Simple Assault,2021,4,1040,949
+Simple Assault,2021,5,1190,1060
+Simple Assault,2021,6,1248,1159
+Simple Assault,2021,7,1271,1236
+Simple Assault,2021,8,1191,1237
+Simple Assault,2021,9,1347,1270
+Simple Assault,2021,10,1249,1262
+Simple Assault,2021,11,1085,1227
+Simple Assault,2021,12,1046,1127
+Simple Assault,2022,1,880,NA
+Simple Assault,2022,2,984,NA
+Simple Assault,2022,3,1113,992
+Simple Assault,2022,4,1036,1044
+Simple Assault,2022,5,1311,1153
+Simple Assault,2022,6,1326,1224
+Simple Assault,2022,7,1297,1311
+Simple Assault,2022,8,1281,1301
+Simple Assault,2022,9,1242,1273
+Simple Assault,2022,10,656,1060
+Simple Battery,2019,1,3056,NA
+Simple Battery,2019,2,2868,NA
+Simple Battery,2019,3,3484,3136
+Simple Battery,2019,4,3366,3239
+Simple Battery,2019,5,4013,3621
+Simple Battery,2019,6,3957,3779
+Simple Battery,2019,7,3982,3984
+Simple Battery,2019,8,3785,3908
+Simple Battery,2019,9,3632,3800
+Simple Battery,2019,10,3224,3547
+Simple Battery,2019,11,3074,3310
+Simple Battery,2019,12,3217,3172
+Simple Battery,2020,1,3062,NA
+Simple Battery,2020,2,2894,NA
+Simple Battery,2020,3,3021,2992
+Simple Battery,2020,4,2190,2702
+Simple Battery,2020,5,2760,2657
+Simple Battery,2020,6,2987,2646
+Simple Battery,2020,7,3251,2999
+Simple Battery,2020,8,3146,3128
+Simple Battery,2020,9,2701,3033
+Simple Battery,2020,10,2571,2806
+Simple Battery,2020,11,2400,2557
+Simple Battery,2020,12,2214,2395
+Simple Battery,2021,1,2264,NA
+Simple Battery,2021,2,2025,NA
+Simple Battery,2021,3,2488,2259
+Simple Battery,2021,4,2471,2328
+Simple Battery,2021,5,2888,2616
+Simple Battery,2021,6,3010,2790
+Simple Battery,2021,7,2990,2963
+Simple Battery,2021,8,2953,2984
+Simple Battery,2021,9,2988,2977
+Simple Battery,2021,10,2976,2972
+Simple Battery,2021,11,2481,2815
+Simple Battery,2021,12,2577,2678
+Simple Battery,2022,1,2338,NA
+Simple Battery,2022,2,2310,NA
+Simple Battery,2022,3,2787,2478
+Simple Battery,2022,4,2779,2625
+Simple Battery,2022,5,3225,2930
+Simple Battery,2022,6,3165,3056
+Simple Battery,2022,7,2957,3116
+Simple Battery,2022,8,2982,3035
+Simple Battery,2022,9,2956,2965
+Simple Battery,2022,10,1534,2491
+Stolen Property,2019,1,8,NA
+Stolen Property,2019,2,2,NA
+Stolen Property,2019,3,5,5
+Stolen Property,2019,4,2,3
+Stolen Property,2019,5,1,3
+Stolen Property,2019,6,2,2
+Stolen Property,2019,7,4,2
+Stolen Property,2019,8,5,4
+Stolen Property,2019,9,4,4
+Stolen Property,2019,10,4,4
+Stolen Property,2019,11,3,4
+Stolen Property,2019,12,3,3
+Stolen Property,2020,1,2,NA
+Stolen Property,2020,2,3,NA
+Stolen Property,2020,3,1,2
+Stolen Property,2020,4,1,2
+Stolen Property,2020,5,2,1
+Stolen Property,2020,6,2,2
+Stolen Property,2020,7,1,2
+Stolen Property,2020,8,21,8
+Stolen Property,2020,9,21,14
+Stolen Property,2020,10,2,15
+Stolen Property,2020,11,3,9
+Stolen Property,2021,1,1,NA
+Stolen Property,2021,2,2,NA
+Stolen Property,2021,3,2,2
+Stolen Property,2021,4,1,2
+Stolen Property,2021,5,2,2
+Stolen Property,2021,7,3,2
+Stolen Property,2021,8,3,3
+Stolen Property,2021,9,3,3
+Stolen Property,2021,10,2,3
+Stolen Property,2021,11,3,3
+Stolen Property,2021,12,3,3
+Stolen Property,2022,1,3,NA
+Stolen Property,2022,2,4,NA
+Stolen Property,2022,3,9,5
+Stolen Property,2022,4,8,7
+Stolen Property,2022,5,5,7
+Stolen Property,2022,6,5,6
+Stolen Property,2022,7,7,6
+Stolen Property,2022,8,9,7
+Stolen Property,2022,9,4,7
+Stolen Property,2022,10,6,6
+Theft,2019,1,3449,NA
+Theft,2019,2,3310,NA
+Theft,2019,3,3488,3416
+Theft,2019,4,3636,3478
+Theft,2019,5,4226,3783
+Theft,2019,6,4360,4074
+Theft,2019,7,4627,4404
+Theft,2019,8,4575,4521
+Theft,2019,9,4099,4434
+Theft,2019,10,4069,4248
+Theft,2019,11,3742,3970
+Theft,2019,12,4218,4010
+Theft,2020,1,3637,NA
+Theft,2020,2,3219,NA
+Theft,2020,3,2656,3171
+Theft,2020,4,1948,2608
+Theft,2020,5,2205,2270
+Theft,2020,6,2231,2128
+Theft,2020,7,2644,2360
+Theft,2020,8,2791,2555
+Theft,2020,9,2581,2672
+Theft,2020,10,2470,2614
+Theft,2020,11,2109,2387
+Theft,2020,12,2071,2217
+Theft,2021,1,1944,NA
+Theft,2021,2,1525,NA
+Theft,2021,3,1957,1809
+Theft,2021,4,1950,1811
+Theft,2021,5,2227,2045
+Theft,2021,6,2344,2174
+Theft,2021,7,2681,2417
+Theft,2021,8,2606,2544
+Theft,2021,9,2598,2628
+Theft,2021,10,2761,2655
+Theft,2021,11,2611,2657
+Theft,2021,12,2538,2637
+Theft,2022,1,2299,NA
+Theft,2022,2,2240,NA
+Theft,2022,3,2670,2403
+Theft,2022,4,2617,2509
+Theft,2022,5,2791,2693
+Theft,2022,6,3145,2851
+Theft,2022,7,3576,3171
+Theft,2022,8,3245,3322
+Theft,2022,9,3115,3312
+Theft,2022,10,1700,2687
+Theft Over $500,2019,1,1108,NA
+Theft Over $500,2019,2,1082,NA
+Theft Over $500,2019,3,990,1060
+Theft Over $500,2019,4,1017,1030
+Theft Over $500,2019,5,1171,1059
+Theft Over $500,2019,6,1295,1161
+Theft Over $500,2019,7,1371,1279
+Theft Over $500,2019,8,1598,1421
+Theft Over $500,2019,9,1344,1438
+Theft Over $500,2019,10,1320,1421
+Theft Over $500,2019,11,1145,1270
+Theft Over $500,2019,12,1240,1235
+Theft Over $500,2020,1,966,NA
+Theft Over $500,2020,2,957,NA
+Theft Over $500,2020,3,875,933
+Theft Over $500,2020,4,558,797
+Theft Over $500,2020,5,716,716
+Theft Over $500,2020,6,852,709
+Theft Over $500,2020,7,1029,866
+Theft Over $500,2020,8,1093,991
+Theft Over $500,2020,9,1040,1054
+Theft Over $500,2020,10,954,1029
+Theft Over $500,2020,11,854,949
+Theft Over $500,2020,12,848,885
+Theft Over $500,2021,1,723,NA
+Theft Over $500,2021,2,596,NA
+Theft Over $500,2021,3,780,700
+Theft Over $500,2021,4,845,740
+Theft Over $500,2021,5,1042,889
+Theft Over $500,2021,6,1155,1014
+Theft Over $500,2021,7,1278,1158
+Theft Over $500,2021,8,1277,1237
+Theft Over $500,2021,9,1353,1303
+Theft Over $500,2021,10,1463,1364
+Theft Over $500,2021,11,1223,1346
+Theft Over $500,2021,12,1278,1321
+Theft Over $500,2022,1,1079,NA
+Theft Over $500,2022,2,1067,NA
+Theft Over $500,2022,3,1473,1206
+Theft Over $500,2022,4,1303,1281
+Theft Over $500,2022,5,1691,1489
+Theft Over $500,2022,6,1872,1622
+Theft Over $500,2022,7,2122,1895
+Theft Over $500,2022,8,1944,1979
+Theft Over $500,2022,9,1891,1986
+Theft Over $500,2022,10,1128,1654
+Vandalism,2019,1,1727,NA
+Vandalism,2019,2,1628,NA
+Vandalism,2019,3,1939,1765
+Vandalism,2019,4,2198,1922
+Vandalism,2019,5,2419,2185
+Vandalism,2019,6,2449,2355
+Vandalism,2019,7,2519,2462
+Vandalism,2019,8,2480,2483
+Vandalism,2019,9,2295,2431
+Vandalism,2019,10,2232,2336
+Vandalism,2019,11,1917,2148
+Vandalism,2019,12,1914,2021
+Vandalism,2020,1,1716,NA
+Vandalism,2020,2,1682,NA
+Vandalism,2020,3,1828,1742
+Vandalism,2020,4,1726,1745
+Vandalism,2020,5,2422,1992
+Vandalism,2020,6,2395,2181
+Vandalism,2020,7,2450,2422
+Vandalism,2020,8,2303,2383
+Vandalism,2020,9,2107,2287
+Vandalism,2020,10,2080,2163
+Vandalism,2020,11,1828,2005
+Vandalism,2020,12,1636,1848
+Vandalism,2021,1,1689,NA
+Vandalism,2021,2,1430,NA
+Vandalism,2021,3,1865,1661
+Vandalism,2021,4,1895,1730
+Vandalism,2021,5,2244,2001
+Vandalism,2021,6,2268,2136
+Vandalism,2021,7,2442,2318
+Vandalism,2021,8,2278,2329
+Vandalism,2021,9,2261,2327
+Vandalism,2021,10,2196,2245
+Vandalism,2021,11,2047,2168
+Vandalism,2021,12,1976,2073
+Vandalism,2022,1,1651,NA
+Vandalism,2022,2,1531,NA
+Vandalism,2022,3,1967,1716
+Vandalism,2022,4,1989,1829
+Vandalism,2022,5,2151,2036
+Vandalism,2022,6,2280,2140
+Vandalism,2022,7,2530,2320
+Vandalism,2022,8,2661,2490
+Vandalism,2022,9,2575,2589
+Vandalism,2022,10,1566,2267
+Weapons Violation,2019,1,459,NA
+Weapons Violation,2019,2,389,NA
+Weapons Violation,2019,3,510,453
+Weapons Violation,2019,4,543,481
+Weapons Violation,2019,5,637,563
+Weapons Violation,2019,6,584,588
+Weapons Violation,2019,7,695,639
+Weapons Violation,2019,8,673,651
+Weapons Violation,2019,9,585,651
+Weapons Violation,2019,10,496,585
+Weapons Violation,2019,11,468,516
+Weapons Violation,2019,12,520,495
+Weapons Violation,2020,1,505,NA
+Weapons Violation,2020,2,474,NA
+Weapons Violation,2020,3,475,485
+Weapons Violation,2020,4,481,477
+Weapons Violation,2020,5,804,587
+Weapons Violation,2020,6,795,693
+Weapons Violation,2020,7,818,806
+Weapons Violation,2020,8,996,870
+Weapons Violation,2020,9,848,887
+Weapons Violation,2020,10,820,888
+Weapons Violation,2020,11,790,819
+Weapons Violation,2020,12,773,794
+Weapons Violation,2021,1,716,NA
+Weapons Violation,2021,2,482,NA
+Weapons Violation,2021,3,775,658
+Weapons Violation,2021,4,795,684
+Weapons Violation,2021,5,879,816
+Weapons Violation,2021,6,926,867
+Weapons Violation,2021,7,849,885
+Weapons Violation,2021,8,812,862
+Weapons Violation,2021,9,830,830
+Weapons Violation,2021,10,755,799
+Weapons Violation,2021,11,707,764
+Weapons Violation,2021,12,622,695
+Weapons Violation,2022,1,552,NA
+Weapons Violation,2022,2,589,NA
+Weapons Violation,2022,3,707,616
+Weapons Violation,2022,4,747,681
+Weapons Violation,2022,5,965,806
+Weapons Violation,2022,6,875,862
+Weapons Violation,2022,7,899,913
+Weapons Violation,2022,8,849,874
+Weapons Violation,2022,9,791,846
+Weapons Violation,2022,10,421,687

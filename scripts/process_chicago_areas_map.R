@@ -50,8 +50,8 @@ areas <- st_make_valid(areas)
 
 # saving a clean geojson and separate RDS for use in tracker
 file.remove("data/source/geo/areas.geojson")
-st_write(beats,"data/source/geo/areas.geojson")
-saveRDS(beats,"scripts/rds/areas.rds")
+st_write(areas,"data/source/geo/areas.geojson")
+saveRDS(areas,"scripts/rds/areas.rds")
 
 # BARE AREAS MAP JUST FOR TESTING PURPOSES
 # CAN COMMENT OUT ONCE FINALIZED

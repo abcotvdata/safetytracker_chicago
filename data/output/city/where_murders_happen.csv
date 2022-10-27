@@ -1,0 +1,34 @@
+location_description,2019,2020,2021,2022,last12
+Alley,34,48,45,35,43
+Auto,32,83,90,19,32
+Business,5,20,34,10,19
+Cha Grounds,1,1,0,0,0
+Cha Parking Lot,3,6,1,2,2
+Cha Play Lot,1,0,0,0,0
+Gangway,1,2,2,0,1
+Garage,2,1,4,2,3
+Hotel,2,4,1,2,2
+Other,2,5,5,4,4
+Park Property,3,10,8,9,9
+Parking Lot/Garage,11,19,21,16,21
+Railroad Property,1,0,0,1,1
+Residence,84,104,118,86,107
+Restaurant,4,2,4,3,4
+Retail Store,2,9,6,7,8
+Street,297,412,429,321,397
+Transit,2,4,4,9,9
+Vacant Lot,2,10,9,1,3
+Yard,9,28,17,24,26
+Abandoned Building,0,3,0,0,0
+Cha Apartment,0,3,0,1,1
+Cha Hallway,0,1,0,0,0
+Hallway,0,6,3,4,5
+Lake,0,1,0,0,0
+Medical care facility,0,4,0,0,0
+School Property,0,1,1,0,1
+Cha Elevator,0,0,1,0,0
+Banquet Hall,0,0,0,1,1
+Cha Lobby,0,0,0,1,1
+Police Facility,0,0,0,1,1
+River Bank,0,0,0,1,1
+Truck,0,0,0,1,1

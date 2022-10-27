@@ -10,6 +10,7 @@
 *oldcode*
 data/source/annual/*
 data/source/recent/*
+data/output/chicago_crime.csv
 
 # Example code in package build process
 *-Ex.R
