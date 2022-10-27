@@ -339,7 +339,7 @@ sexassaults_area$rate_prior3years,
 </table>")
 
 # Creating police beats map for types of crimes
-houston_sexassault_map <- leaflet(sexassaults_area, options = leafletOptions(zoomControl = FALSE, zoomSnap = 0.5, zoomDelta=0.5)) %>%
+chicago_sexassault_map <- leaflet(sexassaults_area, options = leafletOptions(zoomControl = FALSE, zoomSnap = 0.5, zoomDelta=0.5)) %>%
   htmlwidgets::onRender("function(el, x) {
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
