@@ -237,6 +237,7 @@ chicago_crime$location_description <- case_when(chicago_crime$location_descripti
 # automating the updated date text in building tracker
 asofdate <- max(chicago_crime$date)
 saveRDS(asofdate,"scripts/rds/asofdate.rds")
+areas$community <- str_to_lower(areas$community)
 
 # write csv of Chicago crime as a backup
 # worthwhile to think through if the full csv is even necessary to save; maybe for redundancy

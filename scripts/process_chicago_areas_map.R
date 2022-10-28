@@ -50,6 +50,7 @@ areas <- st_make_valid(areas)
 
 areas <- areas %>% select(1,5,10)
 areas <- areas %>% rename("community_area" = "area_num_1")
+areas$community <- str_to_title(areas$community)
 
 # saving a clean geojson and separate RDS for use in tracker
 file.remove("data/source/geo/areas.geojson")
