@@ -194,7 +194,8 @@ chicago_population <- 2696561
 # Source data pre-processed separately at process_chicago_crime.R
 ```
 
-<h2>ABC7 is tracking crime and safety across Chicago and in your neighborhood. 
+<h2>ABC7 is tracking crime and safety across the city of Chicago and in your neighborhood. 
+
 <br>You can choose which crime to examine: <select onchange="window.location=this.value">
 <option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_Robberies.html">Robberies</option>
 <option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_Batteries.html">Batteries</option>
@@ -229,7 +230,7 @@ Per 100,000 people<br>2019 to 2021</p>
 </div>
 </div>
 <br>
-Robberies over the last 12 months are <h8>`r ifelse(robberies_city$inc_prior3yearavgtolast12>=0," up"," down")` `r ifelse(robberies_city$inc_prior3yearavgtolast12>=0,robberies_city$inc_prior3yearavgtolast12,substring(robberies_city$inc_prior3yearavgtolast12,2))`%</h8> compared to the annual average over the last three years.
+Robberies over the last 12 months are <h8>`r ifelse(robberies_city$inc_prior3yearavgtolast12>=0," up"," down")` `r ifelse(robberies_city$inc_prior3yearavgtolast12>=0,robberies_city$inc_prior3yearavgtolast12,substring(robberies_city$inc_prior3yearavgtolast12,2))`%</h8> compared to the annual average over the last three years, according to Chicago Police Department data through `r format(asofdate, "%B %d")`.
 
 The city averaged <h8>`r round(robberies_city$last12mos/52,0)`</h8> robberies a week over the last 12 months. In 2019, that number was <h8>`r round(robberies_city$total19/52,0)`</h8> a week.
 
