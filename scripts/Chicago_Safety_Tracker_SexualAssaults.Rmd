@@ -239,9 +239,9 @@ The figures included here are for cases Chicago police classify as "criminal sex
 
 <subhead>A closer look at Chicago sexual assaults neighborhood by neighborhood</subhead>
 
-The danger is not the same neighborhood to neighborhood. ABC7's data team looked at the Chicago Police Department's public data about sexual assault reports by neighborhood from 2019 through `r format(asofdate, "%B %d")`.
+The danger is not the same neighborhood to neighborhood. ABC7's data team looked at the Chicago Police Department's public data about sexual assault reports by neighborhood from 2019 through `r format(asofdate, "%B %d, %Y")`.
 
-The map color-codes each neighborhood by the sexual assault rate over the last 12 months. The three darker blue areas are neighborhoods with sexual assault rates higher than the citywide rate. You can also choose to see neighborhoods by the number of reported sexual assaults.
+The map color codes each neighborhood by the sexual assault rate over the last 12 months. The three darker blue areas are neighborhoods with sexual assault rates higher than the citywide rate. You can also choose to see neighborhoods by the number of reported sexual assaults.
 
 Click on any neighborhood on the map to see detailed numbers, rates and trends. You can also search for a street name, place, landmark or zip code.
 
