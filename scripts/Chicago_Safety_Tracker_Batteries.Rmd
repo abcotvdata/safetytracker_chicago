@@ -374,7 +374,7 @@ L.control.zoom({ position: 'topright' }).addTo(this)
             values = batteries_area$rate_last12, 
             pal = batterypal1,
             position = "bottomleft", 
-            title = paste(sep="","<popuptitle>Assault Rate<br><popupchatter>Assaults/100K people<br>Citywide: ",prettyNum(round(batteries_city$rate_last12,0), big.mark=",")),
+            title = paste(sep="","<popuptitle>Battery Rate<br><popupchatter>Aggravated Batteries/100K people<br>Citywide: ",prettyNum(round(batteries_city$rate_last12,0), big.mark=",")),
             group = "Rate",
             className = "info legend Rate") %>%
   addLegend(opacity = 0.6,
