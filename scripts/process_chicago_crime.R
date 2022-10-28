@@ -237,7 +237,6 @@ chicago_crime$location_description <- case_when(chicago_crime$location_descripti
 # automating the updated date text in building tracker
 asofdate <- max(chicago_crime$date)
 saveRDS(asofdate,"scripts/rds/asofdate.rds")
-areas$community <- str_to_lower(areas$community)
 
 # write csv of Chicago crime as a backup
 # worthwhile to think through if the full csv is even necessary to save; maybe for redundancy
@@ -557,7 +556,7 @@ thefts_area <- area_category %>% filter(category=="Theft Over $500")
 burglaries_area <- area_category %>% filter(category=="Burglary")
 robberies_area <- area_category %>% filter(category=="Robbery")
 batteries_area <- area_category %>% filter(category=="Aggravated Battery")
-violence_area <- area_type %>% filter(type=="Violent")
+violence_area <- area_type %>% filter(type=="People")
 property_area <- area_type %>% filter(type=="Property")
 # Create same set of tables for citywide figures
 murders_city <- citywide_detailed %>% filter(category=="Murder")
@@ -567,7 +566,7 @@ thefts_city <- citywide_category %>% filter(category=="Theft Over $500")
 burglaries_city <- citywide_category %>% filter(category=="Burglary")
 robberies_city <- citywide_category %>% filter(category=="Robbery")
 batteries_city <- citywide_category %>% filter(category=="Aggravated Battery")
-violence_city <- citywide_type %>% filter(type=="Violent")
+violence_city <- citywide_type %>% filter(type=="People")
 property_city <- citywide_type %>% filter(type=="Property")
 
 # Using premise to identify the kinds of places where murders happen
