@@ -254,7 +254,7 @@ During the pandemic, a person's chance of being murdered in Chicago rose to almo
 
 The risk is not the same neighborhood to neighborhood.
 
-ABC7's data team looked at the Chicago Police Department's crime incident data by community area from 2019 through `r format(asofdate, "%B %d")`.
+ABC7's data team looked at the Chicago Police Department's crime incident data by community area from 2019 through `r format(asofdate, "%B %d")`. Totals here include murders, but not involuntary manslaughter or justifiable homicide.
 
 <subhead>A closer look at Chicago homicides by neighborhood</subhead>
 
