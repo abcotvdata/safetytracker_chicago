@@ -233,7 +233,9 @@ Per 100,000 people<br>2019 to 2021</p>
 <br>
 Homicides over the last 12 months are trending <h8>`r ifelse(murders_city$inc_21tolast12>=0," up"," down")` `r ifelse(murders_city$inc_21tolast12>=0,murders_city$inc_21tolast12,substring(murders_city$inc_21tolast12,2))`%</h8> compared to 2021.
 
-However, the murder rate over the last 12 months is<h8>`r ifelse(murders_city$inc_prior3yearavgtolast12>=0," up"," down")` `r ifelse(murders_city$inc_prior3yearavgtolast12>=0,murders_city$inc_prior3yearavgtolast12,substring(murders_city$inc_prior3yearavgtolast12,2))`%</h8> compared to the annual average over the last three years, and the frequency of killings remains higher than it was before the pandemic.
+However, the murder rate over the last 12 months is <h8>`r case_when((murders_city$rate_last12-murders_city$rate_prior3years)>=0.25 ~ "up",
+          (murders_city$rate_last12-murders_city$rate_prior3years)<=-0.25 ~ "down",
+          TRUE ~ "about the same ")`</h8> compared to the annual average over the last three years, and the frequency of killings remains higher than it was before the pandemic.
 
 The city averaged <h8>`r round(murders_city$last12mos/52,0)`</h8> homicides a week over the last 12 months. In 2019, that number was <h8>`r round(murders_city$total19/52,0)`</h8> a week.
 
@@ -438,4 +440,12 @@ chicago_murder_map
 <!-- <subhead>What time of day do murders happen?</subhead> -->
 
 <iframe title="What time of day do murders happen?" aria-label="Donut Chart" id="datawrapper-chart-j0udh" src="https://datawrapper.dwcdn.net/j0udh/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="432" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
+<br>
+<br>
+
+<!-- <subhead> comparison to other cities chart </subhead> -->
+
+
+<iframe title="2021 homicide rate comparison in select major cities" aria-label="Bar Chart" id="datawrapper-chart-L5gcd" src="https://datawrapper.dwcdn.net/L5gcd/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="436" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
