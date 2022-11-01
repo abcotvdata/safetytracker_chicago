@@ -345,10 +345,6 @@ L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
   setView(-87.65, 41.83, zoom = 10.5) %>% 
   addProviderTiles(provider = "CartoDB.Positron") %>%
-  setMaxBounds( lng1 = -93
-                 , lat1 = 27
-                 , lng2 = -97
-                 , lat2 = 31) %>%
   addPolygons(color = "white", 
               popup = theftlabel,
               popupOptions = popupOptions(maxWidth ="200", 
