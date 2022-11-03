@@ -233,7 +233,7 @@ Per 100,000 people<br>2019 to 2021</p>
 <br>
 Aggravated batteries over the last 12 months are <h8>`r ifelse(batteries_city$inc_prior3yearavgtolast12>=0," up"," down")` `r ifelse(batteries_city$inc_prior3yearavgtolast12>=0,batteries_city$inc_prior3yearavgtolast12,substring(batteries_city$inc_prior3yearavgtolast12,2))`%</h8> compared to the annual average over the last three years, according to Chicago Police Department data through `r format(asofdate, "%B %d")`.
 
-The city averaged <h8>`r prettyNum(round(batteries_city$last12mos/52,0), big.mark=",")`</h8> batteries a week over the last 12 months. In 2019, that number was <h8>`r prettyNum(round(batteries_city$total19/52,0), big.mark=",")`</h8> a week. In Chicago, 
+The city averaged <h8>`r prettyNum(round(batteries_city$last12mos/52,0), big.mark=",")`</h8> batteries a week over the last 12 months. In 2019, that number was <h8>`r prettyNum(round(batteries_city$total19/52,0), big.mark=",")`</h8> a week.
 
 The totals include only aggravated batteries, which the city police define as someone being seriously injured by another person, whether or not they used a firearm or other weapon.
 
