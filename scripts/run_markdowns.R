@@ -34,15 +34,15 @@ rmarkdown::render('scripts/Chicago_Safety_Tracker_Thefts.Rmd',
                   output_dir = "docs",
                   output_file = 'Chicago_Safety_Tracker_Thefts.html')
 
-# AUTO THEFTS
+# VEHICLE THEFTS
 # Load RDS
 autothefts_area <- readRDS("scripts/rds/autothefts_area.rds")
 autothefts_city <- readRDS("scripts/rds/autothefts_city.rds")
 asofdate <- readRDS("scripts/rds/asofdate.rds")
 # Render page
-rmarkdown::render('scripts/Chicago_Safety_Tracker_AutoThefts.Rmd', 
+rmarkdown::render('scripts/Chicago_Safety_Tracker_VehicleThefts.Rmd', 
                   output_dir = "docs",
-                  output_file = 'Chicago_Safety_Tracker_AutoThefts.html')
+                  output_file = 'Chicago_Safety_Tracker_VehicleThefts.html')
 
 # ROBBERIES
 # Load RDS
