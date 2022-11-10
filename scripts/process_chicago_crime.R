@@ -302,6 +302,7 @@ citywide_detailed_monthly <- citywide_detailed_monthly %>%
 citywide_detailed_monthly$rollavg_3month <- round(citywide_detailed_monthly$rollavg_3month,0)
 # write to save for charts for detailed monthly
 write_csv(citywide_detailed_monthly,"data/output/monthly/citywide_detailed_monthly.csv")
+citywide_detailed_monthly %>% filter(description=="RETAIL THEFT") %>% write_csv("data/output/monthly/retail_theft_monthly.csv")
 
 # Calculate of each category of offense CITYWIDE
 citywide_category <- chicago_crime %>%
@@ -437,7 +438,7 @@ area_detailed$inc_19tolast12 <- round(area_detailed$last12mos/area_detailed$tota
 area_detailed$inc_21tolast12 <- round(area_detailed$last12mos/area_detailed$total21*100-100,1)
 area_detailed$inc_prior3yearavgtolast12 <- round((area_detailed$last12mos/area_detailed$avg_prior3years)*100-100,0)
 # add population for beats
-area_detailed <- full_join(areas,area_detailed,by=c("community"="community_area"))
+area_detailed <- full_join(areas,area_detailed,by=c("community_area"="community_area"))
 # calculate the beat by beat rates PER 1K people
 area_detailed$rate19 <- round(area_detailed$total19/area_detailed$population*100000,1)
 area_detailed$rate20 <- round(area_detailed$total20/area_detailed$population*100000,1)
@@ -558,6 +559,7 @@ robberies_area <- area_category %>% filter(category=="Robbery")
 batteries_area <- area_category %>% filter(category=="Aggravated Battery")
 violence_area <- area_type %>% filter(type=="People")
 property_area <- area_type %>% filter(type=="Property")
+retailthefts_area <- area_detailed %>% filter(description=="RETAIL THEFT")
 # Create same set of tables for citywide figures
 murders_city <- citywide_detailed %>% filter(category=="Murder")
 sexassaults_city <- citywide_category %>% filter(category=="Criminal Sexual Assault")
@@ -568,6 +570,7 @@ robberies_city <- citywide_category %>% filter(category=="Robbery")
 batteries_city <- citywide_category %>% filter(category=="Aggravated Battery")
 violence_city <- citywide_type %>% filter(type=="People")
 property_city <- citywide_type %>% filter(type=="Property")
+retailthefts_city <- citywide_detailed %>% filter(description=="RETAIL THEFT")
 
 # Using premise to identify the kinds of places where murders happen
 where_murders_happen <- chicago_crime %>%
@@ -624,6 +627,7 @@ saveRDS(autothefts_city,"scripts/rds/autothefts_city.rds")
 saveRDS(thefts_city,"scripts/rds/thefts_city.rds")
 saveRDS(burglaries_city,"scripts/rds/burglaries_city.rds")
 saveRDS(robberies_city,"scripts/rds/robberies_city.rds")
+saveRDS(robberies_city,"scripts/rds/retailthefts_city.rds")
 
 saveRDS(murders_area,"scripts/rds/murders_area.rds")
 saveRDS(batteries_area,"scripts/rds/batteries_area.rds")
@@ -632,6 +636,7 @@ saveRDS(autothefts_area,"scripts/rds/autothefts_area.rds")
 saveRDS(thefts_area,"scripts/rds/thefts_area.rds")
 saveRDS(burglaries_area,"scripts/rds/burglaries_area.rds")
 saveRDS(robberies_area,"scripts/rds/robberies_area.rds")
+saveRDS(retailthefts_area,"scripts/rds/robberies_area.rds")
 
 # additional table exports for specific charts
 where_murders_happen %>% write_csv("data/output/city/where_murders_happen.csv")
