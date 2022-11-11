@@ -620,7 +620,6 @@ violence_area %>% st_drop_geometry() %>% write_csv("data/output/areas/violence_a
 property_area %>% st_drop_geometry() %>% write_csv("data/output/areas/property_area.csv")
 retailthefts_area %>% st_drop_geometry() %>% write_csv("data/output/areas/retailthefts_area.csv")
 
-
 # TEST TEST TEST OF WHETHER RDS WILL WORK FOR TRACKERS IN AUTOMATION
 saveRDS(murders_city,"scripts/rds/murders_city.rds")
 saveRDS(batteries_city,"scripts/rds/batteries_city.rds")
