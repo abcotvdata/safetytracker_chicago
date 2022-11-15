@@ -648,3 +648,42 @@ deaths <- read_excel("data/source/health/deaths.xlsx")
 deaths <- deaths %>% filter(state=="IL")
 deaths$Homicide <- murders_city$rate_last12
 write_csv(deaths,"data/source/health/death_rates.csv")
+
+# Transit crimes
+# Using premise to identify the kinds of places where murders happen
+where_crimes_happen <- chicago_crime %>%
+  group_by(year,category,location_description) %>%
+  summarise(count=n()) %>%
+  pivot_wider(names_from=year, values_from=count)
+# Using premise to identify the kinds of places where murders happen
+where_crimes_happen_last12 <- chicago_crime_last12 %>%
+  group_by(category,location_description) %>%
+  summarise(last12=n())
+# merge last 12 into the table
+where_crimes_happen <- full_join(where_crimes_happen,where_crimes_happen_last12,by=c("location_description","category"))
+# rename the year columns
+where_crimes_happen <- where_crimes_happen %>% 
+  rename("total19" = "2019",
+         "total20" = "2020",
+         "total21" = "2021",
+         "total22" = "2022",
+         "last12mos" = "last12")
+# filter for transit and for major crimes
+where_crimes_happen <- where_crimes_happen %>% filter(location_description=="Transit")
+# add zeros where there were no crimes tallied that year
+where_crimes_happen[is.na(where_crimes_happen)] <- 0
+rm(where_crimes_happen_last12)
+# Calculate a total across the 3 prior years
+where_crimes_happen$total_prior3years <- where_crimes_happen$total19+where_crimes_happen$total20+where_crimes_happen$total21
+where_crimes_happen$avg_prior3years <- round(where_crimes_happen$total_prior3years/3,1)
+# calculate increases
+where_crimes_happen$inc_19to21 <- round(where_crimes_happen$total21/where_crimes_happen$total19*100-100,1)
+where_crimes_happen$inc_19tolast12 <- round(where_crimes_happen$last12mos/where_crimes_happen$total19*100-100,1)
+where_crimes_happen$inc_21tolast12 <- round(where_crimes_happen$last12mos/where_crimes_happen$total21*100-100,1)
+where_crimes_happen$inc_prior3yearavgtolast12 <- round((where_crimes_happen$last12mos/where_crimes_happen$avg_prior3years)*100-100,0)
+# for map/table making purposes, changing Inf and NaN in calc fields to NA
+where_crimes_happen <- where_crimes_happen %>%
+  mutate(across(where(is.numeric), ~na_if(., Inf)))
+where_crimes_happen <- where_crimes_happen %>%
+  mutate(across(where(is.numeric), ~na_if(., "NaN")))
+write_csv(where_crimes_happen,"data/output/city/transit_crimes.csv")
