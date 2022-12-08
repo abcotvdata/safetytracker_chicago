@@ -256,7 +256,7 @@ sexassaultbins1 <- c(0,
                 60,
                 75,
                 100,
-                200)
+                250)
 sexassaultbins2 <- c(0,
                 5,
                 10,

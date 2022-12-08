@@ -561,7 +561,7 @@ violence_area <- area_type %>% filter(type=="People")
 property_area <- area_type %>% filter(type=="Property")
 retailthefts_area <- area_detailed %>% filter(description=="RETAIL THEFT")
 # Create same set of tables for citywide figures
-murders_city <- citywide_detailed %>% filter(category=="Murder")
+murders_city <- citywide_category %>% filter(category=="Murder")
 sexassaults_city <- citywide_category %>% filter(category=="Criminal Sexual Assault")
 autothefts_city <- citywide_category %>% filter(category=="Motor Vehicle Theft")
 thefts_city <- citywide_category %>% filter(category=="Theft Over $500")
