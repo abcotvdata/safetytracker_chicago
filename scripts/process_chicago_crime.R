@@ -9,8 +9,12 @@ library(zoo)
 # download.file("https://data.cityofchicago.org/api/views/dwme-t96c/rows.csv","data/source/annual/chicago2021.csv")
 
 # Download latest updated data for current year from city open data site
-download.file("https://data.cityofchicago.org/api/views/9hwr-2zxp/rows.csv",
-              "data/source/recent/chicago2022.csv")
+#download.file("https://data.cityofchicago.org/api/views/9hwr-2zxp/rows.csv",
+#              "data/source/recent/chicago2022.csv")
+
+# Download latest updated data for current year from city open data site
+download.file("https://data.cityofchicago.org/api/views/xguy-4ndq/rows.csv",
+              "data/source/recent/chicago2023.csv")
 
 # import the archived annual files
 chicago2019 <- read_csv("data/source/annual/chicago2019.csv", 
@@ -29,16 +33,23 @@ chicago2021 <- read_csv("data/source/annual/chicago2021.csv",
                                          Ward = col_character(), `Community Area` = col_character(), 
                                          `X Coordinate` = col_skip(), `Y Coordinate` = col_skip()))
 
-# import the latest annual files in same format as previous annual archives
+# import the latest 2023 annual files in same format as previous annual archives
 chicago2022 <- read_csv("data/source/recent/chicago2022.csv", 
                         col_types = cols(ID = col_character(), 
                                          Arrest = col_character(), Domestic = col_character(), 
                                          Ward = col_character(), `Community Area` = col_character(), 
                                          `X Coordinate` = col_skip(), `Y Coordinate` = col_skip()))
 
+# import the latest annual files in same format as previous annual archives
+chicago2023 <- read_csv("data/source/recent/chicago2023.csv", 
+                        col_types = cols(ID = col_character(), 
+                                         Arrest = col_character(), Domestic = col_character(), 
+                                         Ward = col_character(), `Community Area` = col_character(), 
+                                         `X Coordinate` = col_skip(), `Y Coordinate` = col_skip()))
+
 ### COMBINE 2019, 2020, 2021 file with 2022 year to date update file
-chicago_crime <- bind_rows(chicago2019,chicago2020,chicago2021,chicago2022) %>% janitor::clean_names()
-rm(chicago2019,chicago2020,chicago2021,chicago2022)
+chicago_crime <- bind_rows(chicago2019,chicago2020,chicago2021,chicago2022,chicago2023) %>% janitor::clean_names()
+rm(chicago2019,chicago2020,chicago2021,chicago2022,chicago2023)
 
 # Create cleaned date, month, hour columns for tracker charts
 # eliminate unnecessarily duplicative date,location fields
