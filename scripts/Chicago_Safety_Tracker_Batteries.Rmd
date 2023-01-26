@@ -262,13 +262,13 @@ batterybins2 <- c(0,
                 750,
                 1000,
                 2000)
-batterypal1 <- colorBin(c("#99a0a5",
+batterypal1 <- colorBin(c("#aecfe6",
                              "#2787d6",
                              "#0058f6",
                              "#003ca6",
                              "#00215c"), batteries_area$rate_last12, bins = batterybins1,na.color = "#51585f")
 
-batterypal2 <- colorBin(c("#99a0a5",
+batterypal2 <- colorBin(c("#aecfe6",
                              "#2787d6",
                              "#0058f6",
                              "#003ca6",
