@@ -197,7 +197,7 @@ chicago_population <- 2696561
 
 <h2>ABC7 is tracking crime and safety across the city of Chicago and in your neighborhood. 
 
-<br>You can choose which crime to examine: <select onchange="window.location=this.value">
+You can choose which crime to examine: <select onchange="window.location=this.value">
 <option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_Batteries.html">Batteries</option>
 <option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_Batteries.html">Batteries</option>
 <option value="https://abcotvdata.github.io/safetytracker_chicago/Chicago_Safety_Tracker_VehicleThefts.html">Vehicle Thefts</option>
