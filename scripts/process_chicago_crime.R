@@ -299,9 +299,9 @@ citywide_detailed$rate_last12 <- round(citywide_detailed$last12mos/chicago_popul
 citywide_detailed$rate_prior3years <- round(citywide_detailed$avg_prior3years/chicago_population*100000,1)
 # for map/table making purposes, changing Inf and NaN in calc fields to NA
 citywide_detailed <- citywide_detailed %>%
-  mutate(across(where(is.numeric), ~na_if(., Inf)))
+  mutate_if(is.numeric, ~ifelse(. == Inf, NA, .))
 citywide_detailed <- citywide_detailed %>%
-  mutate(across(where(is.numeric), ~na_if(., "NaN")))
+  mutate_if(is.numeric, ~ifelse(. == "NaN", NA, .))
 
 # Calculate of each detailed offense type CITYWIDE
 citywide_detailed_monthly <- chicago_crime %>%
@@ -459,9 +459,9 @@ area_detailed$rate_last12 <- round(area_detailed$last12mos/area_detailed$populat
 area_detailed$rate_prior3years <- round(area_detailed$avg_prior3years/area_detailed$population*100000,1)
 # for map/table making purposes, changing Inf and NaN in calc fields to NA
 area_detailed <- area_detailed %>%
-  mutate(across(where(is.numeric), ~na_if(., Inf)))
+  mutate_if(is.numeric, ~ifelse(. == Inf, NA, .))
 area_detailed <- area_detailed %>%
-  mutate(across(where(is.numeric), ~na_if(., "NaN")))
+  mutate_if(is.numeric, ~ifelse(. == "NaN", NA, .))
 
 # Calculate total of each category of offense BY POLICE BEAT
 area_category <- chicago_crime %>%
@@ -503,9 +503,9 @@ area_category$rate_last12 <- round(area_category$last12mos/area_category$populat
 area_category$rate_prior3years <- round(area_category$avg_prior3years/area_category$population*100000,1)
 # for map/table making purposes, changing Inf and NaN in calc fields to NA
 area_category <- area_category %>%
-  mutate(across(where(is.numeric), ~na_if(., Inf)))
+  mutate_if(is.numeric, ~ifelse(. == Inf, NA, .))
 area_category <- area_category %>%
-  mutate(across(where(is.numeric), ~na_if(., "NaN")))
+  mutate_if(is.numeric, ~ifelse(. == "NaN", NA, .))
 
 # Calculate total of each type of crime BY POLICE BEAT
 area_type <- chicago_crime %>%
@@ -547,9 +547,9 @@ area_type$rate_last12 <- round(area_type$last12mos/area_type$population*100000,1
 area_type$rate_prior3years <- round(area_type$avg_prior3years/area_type$population*100000,1)
 # for map/table making purposes, changing Inf and NaN in calc fields to NA
 area_type <- area_type %>%
-  mutate(across(where(is.numeric), ~na_if(., Inf)))
+  mutate_if(is.numeric, ~ifelse(. == Inf, NA, .))
 area_type <- area_type %>%
-  mutate(across(where(is.numeric), ~na_if(., "NaN")))
+  mutate_if(is.numeric, ~ifelse(. == "NaN", NA, .))
 
 # output various csvs for basic tables to be made with crime totals
 # we are dropping geometry for beats here because this is just for tables
@@ -694,7 +694,7 @@ where_crimes_happen$inc_21tolast12 <- round(where_crimes_happen$last12mos/where_
 where_crimes_happen$inc_prior3yearavgtolast12 <- round((where_crimes_happen$last12mos/where_crimes_happen$avg_prior3years)*100-100,0)
 # for map/table making purposes, changing Inf and NaN in calc fields to NA
 where_crimes_happen <- where_crimes_happen %>%
-  mutate(across(where(is.numeric), ~na_if(., Inf)))
+  mutate_if(is.numeric, ~ifelse(. == Inf, NA, .))
 where_crimes_happen <- where_crimes_happen %>%
-  mutate(across(where(is.numeric), ~na_if(., "NaN")))
+  mutate_if(is.numeric, ~ifelse(. == "NaN", NA, .))
 write_csv(where_crimes_happen,"data/output/city/transit_crimes.csv")
