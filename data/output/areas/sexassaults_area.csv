@@ -4,14 +4,14 @@ Oakland,36,7000,Criminal Sexual Assault,6,6,3,9,0,9,15,5,-50,50,200,80,85.7,85.7
 Fuller Park,37,3000,Criminal Sexual Assault,11,2,2,4,0,4,15,5,-81.8,-63.6,100,-20,366.7,66.7,66.7,133.3,166.7
 Grand Boulevard,38,25000,Criminal Sexual Assault,23,13,26,13,1,14,62,20.7,13,-39.1,-46.2,-32,92,52,104,56,82.8
 Kenwood,39,19000,Criminal Sexual Assault,14,6,10,13,1,13,30,10,-28.6,-7.1,30,30,73.7,31.6,52.6,68.4,52.6
-Lincoln Square,4,40000,Criminal Sexual Assault,30,16,13,24,3,27,59,19.7,-56.7,-10,107.7,37,75,40,32.5,67.5,49.2
+Lincoln Square,4,40000,Criminal Sexual Assault,30,16,13,24,4,28,59,19.7,-56.7,-6.7,115.4,42,75,40,32.5,70,49.2
 Washington Park,40,13000,Criminal Sexual Assault,20,15,13,13,2,15,48,16,-35,-25,15.4,-6,153.8,115.4,100,115.4,123.1
 Hyde Park,41,29000,Criminal Sexual Assault,11,13,20,16,1,17,44,14.7,81.8,54.5,-15,16,37.9,44.8,69,58.6,50.7
 Woodlawn,42,24000,Criminal Sexual Assault,29,22,24,27,1,26,75,25,-17.2,-10.3,8.3,4,120.8,91.7,100,108.3,104.2
 Rogers Park,1,55000,Criminal Sexual Assault,37,42,29,40,1,38,108,36,-21.6,2.7,31,6,67.3,76.4,52.7,69.1,65.5
 Jefferson Park,11,26000,Criminal Sexual Assault,4,5,9,4,0,4,18,6,125,0,-55.6,-33,15.4,19.2,34.6,15.4,23.1
 Forest Glen,12,20000,Criminal Sexual Assault,0,2,4,2,0,2,6,2,NA,NA,-50,0,0,10,20,10,10
-North Park,13,18000,Criminal Sexual Assault,8,6,1,8,0,8,15,5,-87.5,0,700,60,44.4,33.3,5.6,44.4,27.8
+North Park,13,18000,Criminal Sexual Assault,8,6,1,8,1,9,15,5,-87.5,12.5,800,80,44.4,33.3,5.6,50,27.8
 Albany Park,14,48000,Criminal Sexual Assault,16,19,25,20,2,17,60,20,56.2,6.2,-32,-15,33.3,39.6,52.1,35.4,41.7
 Portage Park,15,63000,Criminal Sexual Assault,24,15,17,25,1,26,56,18.7,-29.2,8.3,52.9,39,38.1,23.8,27,41.3,29.7
 Irving Park,16,52000,Criminal Sexual Assault,23,13,18,17,0,16,54,18,-21.7,-30.4,-11.1,-11,44.2,25,34.6,30.8,34.6
@@ -23,14 +23,14 @@ Hermosa,20,24000,Criminal Sexual Assault,10,12,9,12,1,13,31,10.3,-10,30,44.4,26,
 Avondale,21,36000,Criminal Sexual Assault,14,9,14,5,0,5,37,12.3,0,-64.3,-64.3,-59,38.9,25,38.9,13.9,34.2
 Logan Square,22,72000,Criminal Sexual Assault,35,17,30,25,0,23,82,27.3,-14.3,-34.3,-23.3,-16,48.6,23.6,41.7,31.9,37.9
 Humboldt Park,23,54000,Criminal Sexual Assault,60,40,37,49,1,46,137,45.7,-38.3,-23.3,24.3,1,111.1,74.1,68.5,85.2,84.6
-West Town,24,88000,Criminal Sexual Assault,46,31,45,34,2,35,122,40.7,-2.2,-23.9,-22.2,-14,52.3,35.2,51.1,39.8,46.2
+West Town,24,88000,Criminal Sexual Assault,46,31,45,34,3,36,122,40.7,-2.2,-21.7,-20,-12,52.3,35.2,51.1,40.9,46.2
 Austin,25,97000,Criminal Sexual Assault,114,97,87,98,3,95,298,99.3,-23.7,-16.7,9.2,-4,117.5,100,89.7,97.9,102.4
 West Garfield Park,26,17000,Criminal Sexual Assault,41,36,30,22,1,22,107,35.7,-26.8,-46.3,-26.7,-38,241.2,211.8,176.5,129.4,210
 East Garfield Park,27,20000,Criminal Sexual Assault,21,23,33,28,3,27,77,25.7,57.1,28.6,-18.2,5,105,115,165,135,128.5
 Near West Side,28,68000,Criminal Sexual Assault,63,32,43,52,5,52,138,46,-31.7,-17.5,20.9,13,92.6,47.1,63.2,76.5,67.6
 North Lawndale,29,35000,Criminal Sexual Assault,45,48,51,58,3,57,144,48,13.3,26.7,11.8,19,128.6,137.1,145.7,162.9,137.1
 Uptown,3,57000,Criminal Sexual Assault,37,29,35,46,0,44,101,33.7,-5.4,18.9,25.7,31,64.9,50.9,61.4,77.2,59.1
-South Lawndale,30,71000,Criminal Sexual Assault,39,33,29,38,1,36,101,33.7,-25.6,-7.7,24.1,7,54.9,46.5,40.8,50.7,47.5
+South Lawndale,30,71000,Criminal Sexual Assault,39,33,29,38,1,35,101,33.7,-25.6,-10.3,20.7,4,54.9,46.5,40.8,49.3,47.5
 Lower West Side,31,34000,Criminal Sexual Assault,21,10,24,15,1,15,55,18.3,14.3,-28.6,-37.5,-18,61.8,29.4,70.6,44.1,53.8
 Near South Side,33,29000,Criminal Sexual Assault,9,18,14,13,0,13,41,13.7,55.6,44.4,-7.1,-5,31,62.1,48.3,44.8,47.2
 Armour Square,34,14000,Criminal Sexual Assault,3,2,4,6,0,5,9,3,33.3,66.7,25,67,21.4,14.3,28.6,35.7,21.4
@@ -67,13 +67,13 @@ West Englewood,67,30000,Criminal Sexual Assault,41,44,38,33,1,31,123,41,-7.3,-24
 Englewood,68,24000,Criminal Sexual Assault,49,31,34,53,1,54,114,38,-30.6,10.2,58.8,42,204.2,129.2,141.7,225,158.3
 Greater Grand Crossing,69,31000,Criminal Sexual Assault,59,44,38,43,0,40,141,47,-35.6,-32.2,5.3,-15,190.3,141.9,122.6,129,151.6
 Lincoln Park,7,70000,Criminal Sexual Assault,21,8,26,24,0,22,55,18.3,23.8,4.8,-15.4,20,30,11.4,37.1,31.4,26.1
-Ashburn,70,41000,Criminal Sexual Assault,13,21,8,13,1,13,42,14,-38.5,0,62.5,-7,31.7,51.2,19.5,31.7,34.1
+Ashburn,70,41000,Criminal Sexual Assault,13,21,8,13,1,12,42,14,-38.5,-7.7,50,-14,31.7,51.2,19.5,29.3,34.1
 Auburn Gresham,71,45000,Criminal Sexual Assault,56,46,35,45,1,43,137,45.7,-37.5,-23.2,22.9,-6,124.4,102.2,77.8,95.6,101.6
 Beverly,72,20000,Criminal Sexual Assault,2,4,5,5,1,5,11,3.7,150,150,0,35,10,20,25,25,18.5
 Washington Heights,73,25000,Criminal Sexual Assault,19,22,16,13,0,12,57,19,-15.8,-36.8,-25,-37,76,88,64,48,76
 Mount Greenwood,74,19000,Criminal Sexual Assault,4,2,2,3,0,3,8,2.7,-50,-25,50,11,21.1,10.5,10.5,15.8,14.2
 Morgan Park,75,21000,Criminal Sexual Assault,9,5,10,5,1,5,24,8,11.1,-44.4,-50,-38,42.9,23.8,47.6,23.8,38.1
 Ohare,76,13000,Criminal Sexual Assault,5,1,9,10,0,9,15,5,80,80,0,80,38.5,7.7,69.2,69.2,38.5
-Edgewater,77,56000,Criminal Sexual Assault,24,19,25,32,0,29,68,22.7,4.2,20.8,16,28,42.9,33.9,44.6,51.8,40.5
+Edgewater,77,56000,Criminal Sexual Assault,24,19,25,32,1,30,68,22.7,4.2,25,20,32,42.9,33.9,44.6,53.6,40.5
 Edison Park,9,12000,Criminal Sexual Assault,2,2,2,3,0,3,6,2,0,50,50,50,16.7,16.7,16.7,25,16.7
 NA,Unknown,NA,Criminal Sexual Assault,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA
