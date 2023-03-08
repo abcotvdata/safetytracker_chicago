@@ -8,12 +8,12 @@ Other,2,13,10,10,1,10
 Other Transportation Facility,1,0,0,1,0,0
 Parking Lot/Garage,13,20,25,26,2,25
 Recreation Area,3,11,8,10,0,10
-Residence,84,104,118,114,16,119
-Street or Highway,297,412,429,395,41,375
+Residence,84,104,118,114,17,120
+Street or Highway,297,412,429,395,43,375
 Transit,2,4,4,9,0,8
 Vacant Lot,2,10,9,4,1,5
 Vehicle,1,0,0,1,0,1
-Yard,9,28,17,27,2,28
+Yard,9,28,17,27,2,27
 Abandoned Building,0,3,0,0,0,0
 "Bar, Tavern or Club",0,1,2,1,1,2
 Medical Facility,0,4,0,0,0,0
