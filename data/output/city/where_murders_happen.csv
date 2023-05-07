@@ -4,12 +4,12 @@ Automobile,32,83,90,24,5,23
 Business,11,30,41,28,8,26
 Hotel or Motel,2,4,1,2,0,2
 Housing Authority,5,11,2,9,1,10
-Other,2,13,10,10,2,9
+Other,2,13,10,10,2,8
 Other Transportation Facility,1,0,0,1,0,0
 Parking Lot/Garage,13,20,25,26,6,28
 Recreation Area,3,11,8,10,0,10
 Residence,84,104,118,114,33,119
-Street or Highway,297,412,429,395,85,368
+Street or Highway,297,412,429,395,87,369
 Transit,2,4,4,9,1,9
 Vacant Lot,2,10,9,4,1,5
 Vehicle,1,0,0,1,0,1
