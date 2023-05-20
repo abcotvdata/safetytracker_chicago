@@ -8,8 +8,8 @@ Other,2,13,10,10,3,7
 Other Transportation Facility,1,0,0,1,0,0
 Parking Lot/Garage,13,20,25,26,7,28
 Recreation Area,3,11,8,10,0,10
-Residence,84,104,118,114,38,120
-Street or Highway,297,412,429,395,97,366
+Residence,84,104,118,114,40,121
+Street or Highway,297,412,429,395,100,368
 Transit,2,4,4,9,1,9
 Vacant Lot,2,10,9,4,1,5
 Vehicle,1,0,0,1,0,1
@@ -21,3 +21,4 @@ School,0,1,1,2,1,3
 Bank,0,0,1,0,0,0
 Police Facility,0,0,0,1,0,1
 Public Grammar School,0,0,0,1,0,1
+Roof,0,0,0,0,1,1
