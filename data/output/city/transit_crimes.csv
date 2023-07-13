@@ -1,6 +1,6 @@
 category,location_description,total19,total20,total21,total22,total23,last12mos,total_prior3years,avg_prior3years,inc_19to22,inc_19tolast12,inc_22tolast12,inc_prior3yearavgtolast12
-Aggravated Assault,Transit,99,95,112,125,67,139,332,110.7,26.3,40.4,11.2,26
-Aggravated Battery,Transit,150,150,171,205,101,205,526,175.3,36.7,36.7,0,17
+Aggravated Assault,Transit,99,95,112,125,68,139,332,110.7,26.3,40.4,11.2,26
+Aggravated Battery,Transit,150,150,171,205,102,206,526,175.3,36.7,37.3,0.5,18
 Arson,Transit,1,1,2,5,0,2,8,2.7,400,100,-60,-26
 Burglary,Transit,1,1,2,0,0,0,3,1,-100,-100,NA,-100
 Criminal Sexual Abuse,Transit,67,36,48,71,27,69,155,51.7,6,3,-2.8,33
@@ -14,10 +14,10 @@ Motor Vehicle Theft,Transit,9,7,4,8,39,43,19,6.3,-11.1,377.8,437.5,583
 Murder,Transit,2,4,4,9,2,6,17,5.7,350,200,-33.3,5
 Offenses Against Family,Transit,6,1,1,1,1,2,3,1,-83.3,-66.7,100,100
 Prostitution,Transit,1,0,0,0,1,1,0,0,-100,0,NA,NA
-Robbery,Transit,592,453,492,527,215,455,1472,490.7,-11,-23.1,-13.7,-7
-Simple Assault,Transit,361,259,221,269,157,292,749,249.7,-25.5,-19.1,8.6,17
-Simple Battery,Transit,1076,652,635,804,496,879,2091,697,-25.3,-18.3,9.3,26
-Theft,Transit,1591,661,507,683,295,651,1851,617,-57.1,-59.1,-4.7,6
+Robbery,Transit,592,453,492,527,217,456,1472,490.7,-11,-23,-13.5,-7
+Simple Assault,Transit,361,259,221,269,158,291,749,249.7,-25.5,-19.4,8.2,17
+Simple Battery,Transit,1076,652,635,804,496,877,2091,697,-25.3,-18.5,9.1,26
+Theft,Transit,1591,661,507,683,295,650,1851,617,-57.1,-59.1,-4.8,5
 Theft Over $500,Transit,694,293,175,239,108,226,707,235.7,-65.6,-67.4,-5.4,-4
 Vandalism,Transit,434,353,289,251,148,293,893,297.7,-42.2,-32.5,16.7,-2
 Weapons Violation,Transit,29,19,36,68,48,88,123,41,134.5,203.4,29.4,115
