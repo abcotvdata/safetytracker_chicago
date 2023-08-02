@@ -1,6 +1,6 @@
 community,community_area,population,category,total19,total20,total21,total22,total23,last12mos,total_prior3years,avg_prior3years,inc_19to22,inc_19tolast12,inc_22tolast12,inc_prior3yearavgtolast12,rate19,rate20,rate21,rate22,rate_last12,rate_prior3years
 Douglas,35,20000,Criminal Sexual Assault,17,15,20,15,16,22,50,16.7,-11.8,29.4,46.7,32,85,75,100,75,110,83.5
-Oakland,36,7000,Criminal Sexual Assault,6,6,3,9,3,9,18,6,50,50,0,50,85.7,85.7,42.9,128.6,128.6,85.7
+Oakland,36,7000,Criminal Sexual Assault,6,6,3,9,3,8,18,6,50,33.3,-11.1,33,85.7,85.7,42.9,128.6,114.3,85.7
 Fuller Park,37,3000,Criminal Sexual Assault,11,2,2,4,1,4,8,2.7,-63.6,-63.6,0,48,366.7,66.7,66.7,133.3,133.3,90
 Grand Boulevard,38,25000,Criminal Sexual Assault,23,13,26,13,8,13,52,17.3,-43.5,-43.5,0,-25,92,52,104,52,52,69.2
 Kenwood,39,19000,Criminal Sexual Assault,14,6,10,13,4,9,29,9.7,-7.1,-35.7,-30.8,-7,73.7,31.6,52.6,68.4,47.4,51.1
@@ -27,36 +27,36 @@ West Town,24,88000,Criminal Sexual Assault,46,31,45,34,27,44,110,36.7,-26.1,-4.3
 Austin,25,97000,Criminal Sexual Assault,114,97,87,98,57,104,282,94,-14,-8.8,6.1,11,117.5,100,89.7,101,107.2,96.9
 West Garfield Park,26,17000,Criminal Sexual Assault,41,36,30,22,14,20,88,29.3,-46.3,-51.2,-9.1,-32,241.2,211.8,176.5,129.4,117.6,172.4
 East Garfield Park,27,20000,Criminal Sexual Assault,21,23,33,28,15,28,84,28,33.3,33.3,0,0,105,115,165,140,140,140
-Near West Side,28,68000,Criminal Sexual Assault,63,32,43,52,37,55,127,42.3,-17.5,-12.7,5.8,30,92.6,47.1,63.2,76.5,80.9,62.2
+Near West Side,28,68000,Criminal Sexual Assault,63,32,43,52,38,56,127,42.3,-17.5,-11.1,7.7,32,92.6,47.1,63.2,76.5,82.4,62.2
 North Lawndale,29,35000,Criminal Sexual Assault,45,48,51,58,42,69,157,52.3,28.9,53.3,19,32,128.6,137.1,145.7,165.7,197.1,149.4
 Uptown,3,57000,Criminal Sexual Assault,37,29,35,46,25,48,110,36.7,24.3,29.7,4.3,31,64.9,50.9,61.4,80.7,84.2,64.4
 South Lawndale,30,71000,Criminal Sexual Assault,39,33,29,38,14,25,100,33.3,-2.6,-35.9,-34.2,-25,54.9,46.5,40.8,53.5,35.2,46.9
 Lower West Side,31,34000,Criminal Sexual Assault,21,10,24,15,7,14,49,16.3,-28.6,-33.3,-6.7,-14,61.8,29.4,70.6,44.1,41.2,47.9
-Near South Side,33,29000,Criminal Sexual Assault,9,18,14,13,7,13,45,15,44.4,44.4,0,-13,31,62.1,48.3,44.8,44.8,51.7
+Near South Side,33,29000,Criminal Sexual Assault,9,18,14,13,7,12,45,15,44.4,33.3,-7.7,-20,31,62.1,48.3,44.8,41.4,51.7
 Armour Square,34,14000,Criminal Sexual Assault,3,2,4,6,0,2,12,4,100,-33.3,-66.7,-50,21.4,14.3,28.6,42.9,14.3,28.6
 Norwood Park,10,38000,Criminal Sexual Assault,11,3,6,8,7,10,17,5.7,-27.3,-9.1,25,75,28.9,7.9,15.8,21.1,26.3,15
 Near North Side,8,105000,Criminal Sexual Assault,90,78,132,141,79,141,351,117,56.7,56.7,0,21,85.7,74.3,125.7,134.3,134.3,111.4
 Loop,32,42000,Criminal Sexual Assault,33,25,52,37,24,36,114,38,12.1,9.1,-2.7,-5,78.6,59.5,123.8,88.1,85.7,90.5
 South Shore,43,54000,Criminal Sexual Assault,77,50,67,57,55,77,174,58,-26,0,35.1,33,142.6,92.6,124.1,105.6,142.6,107.4
-Chatham,44,32000,Criminal Sexual Assault,37,29,37,28,24,35,94,31.3,-24.3,-5.4,25,12,115.6,90.6,115.6,87.5,109.4,97.8
+Chatham,44,32000,Criminal Sexual Assault,37,29,37,28,25,36,94,31.3,-24.3,-2.7,28.6,15,115.6,90.6,115.6,87.5,112.5,97.8
 Avalon Park,45,9000,Criminal Sexual Assault,7,10,9,2,3,4,21,7,-71.4,-42.9,100,-43,77.8,111.1,100,22.2,44.4,77.8
 South Chicago,46,27000,Criminal Sexual Assault,30,27,37,29,9,27,93,31,-3.3,-10,-6.9,-13,111.1,100,137,107.4,100,114.8
 Burnside,47,3000,Criminal Sexual Assault,1,1,3,4,1,2,8,2.7,300,100,-50,-26,33.3,33.3,100,133.3,66.7,90
 Mckinley Park,59,16000,Criminal Sexual Assault,4,6,6,8,8,10,20,6.7,100,150,25,49,25,37.5,37.5,50,62.5,41.9
-Lake View,6,103000,Criminal Sexual Assault,62,32,48,58,33,59,138,46,-6.5,-4.8,1.7,28,60.2,31.1,46.6,56.3,57.3,44.7
+Lake View,6,103000,Criminal Sexual Assault,62,32,48,58,34,60,138,46,-6.5,-3.2,3.4,30,60.2,31.1,46.6,56.3,58.3,44.7
 Calumet Heights,48,13000,Criminal Sexual Assault,10,8,13,7,6,11,28,9.3,-30,10,57.1,18,76.9,61.5,100,53.8,84.6,71.5
-Roseland,49,39000,Criminal Sexual Assault,42,37,40,43,24,44,120,40,2.4,4.8,2.3,10,107.7,94.9,102.6,110.3,112.8,102.6
+Roseland,49,39000,Criminal Sexual Assault,42,37,40,43,24,43,120,40,2.4,2.4,0,8,107.7,94.9,102.6,110.3,110.3,102.6
 North Center,5,35000,Criminal Sexual Assault,6,7,7,9,3,9,23,7.7,50,50,0,17,17.1,20,20,25.7,25.7,22
 Pullman,50,7000,Criminal Sexual Assault,9,1,4,6,4,7,11,3.7,-33.3,-22.2,16.7,89,128.6,14.3,57.1,85.7,100,52.9
 South Deering,51,14000,Criminal Sexual Assault,9,4,12,7,5,8,23,7.7,-22.2,-11.1,14.3,4,64.3,28.6,85.7,50,57.1,55
 East Side,52,22000,Criminal Sexual Assault,2,3,9,7,6,8,19,6.3,250,300,14.3,27,9.1,13.6,40.9,31.8,36.4,28.6
-West Pullman,53,26000,Criminal Sexual Assault,26,27,22,16,12,19,65,21.7,-38.5,-26.9,18.8,-12,100,103.8,84.6,61.5,73.1,83.5
+West Pullman,53,26000,Criminal Sexual Assault,26,27,22,16,13,20,65,21.7,-38.5,-23.1,25,-8,100,103.8,84.6,61.5,76.9,83.5
 Riverdale,54,7000,Criminal Sexual Assault,7,7,8,7,11,14,22,7.3,0,100,100,92,100,100,114.3,100,200,104.3
 Hegewisch,55,10000,Criminal Sexual Assault,2,7,1,2,3,5,10,3.3,0,150,150,52,20,70,10,20,50,33
 Garfield Ridge,56,35000,Criminal Sexual Assault,12,6,6,13,4,13,25,8.3,8.3,8.3,0,57,34.3,17.1,17.1,37.1,37.1,23.7
 Archer Heights,57,14000,Criminal Sexual Assault,12,11,3,2,4,4,16,5.3,-83.3,-66.7,100,-25,85.7,78.6,21.4,14.3,28.6,37.9
 Brighton Park,58,45000,Criminal Sexual Assault,19,14,13,17,5,9,44,14.7,-10.5,-52.6,-47.1,-39,42.2,31.1,28.9,37.8,20,32.7
-Bridgeport,60,34000,Criminal Sexual Assault,12,8,10,7,5,8,25,8.3,-41.7,-33.3,14.3,-4,35.3,23.5,29.4,20.6,23.5,24.4
+Bridgeport,60,34000,Criminal Sexual Assault,12,8,10,7,6,9,25,8.3,-41.7,-25,28.6,8,35.3,23.5,29.4,20.6,26.5,24.4
 New City,61,44000,Criminal Sexual Assault,37,30,22,26,20,31,78,26,-29.7,-16.2,19.2,19,84.1,68.2,50,59.1,70.5,59.1
 West Elsdon,62,18000,Criminal Sexual Assault,6,1,2,7,2,6,10,3.3,16.7,0,-14.3,82,33.3,5.6,11.1,38.9,33.3,18.3
 Gage Park,63,40000,Criminal Sexual Assault,19,16,13,16,11,18,45,15,-15.8,-5.3,12.5,20,47.5,40,32.5,40,45,37.5
