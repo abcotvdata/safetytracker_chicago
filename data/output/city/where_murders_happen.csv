@@ -1,15 +1,15 @@
 location_description,2019,2020,2021,2022,2023,last12
-Alley,34,48,45,44,20,40
+Alley,34,48,45,44,20,39
 Automobile,32,83,90,24,7,21
-Business,11,30,41,28,14,28
+Business,11,30,41,28,15,29
 Hotel or Motel,2,4,1,2,0,0
-Housing Authority,5,11,2,9,4,11
+Housing Authority,5,11,2,9,4,10
 Other,2,13,10,10,5,9
 Other Transportation Facility,1,0,0,1,0,0
 Parking Lot/Garage,13,20,25,26,14,28
 Recreation Area,3,11,8,10,2,9
 Residence,84,104,118,114,67,120
-Street or Highway,297,412,429,395,208,376
+Street or Highway,297,412,429,395,213,377
 Transit,2,4,4,9,2,5
 Vacant Lot,2,10,9,4,1,4
 Vehicle,1,0,0,1,0,0
