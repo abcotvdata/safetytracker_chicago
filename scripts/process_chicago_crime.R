@@ -60,7 +60,7 @@ chicago_crime$updated_on <- NULL
 chicago_crime$location <- NULL
 
 # Import crime classification codes crosswalk created from Chicago PD codebooks
-chicago_class_codes <- read_csv("data/source/reference/chicago_crime_classifications.csv")
+chicago_class_codes <- read_csv("data/source/reference/chicago_crime_classifications_2023.csv")
 
 # merge
 chicago_crime <- left_join(chicago_crime,chicago_class_codes %>% select(1,4,5),by="iucr")
@@ -280,6 +280,7 @@ citywide_detailed_last12 <- chicago_crime_last12 %>%
   group_by(category,description) %>%
   summarise(last12mos = n())
 citywide_detailed <- left_join(citywide_detailed,citywide_detailed_last12,by=c("category","description"))
+# remove anything where 
 # add zeros where there were no crimes tallied that year
 citywide_detailed[is.na(citywide_detailed)] <- 0
 rm(citywide_detailed_last12)
