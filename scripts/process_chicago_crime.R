@@ -5,9 +5,9 @@ library(zoo)
 
 options(timeout=300)
 # One-time download of annual slices of Chicago crime incidents from city's open data site
-download.file("https://data.cityofchicago.org/api/views/w98m-zvie/rows.csv","data/source/annual/chicago2019.csv")
-download.file("https://data.cityofchicago.org/api/views/qzdf-xmn8/rows.csv","data/source/annual/chicago2020.csv")
-download.file("https://data.cityofchicago.org/api/views/dwme-t96c/rows.csv","data/source/annual/chicago2021.csv")
+#download.file("https://data.cityofchicago.org/api/views/w98m-zvie/rows.csv","data/source/annual/chicago2019.csv")
+#download.file("https://data.cityofchicago.org/api/views/qzdf-xmn8/rows.csv","data/source/annual/chicago2020.csv")
+#download.file("https://data.cityofchicago.org/api/views/dwme-t96c/rows.csv","data/source/annual/chicago2021.csv")
 
 # Download latest updated data for current year from city open data site
 download.file("https://data.cityofchicago.org/api/views/9hwr-2zxp/rows.csv",
