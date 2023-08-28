@@ -57,6 +57,8 @@ rm(chicago2019,chicago2020,chicago2021,chicago2022,chicago2023)
 chicago_crime$date <- lubridate::mdy_hms(chicago_crime$date)
 chicago_crime$hour <- lubridate::hour(chicago_crime$date)
 chicago_crime$month <- lubridate::floor_date(as.Date(chicago_crime$date),"month")
+chicago_crime$date <- substr(chicago_crime$date,1,10)
+chicago_crime$date <- ymd(chicago_crime$date)
 chicago_crime$updated_on <- NULL
 chicago_crime$location <- NULL
 
@@ -245,18 +247,22 @@ chicago_crime$location_description <- case_when(chicago_crime$location_descripti
                                                 chicago_crime$location_description == 'NA' ~ 'Other',
                                                 TRUE ~ str_to_title(chicago_crime$location_description, locale = "en"))
 
+# Before we save, we're going to delete the most recent day in the file's crimes
+# tldr version is it's a partial day and often a very small portion of the day
+chicago_crime <- chicago_crime %>% filter(date<max(chicago_crime$date))
+
 # Get latest date in our file and save for
 # automating the updated date text in building tracker
 asofdate <- max(chicago_crime$date)
 saveRDS(asofdate,"scripts/rds/asofdate.rds")
 
 # write csv of Chicago crime as a backup
-# worthwhile to think through if the full csv is even necessary to save; maybe for redundancy
+# full csv save; only for redundancy
 write_csv(chicago_crime,"data/output/chicago_crime.csv")
 saveRDS(chicago_crime,"scripts/rds/chicago_crime.rds")
 
 # Extract the last 12 months into a separate file
-chicago_crime_last12 <- chicago_crime %>% filter(date>(max(chicago_crime$date)-31536000))
+chicago_crime_last12 <- chicago_crime %>% filter(date>(max(chicago_crime$date)-365))
 
 ### CITYWIDE CRIME TOTALS AND OUTPUT
 
