@@ -4,7 +4,7 @@ Automobile,32,83,90,25,8,19
 Business,11,30,41,28,15,29
 Hotel or Motel,2,4,1,2,0,0
 Housing Authority,5,11,3,9,4,9
-Other,2,13,10,10,7,11
+Other,2,13,10,10,8,12
 Other Transportation Facility,1,0,0,1,0,0
 Parking Lot/Garage,13,20,25,26,15,26
 Recreation Area,3,11,8,11,3,10
@@ -13,7 +13,7 @@ Street or Highway,297,412,429,398,231,370
 Transit,2,4,4,9,2,3
 Vacant Lot,2,10,9,4,2,5
 Vehicle,1,0,0,1,0,0
-Yard,9,28,17,27,15,24
+Yard,9,28,17,27,16,25
 Abandoned Building,0,3,0,0,0,0
 "Bar, Tavern or Club",0,1,2,1,2,3
 Medical Facility,0,4,0,0,0,0
