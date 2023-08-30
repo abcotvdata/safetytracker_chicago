@@ -659,7 +659,6 @@ saveRDS(autothefts_city,"scripts/rds/autothefts_city.rds")
 saveRDS(thefts_city,"scripts/rds/thefts_city.rds")
 saveRDS(burglaries_city,"scripts/rds/burglaries_city.rds")
 saveRDS(robberies_city,"scripts/rds/robberies_city.rds")
-saveRDS(robberies_city,"scripts/rds/retailthefts_city.rds")
 
 saveRDS(murders_area,"scripts/rds/murders_area.rds")
 saveRDS(batteries_area,"scripts/rds/batteries_area.rds")
@@ -668,7 +667,6 @@ saveRDS(autothefts_area,"scripts/rds/autothefts_area.rds")
 saveRDS(thefts_area,"scripts/rds/thefts_area.rds")
 saveRDS(burglaries_area,"scripts/rds/burglaries_area.rds")
 saveRDS(robberies_area,"scripts/rds/robberies_area.rds")
-saveRDS(retailthefts_area,"scripts/rds/robberies_area.rds")
 
 # additional table exports for specific charts
 where_murders_happen %>% write_csv("data/output/city/where_murders_happen.csv")
