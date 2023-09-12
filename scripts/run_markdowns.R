@@ -1,8 +1,8 @@
 library(rmarkdown)
 
-# Code to build each of the trackers
-# Includes loading pre-processed and stored dfs
-# Grouped by each page to allow for individual or mass processing
+# Script builds each of the pages - or all at once
+# Starts by loading data frames created daily in process_chicago_crime.R
+# Resulting html files are rendered in /docs for publication via Github Pages
 
 # MURDERS
 # Load RDS
@@ -73,3 +73,4 @@ asofdate <- readRDS("scripts/rds/asofdate.rds")
 rmarkdown::render('scripts/Chicago_Safety_Tracker_SexualAssaults.Rmd', 
                   output_dir = "docs",
                   output_file = 'Chicago_Safety_Tracker_SexualAssaults.html')
+
