@@ -9,14 +9,14 @@ Other Transportation Facility,1,0,0,1,0,0
 Parking Lot/Garage,13,20,25,26,19,27
 Recreation Area,3,11,8,11,3,3
 Residence,84,104,118,116,82,108
-Street or Highway,297,412,429,399,280,358
-Transit,1,3,4,5,1,2
+Street or Highway,297,412,429,399,280,357
+Transit,1,3,4,5,1,1
 Transit Property,1,1,0,4,1,1
 Vacant Lot,2,10,9,4,3,6
 Vehicle,1,0,0,1,0,0
 Yard,9,28,17,27,19,22
 Abandoned Building,0,3,0,0,0,0
-"Bar, Tavern or Club",0,1,2,1,2,3
+"Bar, Tavern or Club",0,1,2,1,2,2
 Medical Facility,0,4,0,0,1,1
 School,0,1,1,2,1,3
 Bank,0,0,1,0,0,0
