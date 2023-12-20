@@ -58,7 +58,7 @@ Aggravated Assault,2023-08-01,714,709
 Aggravated Assault,2023-09-01,705,708
 Aggravated Assault,2023-10-01,663,694
 Aggravated Assault,2023-11-01,618,662
-Aggravated Assault,2023-12-01,211,497
+Aggravated Assault,2023-12-01,228,503
 Aggravated Battery,2019-01-01,468,NA
 Aggravated Battery,2019-02-01,476,NA
 Aggravated Battery,2019-03-01,576,507
@@ -118,7 +118,7 @@ Aggravated Battery,2023-08-01,755,785
 Aggravated Battery,2023-09-01,751,772
 Aggravated Battery,2023-10-01,701,736
 Aggravated Battery,2023-11-01,608,687
-Aggravated Battery,2023-12-01,204,504
+Aggravated Battery,2023-12-01,221,510
 Arson,2019-01-01,22,NA
 Arson,2019-02-01,29,NA
 Arson,2019-03-01,28,26
@@ -178,7 +178,7 @@ Arson,2023-08-01,34,43
 Arson,2023-09-01,56,45
 Arson,2023-10-01,40,43
 Arson,2023-11-01,37,44
-Arson,2023-12-01,10,29
+Arson,2023-12-01,12,30
 Burglary,2019-01-01,797,NA
 Burglary,2019-02-01,671,NA
 Burglary,2019-03-01,677,715
@@ -237,8 +237,8 @@ Burglary,2023-07-01,634,614
 Burglary,2023-08-01,648,627
 Burglary,2023-09-01,635,639
 Burglary,2023-10-01,649,644
-Burglary,2023-11-01,665,650
-Burglary,2023-12-01,178,497
+Burglary,2023-11-01,667,650
+Burglary,2023-12-01,203,506
 Criminal Sexual Abuse,2019-01-01,120,NA
 Criminal Sexual Abuse,2019-02-01,120,NA
 Criminal Sexual Abuse,2019-03-01,124,121
@@ -295,10 +295,10 @@ Criminal Sexual Abuse,2023-05-01,143,126
 Criminal Sexual Abuse,2023-06-01,102,124
 Criminal Sexual Abuse,2023-07-01,136,127
 Criminal Sexual Abuse,2023-08-01,139,126
-Criminal Sexual Abuse,2023-09-01,132,136
+Criminal Sexual Abuse,2023-09-01,131,135
 Criminal Sexual Abuse,2023-10-01,113,128
-Criminal Sexual Abuse,2023-11-01,100,115
-Criminal Sexual Abuse,2023-12-01,42,85
+Criminal Sexual Abuse,2023-11-01,101,115
+Criminal Sexual Abuse,2023-12-01,45,86
 Criminal Sexual Assault,2019-01-01,188,NA
 Criminal Sexual Assault,2019-02-01,130,NA
 Criminal Sexual Assault,2019-03-01,135,151
@@ -337,9 +337,9 @@ Criminal Sexual Assault,2021-11-01,139,144
 Criminal Sexual Assault,2021-12-01,139,142
 Criminal Sexual Assault,2022-01-01,125,134
 Criminal Sexual Assault,2022-02-01,140,135
-Criminal Sexual Assault,2022-03-01,139,135
+Criminal Sexual Assault,2022-03-01,140,135
 Criminal Sexual Assault,2022-04-01,147,142
-Criminal Sexual Assault,2022-05-01,162,149
+Criminal Sexual Assault,2022-05-01,162,150
 Criminal Sexual Assault,2022-06-01,151,153
 Criminal Sexual Assault,2022-07-01,183,165
 Criminal Sexual Assault,2022-08-01,159,164
@@ -354,9 +354,9 @@ Criminal Sexual Assault,2023-04-01,136,131
 Criminal Sexual Assault,2023-05-01,171,147
 Criminal Sexual Assault,2023-06-01,158,155
 Criminal Sexual Assault,2023-07-01,174,168
-Criminal Sexual Assault,2023-08-01,163,165
+Criminal Sexual Assault,2023-08-01,162,165
 Criminal Sexual Assault,2023-09-01,141,159
-Criminal Sexual Assault,2023-10-01,139,148
+Criminal Sexual Assault,2023-10-01,139,147
 Criminal Sexual Assault,2023-11-01,148,143
 Criminal Sexual Assault,2023-12-01,36,108
 Disorderly Conduct,2019-01-01,153,NA
@@ -418,7 +418,7 @@ Disorderly Conduct,2023-08-01,123,100
 Disorderly Conduct,2023-09-01,108,104
 Disorderly Conduct,2023-10-01,103,111
 Disorderly Conduct,2023-11-01,92,101
-Disorderly Conduct,2023-12-01,33,76
+Disorderly Conduct,2023-12-01,36,77
 Drug Abuse,2019-01-01,1158,NA
 Drug Abuse,2019-02-01,1142,NA
 Drug Abuse,2019-03-01,1234,1178
@@ -478,7 +478,7 @@ Drug Abuse,2023-08-01,375,357
 Drug Abuse,2023-09-01,322,351
 Drug Abuse,2023-10-01,390,362
 Drug Abuse,2023-11-01,411,374
-Drug Abuse,2023-12-01,130,310
+Drug Abuse,2023-12-01,148,316
 Embezzlement,2019-01-01,6,NA
 Embezzlement,2019-02-01,3,NA
 Embezzlement,2019-03-01,5,5
@@ -587,9 +587,9 @@ Forgery & Counterfeiting,2023-06-01,155,161
 Forgery & Counterfeiting,2023-07-01,104,138
 Forgery & Counterfeiting,2023-08-01,130,130
 Forgery & Counterfeiting,2023-09-01,135,123
-Forgery & Counterfeiting,2023-10-01,138,134
-Forgery & Counterfeiting,2023-11-01,99,124
-Forgery & Counterfeiting,2023-12-01,21,86
+Forgery & Counterfeiting,2023-10-01,140,135
+Forgery & Counterfeiting,2023-11-01,103,126
+Forgery & Counterfeiting,2023-12-01,26,90
 Fraud,2019-01-01,1519,NA
 Fraud,2019-02-01,1381,NA
 Fraud,2019-03-01,1553,1484
@@ -626,9 +626,9 @@ Fraud,2021-09-01,1246,1272
 Fraud,2021-10-01,1170,1228
 Fraud,2021-11-01,1061,1159
 Fraud,2021-12-01,1049,1093
-Fraud,2022-01-01,1169,1093
-Fraud,2022-02-01,951,1056
-Fraud,2022-03-01,1241,1120
+Fraud,2022-01-01,1170,1093
+Fraud,2022-02-01,951,1057
+Fraud,2022-03-01,1241,1121
 Fraud,2022-04-01,1221,1138
 Fraud,2022-05-01,1201,1221
 Fraud,2022-06-01,1231,1218
@@ -637,19 +637,19 @@ Fraud,2022-08-01,1207,1197
 Fraud,2022-09-01,1265,1208
 Fraud,2022-10-01,1266,1246
 Fraud,2022-11-01,1191,1241
-Fraud,2022-12-01,1254,1237
+Fraud,2022-12-01,1255,1237
 Fraud,2023-01-01,1256,1234
-Fraud,2023-02-01,1265,1258
+Fraud,2023-02-01,1265,1259
 Fraud,2023-03-01,1394,1305
 Fraud,2023-04-01,1322,1327
 Fraud,2023-05-01,1258,1325
-Fraud,2023-06-01,1220,1267
-Fraud,2023-07-01,1270,1249
-Fraud,2023-08-01,1338,1276
-Fraud,2023-09-01,1146,1251
-Fraud,2023-10-01,1054,1179
-Fraud,2023-11-01,952,1051
-Fraud,2023-12-01,283,763
+Fraud,2023-06-01,1221,1267
+Fraud,2023-07-01,1271,1250
+Fraud,2023-08-01,1338,1277
+Fraud,2023-09-01,1147,1252
+Fraud,2023-10-01,1055,1180
+Fraud,2023-11-01,953,1052
+Fraud,2023-12-01,317,775
 Gambling,2019-01-01,4,NA
 Gambling,2019-02-01,2,NA
 Gambling,2019-03-01,5,4
@@ -864,12 +864,12 @@ Misc Non-Index Offense,2023-03-01,2000,1860
 Misc Non-Index Offense,2023-04-01,1758,1834
 Misc Non-Index Offense,2023-05-01,1838,1865
 Misc Non-Index Offense,2023-06-01,1869,1822
-Misc Non-Index Offense,2023-07-01,1917,1875
-Misc Non-Index Offense,2023-08-01,1869,1885
+Misc Non-Index Offense,2023-07-01,1916,1874
+Misc Non-Index Offense,2023-08-01,1870,1885
 Misc Non-Index Offense,2023-09-01,1831,1872
-Misc Non-Index Offense,2023-10-01,1863,1854
-Misc Non-Index Offense,2023-11-01,1849,1848
-Misc Non-Index Offense,2023-12-01,562,1425
+Misc Non-Index Offense,2023-10-01,1864,1855
+Misc Non-Index Offense,2023-11-01,1852,1849
+Misc Non-Index Offense,2023-12-01,621,1446
 Motor Vehicle Theft,2019-01-01,707,NA
 Motor Vehicle Theft,2019-02-01,654,NA
 Motor Vehicle Theft,2019-03-01,717,693
@@ -928,8 +928,8 @@ Motor Vehicle Theft,2023-07-01,2627,2539
 Motor Vehicle Theft,2023-08-01,2611,2599
 Motor Vehicle Theft,2023-09-01,2332,2523
 Motor Vehicle Theft,2023-10-01,2560,2501
-Motor Vehicle Theft,2023-11-01,2244,2379
-Motor Vehicle Theft,2023-12-01,661,1822
+Motor Vehicle Theft,2023-11-01,2246,2379
+Motor Vehicle Theft,2023-12-01,736,1847
 Murder,2019-01-01,23,NA
 Murder,2019-02-01,25,NA
 Murder,2019-03-01,34,27
@@ -989,7 +989,7 @@ Murder,2023-08-01,59,64
 Murder,2023-09-01,47,56
 Murder,2023-10-01,54,53
 Murder,2023-11-01,52,51
-Murder,2023-12-01,14,40
+Murder,2023-12-01,15,40
 Offenses Against Family,2019-01-01,119,NA
 Offenses Against Family,2019-02-01,109,NA
 Offenses Against Family,2019-03-01,118,115
@@ -1047,9 +1047,9 @@ Offenses Against Family,2023-06-01,55,72
 Offenses Against Family,2023-07-01,60,65
 Offenses Against Family,2023-08-01,72,62
 Offenses Against Family,2023-09-01,75,69
-Offenses Against Family,2023-10-01,82,76
-Offenses Against Family,2023-11-01,79,79
-Offenses Against Family,2023-12-01,24,62
+Offenses Against Family,2023-10-01,81,76
+Offenses Against Family,2023-11-01,81,79
+Offenses Against Family,2023-12-01,27,63
 Prostitution,2019-01-01,74,NA
 Prostitution,2019-02-01,45,NA
 Prostitution,2019-03-01,55,58
@@ -1098,9 +1098,9 @@ Prostitution,2022-09-01,64,36
 Prostitution,2022-10-01,35,44
 Prostitution,2022-11-01,21,40
 Prostitution,2022-12-01,7,21
-Prostitution,2023-01-01,68,32
+Prostitution,2023-01-01,69,32
 Prostitution,2023-02-01,21,32
-Prostitution,2023-03-01,14,34
+Prostitution,2023-03-01,14,35
 Prostitution,2023-04-01,8,14
 Prostitution,2023-05-01,8,10
 Prostitution,2023-06-01,32,16
@@ -1108,7 +1108,7 @@ Prostitution,2023-07-01,28,23
 Prostitution,2023-08-01,17,26
 Prostitution,2023-09-01,37,27
 Prostitution,2023-10-01,7,20
-Prostitution,2023-11-01,16,20
+Prostitution,2023-11-01,15,20
 Prostitution,2023-12-01,1,8
 Robbery,2019-01-01,658,NA
 Robbery,2019-02-01,497,NA
@@ -1169,7 +1169,7 @@ Robbery,2023-08-01,1213,1002
 Robbery,2023-09-01,1147,1123
 Robbery,2023-10-01,1206,1189
 Robbery,2023-11-01,1010,1121
-Robbery,2023-12-01,362,859
+Robbery,2023-12-01,393,870
 Simple Assault,2019-01-01,1032,NA
 Simple Assault,2019-02-01,1062,NA
 Simple Assault,2019-03-01,1231,1108
@@ -1225,11 +1225,11 @@ Simple Assault,2023-04-01,1212,1162
 Simple Assault,2023-05-01,1331,1252
 Simple Assault,2023-06-01,1354,1299
 Simple Assault,2023-07-01,1392,1359
-Simple Assault,2023-08-01,1435,1394
+Simple Assault,2023-08-01,1436,1394
 Simple Assault,2023-09-01,1382,1403
 Simple Assault,2023-10-01,1343,1387
-Simple Assault,2023-11-01,1193,1306
-Simple Assault,2023-12-01,371,969
+Simple Assault,2023-11-01,1194,1306
+Simple Assault,2023-12-01,408,982
 Simple Battery,2019-01-01,3057,NA
 Simple Battery,2019-02-01,2868,NA
 Simple Battery,2019-03-01,3484,3136
@@ -1288,8 +1288,8 @@ Simple Battery,2023-07-01,3398,3243
 Simple Battery,2023-08-01,3296,3261
 Simple Battery,2023-09-01,3205,3300
 Simple Battery,2023-10-01,3128,3210
-Simple Battery,2023-11-01,2846,3060
-Simple Battery,2023-12-01,953,2309
+Simple Battery,2023-11-01,2847,3060
+Simple Battery,2023-12-01,1050,2342
 Stolen Property,2019-01-01,8,NA
 Stolen Property,2019-02-01,2,NA
 Stolen Property,2019-03-01,5,5
@@ -1394,19 +1394,19 @@ Theft,2022-08-01,3279,3345
 Theft,2022-09-01,3182,3353
 Theft,2022-10-01,3155,3205
 Theft,2022-11-01,2898,3078
-Theft,2022-12-01,2815,2956
-Theft,2023-01-01,2847,2853
+Theft,2022-12-01,2816,2956
+Theft,2023-01-01,2848,2854
 Theft,2023-02-01,2422,2695
 Theft,2023-03-01,2839,2703
 Theft,2023-04-01,2815,2692
 Theft,2023-05-01,2921,2858
 Theft,2023-06-01,3112,2949
 Theft,2023-07-01,3119,3051
-Theft,2023-08-01,3435,3222
-Theft,2023-09-01,3128,3227
+Theft,2023-08-01,3436,3222
+Theft,2023-09-01,3129,3228
 Theft,2023-10-01,3285,3283
-Theft,2023-11-01,3080,3164
-Theft,2023-12-01,1040,2468
+Theft,2023-11-01,3081,3165
+Theft,2023-12-01,1143,2503
 Theft Over $500,2019-01-01,1110,NA
 Theft Over $500,2019-02-01,1082,NA
 Theft Over $500,2019-03-01,990,1061
@@ -1443,7 +1443,7 @@ Theft Over $500,2021-09-01,1353,1304
 Theft Over $500,2021-10-01,1466,1367
 Theft Over $500,2021-11-01,1226,1348
 Theft Over $500,2021-12-01,1284,1325
-Theft Over $500,2022-01-01,1086,1199
+Theft Over $500,2022-01-01,1085,1198
 Theft Over $500,2022-02-01,1077,1149
 Theft Over $500,2022-03-01,1482,1215
 Theft Over $500,2022-04-01,1308,1289
@@ -1464,9 +1464,9 @@ Theft Over $500,2023-06-01,1957,1772
 Theft Over $500,2023-07-01,2052,1940
 Theft Over $500,2023-08-01,1957,1989
 Theft Over $500,2023-09-01,1781,1930
-Theft Over $500,2023-10-01,1859,1866
-Theft Over $500,2023-11-01,1575,1738
-Theft Over $500,2023-12-01,458,1297
+Theft Over $500,2023-10-01,1860,1866
+Theft Over $500,2023-11-01,1577,1739
+Theft Over $500,2023-12-01,518,1318
 Vandalism,2019-01-01,1727,NA
 Vandalism,2019-02-01,1628,NA
 Vandalism,2019-03-01,1939,1765
@@ -1526,7 +1526,7 @@ Vandalism,2023-08-01,2736,2760
 Vandalism,2023-09-01,2495,2724
 Vandalism,2023-10-01,2581,2604
 Vandalism,2023-11-01,2390,2489
-Vandalism,2023-12-01,761,1911
+Vandalism,2023-12-01,837,1936
 Weapons Violation,2019-01-01,459,NA
 Weapons Violation,2019-02-01,389,NA
 Weapons Violation,2019-03-01,510,453
@@ -1586,4 +1586,4 @@ Weapons Violation,2023-08-01,826,845
 Weapons Violation,2023-09-01,736,821
 Weapons Violation,2023-10-01,699,754
 Weapons Violation,2023-11-01,673,703
-Weapons Violation,2023-12-01,177,516
+Weapons Violation,2023-12-01,194,522
