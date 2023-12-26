@@ -1,20 +1,20 @@
 category,location_description,total19,total20,total21,total22,total23,last12mos,total_prior3years,avg_prior3years,inc_19to22,inc_19tolast12,inc_22tolast12,inc_prior3yearavgtolast12
 Aggravated Assault,Transit,76,64,83,95,98,102,242,80.7,25,34.2,7.4,26
-Aggravated Battery,Transit,105,92,119,154,176,183,365,121.7,46.7,74.3,18.8,50
+Aggravated Battery,Transit,105,92,119,154,177,183,365,121.7,46.7,74.3,18.8,50
 Criminal Sexual Abuse,Transit,49,22,38,54,40,42,114,38,10.2,-14.3,-22.2,11
 Criminal Sexual Assault,Transit,2,2,11,18,12,13,31,10.3,800,550,-27.8,26
 Disorderly Conduct,Transit,60,28,7,34,56,56,69,23,-43.3,-6.7,64.7,143
-Drug Abuse,Transit,79,50,19,56,108,114,125,41.7,-29.1,44.3,103.6,173
+Drug Abuse,Transit,79,50,19,56,109,115,125,41.7,-29.1,45.6,105.4,176
 Forgery & Counterfeiting,Transit,2,0,0,0,0,0,0,0,-100,-100,NA,NA
-Fraud,Transit,297,128,73,67,427,432,268,89.3,-77.4,45.5,544.8,384
+Fraud,Transit,297,128,73,67,428,433,268,89.3,-77.4,45.8,546.3,385
 Misc Non-Index Offense,Transit,120,70,46,63,77,80,179,59.7,-47.5,-33.3,27,34
 Murder,Transit,1,3,4,5,1,1,12,4,400,0,-80,-75
 Offenses Against Family,Transit,1,0,1,0,0,0,1,0.3,-100,-100,NA,-100
 Prostitution,Transit,1,0,0,0,2,2,0,0,-100,100,NA,NA
 Robbery,Transit,414,319,368,390,291,298,1077,359,-5.8,-28,-23.6,-17
-Simple Assault,Transit,215,156,167,204,209,214,527,175.7,-5.1,-0.5,4.9,22
-Simple Battery,Transit,807,468,488,624,740,760,1580,526.7,-22.7,-5.8,21.8,44
-Theft,Transit,1269,509,400,553,470,480,1462,487.3,-56.4,-62.2,-13.2,-1
+Simple Assault,Transit,215,156,167,204,210,215,527,175.7,-5.1,0,5.4,22
+Simple Battery,Transit,807,468,488,624,740,757,1580,526.7,-22.7,-6.2,21.3,44
+Theft,Transit,1269,509,400,553,472,482,1462,487.3,-56.4,-62,-12.8,-1
 Theft Over $500,Transit,587,242,131,183,138,141,556,185.3,-68.8,-76,-23,-24
 Vandalism,Transit,282,230,205,187,159,164,622,207.3,-33.7,-41.8,-12.3,-21
 Weapons Violation,Transit,18,12,31,49,54,55,92,30.7,172.2,205.6,12.2,79
