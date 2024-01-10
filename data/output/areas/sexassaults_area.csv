@@ -1,8 +1,8 @@
 community,community_area,population,category,total19,total20,total21,total22,total23,last12mos,total_prior3years,avg_prior3years,inc_19to22,inc_19tolast12,inc_22tolast12,inc_prior3yearavgtolast12,rate19,rate20,rate21,rate22,rate_last12,rate_prior3years
 Douglas,35,20000,Criminal Sexual Assault,17,15,19,16,22,22,50,16.7,-5.9,29.4,37.5,32,85,75,95,80,110,83.5
 Oakland,36,7000,Criminal Sexual Assault,6,6,2,8,1,2,16,5.3,33.3,-66.7,-75,-62,85.7,85.7,28.6,114.3,28.6,75.7
-Fuller Park,37,3000,Criminal Sexual Assault,10,2,2,5,0,0,9,3,-50,-100,-100,-100,333.3,66.7,66.7,166.7,0,100
-Grand Boulevard,38,25000,Criminal Sexual Assault,22,13,26,11,17,17,50,16.7,-50,-22.7,54.5,2,88,52,104,44,68,66.8
+Fuller Park,37,3000,Criminal Sexual Assault,10,2,2,5,1,1,9,3,-50,-90,-80,-67,333.3,66.7,66.7,166.7,33.3,100
+Grand Boulevard,38,25000,Criminal Sexual Assault,22,13,26,11,18,18,50,16.7,-50,-18.2,63.6,8,88,52,104,44,72,66.8
 Kenwood,39,19000,Criminal Sexual Assault,14,6,10,13,8,8,29,9.7,-7.1,-42.9,-38.5,-18,73.7,31.6,52.6,68.4,42.1,51.1
 Lincoln Square,4,40000,Criminal Sexual Assault,30,16,14,25,26,26,55,18.3,-16.7,-13.3,4,42,75,40,35,62.5,65,45.8
 Washington Park,40,13000,Criminal Sexual Assault,20,15,12,14,13,13,41,13.7,-30,-35,-7.1,-5,153.8,115.4,92.3,107.7,100,105.4
@@ -19,7 +19,7 @@ Dunning,17,43000,Criminal Sexual Assault,6,8,12,7,15,15,27,9,16.7,150,114.3,67,1
 Montclare,18,14000,Criminal Sexual Assault,4,6,2,4,1,1,12,4,0,-75,-75,-75,28.6,42.9,14.3,28.6,7.1,28.6
 Belmont Cragin,19,78000,Criminal Sexual Assault,38,27,30,36,31,31,93,31,-5.3,-18.4,-13.9,0,48.7,34.6,38.5,46.2,39.7,39.7
 West Ridge,2,77000,Criminal Sexual Assault,30,15,28,21,20,20,64,21.3,-30,-33.3,-4.8,-6,39,19.5,36.4,27.3,26,27.7
-Hermosa,20,24000,Criminal Sexual Assault,10,12,10,12,12,12,34,11.3,20,20,0,6,41.7,50,41.7,50,50,47.1
+Hermosa,20,24000,Criminal Sexual Assault,10,12,10,13,12,12,35,11.7,30,20,-7.7,3,41.7,50,41.7,54.2,50,48.8
 Avondale,21,36000,Criminal Sexual Assault,15,9,16,6,6,6,31,10.3,-60,-60,0,-42,41.7,25,44.4,16.7,16.7,28.6
 Logan Square,22,72000,Criminal Sexual Assault,36,17,31,28,17,17,76,25.3,-22.2,-52.8,-39.3,-33,50,23.6,43.1,38.9,23.6,35.1
 Humboldt Park,23,54000,Criminal Sexual Assault,61,44,37,46,39,39,127,42.3,-24.6,-36.1,-15.2,-8,113,81.5,68.5,85.2,72.2,78.3
@@ -63,11 +63,11 @@ Gage Park,63,40000,Criminal Sexual Assault,19,15,14,19,17,17,48,16,0,-10.5,-10.5
 Clearing,64,24000,Criminal Sexual Assault,9,8,2,4,2,2,14,4.7,-55.6,-77.8,-50,-57,37.5,33.3,8.3,16.7,8.3,19.6
 West Lawn,65,34000,Criminal Sexual Assault,15,10,12,9,11,11,31,10.3,-40,-26.7,22.2,7,44.1,29.4,35.3,26.5,32.4,30.3
 Chicago Lawn,66,56000,Criminal Sexual Assault,50,29,39,43,47,47,111,37,-14,-6,9.3,27,89.3,51.8,69.6,76.8,83.9,66.1
-West Englewood,67,30000,Criminal Sexual Assault,41,44,39,36,37,38,119,39.7,-12.2,-7.3,5.6,-4,136.7,146.7,130,120,126.7,132.3
+West Englewood,67,30000,Criminal Sexual Assault,41,44,39,36,38,39,119,39.7,-12.2,-4.9,8.3,-2,136.7,146.7,130,120,130,132.3
 Englewood,68,24000,Criminal Sexual Assault,49,31,35,51,46,46,117,39,4.1,-6.1,-9.8,18,204.2,129.2,145.8,212.5,191.7,162.5
-Greater Grand Crossing,69,31000,Criminal Sexual Assault,61,45,37,47,34,34,129,43,-23,-44.3,-27.7,-21,196.8,145.2,119.4,151.6,109.7,138.7
+Greater Grand Crossing,69,31000,Criminal Sexual Assault,61,45,37,47,33,33,129,43,-23,-45.9,-29.8,-23,196.8,145.2,119.4,151.6,106.5,138.7
 Lincoln Park,7,70000,Criminal Sexual Assault,21,8,26,23,18,18,57,19,9.5,-14.3,-21.7,-5,30,11.4,37.1,32.9,25.7,27.1
-Ashburn,70,41000,Criminal Sexual Assault,13,21,10,13,17,17,44,14.7,0,30.8,30.8,16,31.7,51.2,24.4,31.7,41.5,35.9
+Ashburn,70,41000,Criminal Sexual Assault,13,21,10,13,18,18,44,14.7,0,38.5,38.5,22,31.7,51.2,24.4,31.7,43.9,35.9
 Auburn Gresham,71,45000,Criminal Sexual Assault,57,47,37,48,33,33,132,44,-15.8,-42.1,-31.2,-25,126.7,104.4,82.2,106.7,73.3,97.8
 Beverly,72,20000,Criminal Sexual Assault,2,4,4,5,3,3,13,4.3,150,50,-40,-30,10,20,20,25,15,21.5
 Washington Heights,73,25000,Criminal Sexual Assault,19,22,17,15,11,11,54,18,-21.1,-42.1,-26.7,-39,76,88,68,60,44,72
