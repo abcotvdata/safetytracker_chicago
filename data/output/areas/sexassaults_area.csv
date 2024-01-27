@@ -1,5 +1,5 @@
 community,community_area,population,category,total19,total20,total21,total22,total23,last12mos,total_prior3years,avg_prior3years,inc_19to22,inc_19tolast12,inc_22tolast12,inc_prior3yearavgtolast12,rate19,rate20,rate21,rate22,rate_last12,rate_prior3years
-Douglas,35,20000,Criminal Sexual Assault,17,15,19,16,22,22,50,16.7,-5.9,29.4,37.5,32,85,75,95,80,110,83.5
+Douglas,35,20000,Criminal Sexual Assault,17,15,19,16,21,21,50,16.7,-5.9,23.5,31.2,26,85,75,95,80,105,83.5
 Oakland,36,7000,Criminal Sexual Assault,6,6,2,8,1,2,16,5.3,33.3,-66.7,-75,-62,85.7,85.7,28.6,114.3,28.6,75.7
 Fuller Park,37,3000,Criminal Sexual Assault,10,2,2,5,1,1,9,3,-50,-90,-80,-67,333.3,66.7,66.7,166.7,33.3,100
 Grand Boulevard,38,25000,Criminal Sexual Assault,22,13,26,11,18,18,50,16.7,-50,-18.2,63.6,8,88,52,104,44,72,66.8
@@ -27,11 +27,11 @@ West Town,24,88000,Criminal Sexual Assault,49,31,44,35,43,43,110,36.7,-28.6,-12.
 Austin,25,97000,Criminal Sexual Assault,115,99,88,100,101,101,287,95.7,-13,-12.2,1,6,118.6,102.1,90.7,103.1,104.1,98.7
 West Garfield Park,26,17000,Criminal Sexual Assault,41,36,30,29,24,24,95,31.7,-29.3,-41.5,-17.2,-24,241.2,211.8,176.5,170.6,141.2,186.5
 East Garfield Park,27,20000,Criminal Sexual Assault,21,23,34,29,33,33,86,28.7,38.1,57.1,13.8,15,105,115,170,145,165,143.5
-Near West Side,28,68000,Criminal Sexual Assault,63,33,45,53,74,74,131,43.7,-15.9,17.5,39.6,69,92.6,48.5,66.2,77.9,108.8,64.3
+Near West Side,28,68000,Criminal Sexual Assault,63,33,45,53,75,75,131,43.7,-15.9,19,41.5,72,92.6,48.5,66.2,77.9,110.3,64.3
 North Lawndale,29,35000,Criminal Sexual Assault,45,48,52,58,71,71,158,52.7,28.9,57.8,22.4,35,128.6,137.1,148.6,165.7,202.9,150.6
 Uptown,3,57000,Criminal Sexual Assault,37,29,36,48,38,38,113,37.7,29.7,2.7,-20.8,1,64.9,50.9,63.2,84.2,66.7,66.1
 South Lawndale,30,71000,Criminal Sexual Assault,39,33,31,40,27,27,104,34.7,2.6,-30.8,-32.5,-22,54.9,46.5,43.7,56.3,38,48.9
-Lower West Side,31,34000,Criminal Sexual Assault,21,10,24,15,17,17,49,16.3,-28.6,-19,13.3,4,61.8,29.4,70.6,44.1,50,47.9
+Lower West Side,31,34000,Criminal Sexual Assault,21,10,24,15,18,18,49,16.3,-28.6,-14.3,20,10,61.8,29.4,70.6,44.1,52.9,47.9
 Near South Side,33,29000,Criminal Sexual Assault,9,18,15,17,22,22,50,16.7,88.9,144.4,29.4,32,31,62.1,51.7,58.6,75.9,57.6
 Armour Square,34,14000,Criminal Sexual Assault,3,2,4,6,1,1,12,4,100,-66.7,-83.3,-75,21.4,14.3,28.6,42.9,7.1,28.6
 Norwood Park,10,38000,Criminal Sexual Assault,11,3,6,9,8,8,18,6,-18.2,-27.3,-11.1,33,28.9,7.9,15.8,23.7,21.1,15.8
