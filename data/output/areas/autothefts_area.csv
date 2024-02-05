@@ -1,5 +1,5 @@
 community,community_area,population,category,total19,total20,total21,total22,total23,last12mos,total_prior3years,avg_prior3years,inc_19to22,inc_19tolast12,inc_22tolast12,inc_prior3yearavgtolast12,rate19,rate20,rate21,rate22,rate_last12,rate_prior3years
-Douglas,35,20000,Motor Vehicle Theft,86,112,175,397,591,592,684,228,361.6,588.4,49.1,160,430,560,875,1985,2960,1140
+Douglas,35,20000,Motor Vehicle Theft,86,112,175,397,592,593,684,228,361.6,589.5,49.4,160,430,560,875,1985,2965,1140
 Oakland,36,7000,Motor Vehicle Theft,18,28,32,127,203,204,187,62.3,605.6,1033.3,60.6,227,257.1,400,457.1,1814.3,2914.3,890
 Fuller Park,37,3000,Motor Vehicle Theft,35,41,40,60,93,93,141,47,71.4,165.7,55,98,1166.7,1366.7,1333.3,2000,3100,1566.7
 Grand Boulevard,38,25000,Motor Vehicle Theft,135,178,164,510,626,627,852,284,277.8,364.4,22.9,121,540,712,656,2040,2508,1136
@@ -74,6 +74,6 @@ Washington Heights,73,25000,Motor Vehicle Theft,117,136,159,439,538,542,734,244.
 Mount Greenwood,74,19000,Motor Vehicle Theft,13,16,23,22,38,38,61,20.3,69.2,192.3,72.7,87,68.4,84.2,121.1,115.8,200,106.8
 Morgan Park,75,21000,Motor Vehicle Theft,61,77,79,177,240,241,333,111,190.2,295.1,36.2,117,290.5,366.7,376.2,842.9,1147.6,528.6
 Ohare,76,13000,Motor Vehicle Theft,89,79,64,124,137,137,267,89,39.3,53.9,10.5,54,684.6,607.7,492.3,953.8,1053.8,684.6
-Edgewater,77,56000,Motor Vehicle Theft,56,63,84,186,292,292,333,111,232.1,421.4,57,163,100,112.5,150,332.1,521.4,198.2
+Edgewater,77,56000,Motor Vehicle Theft,56,63,84,186,293,293,333,111,232.1,423.2,57.5,164,100,112.5,150,332.1,523.2,198.2
 Edison Park,9,12000,Motor Vehicle Theft,11,9,6,13,11,11,28,9.3,18.2,0,-15.4,18,91.7,75,50,108.3,91.7,77.5
 NA,Unknown,NA,Motor Vehicle Theft,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
