@@ -186,7 +186,7 @@ th {
 
 ```{r population, include=FALSE}
 # set value of chicago_population
-chicago_population <- 2696561
+chicago_population <- 2665064
 ```
 
 
@@ -216,7 +216,7 @@ chicago_population <- 2696561
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Burglaries<br>
 <bignumber>`r prettyNum(round(burglaries_city$avg_prior3years,0), big.mark=",")`<br></bignumber><p>
-Yearly average<br>2020 to 2022</p>
+Yearly average<br>2021 to 2023</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Burglary Rate<br>
@@ -226,7 +226,7 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Burglary Rate<br>
 <bignumber>`r round(burglaries_city$rate_prior3years,0)`<br></bignumber><p>
-Per 100,000 people<br>2020 to 2022</p>
+Per 100,000 people<br>2021 to 2023</p>
 </div>
 </div>
 <br>
@@ -323,6 +323,15 @@ burglaries_area$total22,
 "</td>
 				<td>",
 round(burglaries_area$rate22,0),
+"</td>
+			</tr>
+									<tr>
+				<td>2023</td>
+				<td>",
+burglaries_area$total23,
+"</td>
+				<td>",
+round(burglaries_area$rate23,0)
 "</td>
 			</tr>
 						<tr>
