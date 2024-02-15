@@ -217,7 +217,7 @@ You can choose which crime to examine: <select onchange="window.location=this.va
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Assaults<br>
 <bignumber>`r prettyNum(round(batteries_city$avg_prior3years,0), big.mark=",")`<br></bignumber><p>
-Yearly average<br>2020 to 2022</p>
+Yearly average<br>2021 to 2023</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Assault Rate<br>
@@ -227,7 +227,7 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Assault Rate<br>
 <bignumber>`r prettyNum(round(batteries_city$rate_prior3years,0), big.mark=",")`<br></bignumber><p>
-Per 100,000 people<br>2020 to 2022</p>
+Per 100,000 people<br>2021 to 2023</p>
 </div>
 </div>
 <br>
@@ -325,7 +325,16 @@ prettyNum(round(batteries_area$rate21,0), big.mark=","),
 batteries_area$total22,
 "</td>
 				<td>",
-prettyNum(round(batteries_area$rate22,0), big.mark=","),
+prettyNum(round(batteries_area$rate23,0), big.mark=","),
+"</td>
+			</tr>
+									<tr>
+				<td>2022</td>
+				<td>",
+batteries_area$total22,
+"</td>
+				<td>",
+prettyNum(round(batteries_area$rate23,0), big.mark=","),
 "</td>
 			</tr>
 						<tr>
