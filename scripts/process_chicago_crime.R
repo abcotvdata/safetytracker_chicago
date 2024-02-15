@@ -18,7 +18,7 @@ download.file("https://data.cityofchicago.org/api/views/xguy-4ndq/rows.csv",
 
 # Download latest updated data for current year from city open data site
 
-dowload.file("https://data.cityofchicago.org/api/views/dqcy-ctma/rows.csv",
+download.file("https://data.cityofchicago.org/api/views/dqcy-ctma/rows.csv",
              "data/source/recent/chicago2024.csv")
 
 # import the archived annual files
