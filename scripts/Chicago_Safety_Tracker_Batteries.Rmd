@@ -325,7 +325,7 @@ prettyNum(round(batteries_area$rate21,0), big.mark=","),
 batteries_area$total22,
 "</td>
 				<td>",
-prettyNum(round(batteries_area$rate23,0), big.mark=","),
+prettyNum(round(batteries_area$rate22,0), big.mark=","),
 "</td>
 			</tr>
 									<tr>
