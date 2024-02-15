@@ -331,7 +331,7 @@ round(robberies_area$rate22,0),
 robberies_area$total23,
 "</td>
 				<td>",
-round(robberies_area$rate23,0)
+round(robberies_area$rate23,0),
 "</td>
 			</tr>
 						<tr>
