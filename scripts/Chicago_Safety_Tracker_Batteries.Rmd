@@ -187,7 +187,7 @@ th {
 
 ```{r population, include=FALSE}
 # set value of chicago_population
-chicago_population <- 2696561
+chicago_population <- 2665064
 ```
 
 
@@ -329,9 +329,9 @@ prettyNum(round(batteries_area$rate23,0), big.mark=","),
 "</td>
 			</tr>
 									<tr>
-				<td>2022</td>
+				<td>2023</td>
 				<td>",
-batteries_area$total22,
+batteries_area$total23,
 "</td>
 				<td>",
 prettyNum(round(batteries_area$rate23,0), big.mark=","),
