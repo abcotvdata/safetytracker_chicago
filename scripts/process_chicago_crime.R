@@ -722,7 +722,7 @@ transit_crimes <- transit_crimes %>%
          "total21" = "2021",
          "total22" = "2022",
          "total23" = "2023",
-         "total24" = "2024"
+         "total24" = "2024",
          "last12mos" = "last12")
 # filter for transit and for major crimes
 transit_crimes <- transit_crimes %>% filter(location_description=="Transit")
