@@ -6,13 +6,13 @@ Hotel or Motel,2,4,1,2,1,0,1
 Housing Authority,5,11,3,9,8,2,9
 Other,2,13,10,10,17,1,17
 Other Transportation Facility,1,0,0,1,0,0,0
-Parking Lot/Garage,13,20,25,26,28,10,33
+Parking Lot/Garage,13,20,25,26,28,10,32
 Recreation Area,3,11,8,11,4,1,5
-Residence,84,104,118,116,103,26,105
-Street or Highway,297,412,429,402,347,59,335
+Residence,84,104,118,116,103,27,106
+Street or Highway,297,412,429,402,347,59,334
 Transit,1,3,4,5,1,2,2
 Transit Property,1,1,0,4,1,0,0
-Vacant Lot,2,10,9,4,5,0,4
+Vacant Lot,2,10,9,4,5,1,5
 Vehicle,1,0,0,1,0,0,0
 Yard,9,28,17,27,21,2,19
 Abandoned Building,0,3,0,0,0,0,0
