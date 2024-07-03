@@ -1,23 +1,23 @@
 category,location_description,total19,total20,total21,total22,total23,total24,last12mos,total_prior3years,avg_prior3years,inc_19to23,inc_19tolast12,inc_23tolast12,inc_prior3yearavgtolast12
 Aggravated Assault,Transit,76,64,83,95,100,55,102,278,92.7,31.6,34.2,2,10
 Aggravated Battery,Transit,105,92,119,154,180,79,179,453,151,71.4,70.5,-0.6,19
-Criminal Sexual Abuse,Transit,49,22,38,53,40,23,46,131,43.7,-18.4,-6.1,15,5
+Criminal Sexual Abuse,Transit,49,22,38,53,40,24,47,131,43.7,-18.4,-4.1,17.5,8
 Criminal Sexual Assault,Transit,2,2,11,18,15,11,19,44,14.7,650,850,26.7,29
 Disorderly Conduct,Transit,60,28,7,34,59,42,67,100,33.3,-1.7,11.7,13.6,101
 Drug Abuse,Transit,79,50,19,56,113,72,120,188,62.7,43,51.9,6.2,91
 Forgery & Counterfeiting,Transit,2,0,0,0,0,0,0,0,0,-100,-100,NA,NA
-Fraud,Transit,297,128,73,67,433,140,319,573,191,45.8,7.4,-26.3,67
-Misc Non-Index Offense,Transit,120,70,46,63,78,39,72,187,62.3,-35,-40,-7.7,16
+Fraud,Transit,297,128,73,67,433,141,320,573,191,45.8,7.7,-26.1,68
+Misc Non-Index Offense,Transit,120,70,46,63,78,40,73,187,62.3,-35,-39.2,-6.4,17
 Murder,Transit,1,3,4,5,1,2,2,10,3.3,0,100,100,-39
 Offenses Against Family,Transit,1,0,1,0,0,2,2,1,0.3,-100,100,NA,567
 Prostitution,Transit,1,0,0,0,2,0,1,2,0.7,100,0,-50,43
-Robbery,Transit,414,319,368,390,301,172,327,1059,353,-27.3,-21,8.6,-7
-Simple Assault,Transit,215,156,167,205,215,97,198,587,195.7,0,-7.9,-7.9,1
-Simple Battery,Transit,807,468,488,625,762,437,826,1875,625,-5.6,2.4,8.4,32
-Theft,Transit,1269,509,400,553,485,210,454,1438,479.3,-61.8,-64.2,-6.4,-5
+Robbery,Transit,414,319,368,390,301,172,325,1059,353,-27.3,-21.5,8,-8
+Simple Assault,Transit,215,156,167,205,215,98,199,587,195.7,0,-7.4,-7.4,2
+Simple Battery,Transit,807,468,488,625,762,439,825,1875,625,-5.6,2.2,8.3,32
+Theft,Transit,1269,509,400,553,485,210,452,1438,479.3,-61.8,-64.4,-6.8,-6
 Theft Over $500,Transit,587,242,131,183,140,79,152,454,151.3,-76.1,-74.1,8.6,0
-Vandalism,Transit,282,230,205,187,168,162,247,560,186.7,-40.4,-12.4,47,32
-Weapons Violation,Transit,18,12,31,49,55,42,65,135,45,205.6,261.1,18.2,44
+Vandalism,Transit,282,230,205,187,168,163,248,560,186.7,-40.4,-12.1,47.6,33
+Weapons Violation,Transit,18,12,31,49,55,44,66,135,45,205.6,266.7,20,47
 Arson,Transit,0,1,0,4,2,0,1,6,2,NA,NA,-50,-50
 Liquor License,Transit,0,1,0,0,1,0,1,1,0.3,NA,NA,0,233
 Burglary,Transit,0,0,1,0,0,0,0,1,0.3,NA,NA,NA,-100
