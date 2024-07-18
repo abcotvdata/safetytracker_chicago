@@ -1,22 +1,22 @@
 category,location_description,total19,total20,total21,total22,total23,total24,last12mos,total_prior3years,avg_prior3years,inc_19to23,inc_19tolast12,inc_23tolast12,inc_prior3yearavgtolast12
 Aggravated Assault,Transit,76,64,83,95,100,58,99,278,92.7,31.6,30.3,-1,7
-Aggravated Battery,Transit,105,92,119,154,180,92,178,453,151,71.4,69.5,-1.1,18
+Aggravated Battery,Transit,105,92,119,154,180,93,179,453,151,71.4,70.5,-0.6,19
 Criminal Sexual Abuse,Transit,49,22,38,53,40,26,47,131,43.7,-18.4,-4.1,17.5,8
 Criminal Sexual Assault,Transit,2,2,11,18,15,11,19,44,14.7,650,850,26.7,29
 Disorderly Conduct,Transit,60,28,7,34,59,44,68,100,33.3,-1.7,13.3,15.3,104
 Drug Abuse,Transit,79,50,19,56,113,78,123,188,62.7,43,55.7,8.8,96
 Forgery & Counterfeiting,Transit,2,0,0,0,0,0,0,0,0,-100,-100,NA,NA
-Fraud,Transit,297,128,73,67,433,149,319,573,191,45.8,7.4,-26.3,67
+Fraud,Transit,297,128,73,67,433,149,317,573,191,45.8,6.7,-26.8,66
 Misc Non-Index Offense,Transit,120,70,46,63,78,45,76,187,62.3,-35,-36.7,-2.6,22
 Murder,Transit,1,3,4,5,1,3,3,10,3.3,0,200,200,-9
 Offenses Against Family,Transit,1,0,1,0,0,2,2,1,0.3,-100,100,NA,567
 Prostitution,Transit,1,0,0,0,2,0,1,2,0.7,100,0,-50,43
-Robbery,Transit,414,319,368,390,301,192,334,1059,353,-27.3,-19.3,11,-5
+Robbery,Transit,414,319,368,390,301,192,333,1059,353,-27.3,-19.6,10.6,-6
 Simple Assault,Transit,215,156,167,205,215,107,204,587,195.7,0,-5.1,-5.1,4
 Simple Battery,Transit,807,468,488,625,762,473,827,1875,625,-5.6,2.5,8.5,32
-Theft,Transit,1269,509,400,553,485,227,458,1438,479.3,-61.8,-63.9,-5.6,-4
+Theft,Transit,1269,509,400,553,485,232,462,1438,479.3,-61.8,-63.6,-4.7,-4
 Theft Over $500,Transit,587,242,131,183,140,87,157,454,151.3,-76.1,-73.3,12.1,4
-Vandalism,Transit,282,230,205,187,168,175,251,560,186.7,-40.4,-11,49.4,34
+Vandalism,Transit,282,230,205,187,168,177,253,560,186.7,-40.4,-10.3,50.6,36
 Weapons Violation,Transit,18,12,31,49,55,47,69,135,45,205.6,283.3,25.5,53
 Arson,Transit,0,1,0,4,2,0,1,6,2,NA,NA,-50,-50
 Liquor License,Transit,0,1,0,0,1,0,1,1,0.3,NA,NA,0,233
