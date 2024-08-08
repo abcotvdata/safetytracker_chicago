@@ -304,7 +304,14 @@ citywide_detailed_last12 <- chicago_crime_last12 %>%
 citywide_detailed <- left_join(citywide_detailed,citywide_detailed_last12,by=c("category","description"))
 # remove anything where 
 # add zeros where there were no crimes tallied that year
-citywide_detailed[is.na(citywide_detailed)] <- 0
+citywide_detailed$total19[is.na(citywide_detailed$total19)] <- 0
+citywide_detailed$total20[is.na(citywide_detailed$total20)] <- 0
+citywide_detailed$total21[is.na(citywide_detailed$total21)] <- 0
+citywide_detailed$total22[is.na(citywide_detailed$total22)] <- 0
+citywide_detailed$total23[is.na(citywide_detailed$total23)] <- 0
+citywide_detailed$total24[is.na(citywide_detailed$total24)] <- 0
+citywide_detailed$last12mos[is.na(citywide_detailed$last12mos)] <- 0
+
 rm(citywide_detailed_last12)
 # Calculate a total across the 3 prior years
 citywide_detailed$total_prior3years <- citywide_detailed$total21+citywide_detailed$total22+citywide_detailed$total23
