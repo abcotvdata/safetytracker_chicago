@@ -82,6 +82,9 @@ chicago_crime <- left_join(chicago_crime,chicago_class_codes %>% select(1,4,5),b
 # If community area is blank, add word Unknown
 chicago_crime$community_area[is.na(chicago_crime$community_area)] <- "Unknown"
 
+#For two new crime descriptions, add in categories and type **TEMPORARY FIX**
+chicago_crime <- chicago_crime %>% mutate(type = if_else(description == "PUBLIC AID WIRE/MAIL FRAUD - VIA MAIL/PACKAGE/DELIVERY SYS", "Property", type)) %>% mutate(type = if_else(description == "THEFT FROM MOTOR VEHICLE", "Property", type)) %>% mutate(category = if_else(description == "PUBLIC AID WIRE/MAIL FRAUD - VIA MAIL/PACKAGE/DELIVERY SYS", "Fraud", category)) %>% mutate(category = if_else(description == "THEFT FROM MOTOR VEHICLE", "Theft", category))
+
 # clean up premise names throughout file
 # the case when is stored once as a value by separate script
 chicago_crime$location_description <- case_when(chicago_crime$location_description == 'AIRPORT BUILDING NON-TERMINAL - NON-SECURE AREA' ~ 'Airport',
