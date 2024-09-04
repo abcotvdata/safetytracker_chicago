@@ -435,7 +435,14 @@ citywide_type <- left_join(citywide_type,citywide_type_last12,by=c("type"))
 citywide_type$total_prior3years <- citywide_type$total21+citywide_type$total22+citywide_type$total23
 citywide_type$avg_prior3years <- round(citywide_type$total_prior3years/3,1)
 # add zeros where there were no crimes tallied that year
-citywide_type[is.na(citywide_type)] <- 0
+# citywide_type[is.na(citywide_type)] <- 0
+citywide_type$total19[is.na(citywide_type$total19)] <- 0
+citywide_type$total20[is.na(citywide_type$total20)] <- 0
+citywide_type$total21[is.na(citywide_type$total21)] <- 0
+citywide_type$total22[is.na(citywide_type$total22)] <- 0
+citywide_type$total23[is.na(citywide_type$total23)] <- 0
+citywide_type$total24[is.na(citywide_type$total24)] <- 0
+citywide_type$last12mos[is.na(citywide_type$last12mos)] <- 0
 # calculate increases
 citywide_type$inc_19to23 <- round(citywide_type$total23/citywide_type$total19*100-100,1)
 citywide_type$inc_19tolast12 <- round(citywide_type$last12mos/citywide_type$total19*100-100,1)
