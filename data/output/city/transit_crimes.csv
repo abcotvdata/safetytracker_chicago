@@ -1,23 +1,23 @@
 category,location_description,total19,total20,total21,total22,total23,total24,last12mos,total_prior3years,avg_prior3years,inc_19to23,inc_19tolast12,inc_23tolast12,inc_prior3yearavgtolast12
 Aggravated Assault,Transit,76,64,83,95,100,76,107,278,92.7,31.6,40.8,7,15
-Aggravated Battery,Transit,105,92,119,154,180,118,180,453,151,71.4,71.4,0,19
-Criminal Sexual Abuse,Transit,49,22,38,53,40,29,48,131,43.7,-18.4,-2,20,10
+Aggravated Battery,Transit,105,92,119,154,180,118,178,453,151,71.4,69.5,-1.1,18
+Criminal Sexual Abuse,Transit,49,22,38,53,40,30,49,131,43.7,-18.4,0,22.5,12
 Criminal Sexual Assault,Transit,2,2,11,18,15,14,19,44,14.7,650,850,26.7,29
 Disorderly Conduct,Transit,60,28,7,34,59,48,69,100,33.3,-1.7,15,16.9,107
-Drug Abuse,Transit,79,50,19,56,113,92,128,188,62.7,43,62,13.3,104
+Drug Abuse,Transit,79,50,19,56,113,93,128,188,62.7,43,62,13.3,104
 Forgery & Counterfeiting,Transit,2,0,0,0,0,0,0,0,0,-100,-100,NA,NA
-Fraud,Transit,297,128,73,67,433,197,316,573,191,45.8,6.4,-27,65
+Fraud,Transit,297,128,73,67,433,203,319,573,191,45.8,7.4,-26.3,67
 Misc Non-Index Offense,Transit,120,70,46,63,78,54,77,187,62.3,-35,-35.8,-1.3,24
 Murder,Transit,1,3,4,5,1,3,3,10,3.3,0,200,200,-9
 Offenses Against Family,Transit,1,0,1,0,0,3,3,1,0.3,-100,200,NA,900
 Prostitution,Transit,1,0,0,0,2,0,1,2,0.7,100,0,-50,43
-Robbery,Transit,414,319,368,390,301,258,365,1059,353,-27.3,-11.8,21.3,3
-Simple Assault,Transit,215,156,167,205,215,142,215,587,195.7,0,0,0,10
-Simple Battery,Transit,807,468,488,625,762,583,844,1875,625,-5.6,4.6,10.8,35
-Theft,Transit,1269,509,400,553,486,306,476,1439,479.7,-61.7,-62.5,-2.1,-1
-Theft Over $500,Transit,587,242,131,183,140,116,169,454,151.3,-76.1,-71.2,20.7,12
-Vandalism,Transit,282,230,205,187,168,237,279,560,186.7,-40.4,-1.1,66.1,49
-Weapons Violation,Transit,18,12,31,49,55,57,75,135,45,205.6,316.7,36.4,67
+Robbery,Transit,414,319,368,390,301,260,367,1059,353,-27.3,-11.4,21.9,4
+Simple Assault,Transit,215,156,167,205,215,146,218,587,195.7,0,1.4,1.4,11
+Simple Battery,Transit,807,468,488,625,762,597,856,1875,625,-5.6,6.1,12.3,37
+Theft,Transit,1269,509,400,553,486,312,478,1439,479.7,-61.7,-62.3,-1.6,-0
+Theft Over $500,Transit,587,242,131,183,140,114,167,454,151.3,-76.1,-71.6,19.3,10
+Vandalism,Transit,282,230,205,187,168,243,284,560,186.7,-40.4,0.7,69,52
+Weapons Violation,Transit,18,12,31,49,55,59,76,135,45,205.6,322.2,38.2,69
 Arson,Transit,0,1,0,4,2,1,2,6,2,NA,NA,0,0
 Liquor License,Transit,0,1,0,0,1,0,0,1,0.3,NA,NA,-100,-100
 Burglary,Transit,0,0,1,0,0,0,0,1,0.3,NA,NA,NA,-100
