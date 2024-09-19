@@ -78,6 +78,7 @@ chicago_class_codes <- read_csv("data/source/reference/chicago_crime_classificat
 
 # merge
 chicago_crime <- left_join(chicago_crime,chicago_class_codes %>% select(1,4,5),by="iucr")
+chicago_crime$category <- as.character(chicago_crime$category)
 
 # If community area is blank, add word Unknown
 chicago_crime$community_area[is.na(chicago_crime$community_area)] <- "Unknown"
