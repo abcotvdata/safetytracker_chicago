@@ -817,6 +817,13 @@ violent_transit <- violent_transit %>% mutate(inc_19to23 = round(total23/total19
 violent_transit <- violent_transit %>% mutate(inc_19tolast12 = round(last12mos/total19*100-100,1))
 violent_transit <- violent_transit %>% mutate(inc_23tolast12 = round(last12mos/total23*100-100,1))
 violent_transit <- violent_transit %>% mutate(inc_prior3yearavgtolast12 = round(last12mos/avg_prior3years*100-100,1))
+violent_transit <- violent_transit %>% mutate(rate19 = round(total19/chicago_population*100000,1))
+violent_transit <- violent_transit %>% mutate(rate20 = round(total20/chicago_population*100000,1))
+violent_transit <- violent_transit %>% mutate(rate21 = round(total21/chicago_population*100000,1))
+violent_transit <- violent_transit %>% mutate(rate22 = round(total22/chicago_population*100000,1))
+violent_transit <- violent_transit %>% mutate(rate23 = round(total23/chicago_population*100000,1))
+violent_transit <- violent_transit %>% mutate(rate_last12 = round(last12mos/chicago_population*100000,1))
+violent_transit <- violent_transit %>% mutate(rate_prior3years = round(avg_prior3years/chicago_population*100000,1))
 
 # RDS files for transit
 saveRDS(murder_transit),"scripts/rds/murder_transit.rds")
