@@ -767,3 +767,61 @@ transit_crimes <- transit_crimes %>%
 transit_crimes <- transit_crimes %>%
   mutate_if(is.numeric, ~ifelse(. == "NaN", NA, .))
 write_csv(transit_crimes,"data/output/city/transit_crimes.csv")
+
+
+
+
+total19 <- sum(murder_transit$total19,battery_transit$total19,assault_transit$total19,sexassaults_transit$total19,robbery_transit$total19)
+total20 <- sum(murder_transit$total20,battery_transit$total20,assault_transit$total20,sexassaults_transit$total20,robbery_transit$total20)
+total21 <- sum(murder_transit$total21,battery_transit$total21,assault_transit$total21,sexassaults_transit$total21,robbery_transit$total21)
+total22 <- sum(murder_transit$total22,battery_transit$total22,assault_transit$total22,sexassaults_transit$total22,robbery_transit$total22)
+total23 <- sum(murder_transit$total23,battery_transit$total23,assault_transit$total23,sexassaults_transit$total23,robbery_transit$total23)
+total24 <- sum(murder_transit$total24,battery_transit$total24,assault_transit$total24,sexassaults_transit$total24,robbery_transit$total24)
+last12mos <- sum(murder_transit$last12mos,battery_transit$last12mos,assault_transit$last12mos,sexassaults_transit$last12mos,robbery_transit$last12mos)
+total_prior3years <- sum(murder_transit$total_prior3years,battery_transit$total_prior3years,assault_transit$total_prior3years,sexassaults_transit$total_prior3years,robbery_transit$total_prior3years)
+
+
+#separate out each violent crime and combine
+murder_transit <- transit_crimes %>% filter(category == "Murder")
+battery_transit <- transit_crimes %>% filter(category == "Aggravated Battery")
+assault_transit <- transit_crimes %>% filter(category == "Aggravated Assault")
+sexassaults_transit <- transit_crimes %>% filter(category == "Criminal Sexual Assault")
+robbery_transit <- transit_crimes %>%filter(category == "Robbery")
+
+#sum rows of transit crimes
+total19 <- sum(murder_transit$total19,battery_transit$total19,assault_transit$total19,sexassaults_transit$total19,robbery_transit$total19)
+total20 <- sum(murder_transit$total20,battery_transit$total20,assault_transit$total20,sexassaults_transit$total20,robbery_transit$total20)
+total21 <- sum(murder_transit$total21,battery_transit$total21,assault_transit$total21,sexassaults_transit$total21,robbery_transit$total21)
+total22 <- sum(murder_transit$total22,battery_transit$total22,assault_transit$total22,sexassaults_transit$total22,robbery_transit$total22)
+total23 <- sum(murder_transit$total23,battery_transit$total23,assault_transit$total23,sexassaults_transit$total23,robbery_transit$total23)
+total24 <- sum(murder_transit$total24,battery_transit$total24,assault_transit$total24,sexassaults_transit$total24,robbery_transit$total24)
+last12mos <- sum(murder_transit$last12mos,battery_transit$last12mos,assault_transit$last12mos,sexassaults_transit$last12mos,robbery_transit$last12mos)
+total_prior3years <- sum(murder_transit$total_prior3years,battery_transit$total_prior3years,assault_transit$total_prior3years,sexassaults_transit$total_prior3years,robbery_transit$total_prior3years)
+
+
+#make new dataframe for violent crime on transit
+violent_transit <- data.frame(category = c("Violent Crime"),
+                              location_description = c("Transit"),
+                              total19 = c(total19),
+                              total20 = c(total20),
+                              total21 = c(total21),
+                              total22 = c(total22),
+                              total23 = c(total23),
+                              total24 = c(total24),
+                              last12mos = c(last12mos),
+                              total_prior3years = c(total_prior3years)
+                              )
+
+violent_transit <- violent_transit %>% mutate(avg_prior3years = round(total_prior3years/3,1))
+violent_transit <- violent_transit %>% mutate(inc_19to23 = round(total23/total19*100-100,1))
+violent_transit <- violent_transit %>% mutate(inc_19tolast12 = round(last12mos/total19*100-100,1))
+violent_transit <- violent_transit %>% mutate(inc_23tolast12 = round(last12mos/total23*100-100,1))
+violent_transit <- violent_transit %>% mutate(inc_prior3yearavgtolast12 = round(last12mos/avg_prior3years*100-100,1))
+
+# RDS files for transit
+saveRDS(murder_transit),"scripts/rds/murder_transit.rds")
+saveRDS(battery_transit),"scripts/rds/battery_transit.rds")
+saveRDS(assault_transit),"scripts/rds/assault_transit.rds")
+saveRDS(sexassaults_transit),"scripts/rds/sexassaults_transit.rds")
+saveRDS(robbery_transit),"scripts/rds/robbery_transit.rds")
+saveRDS(violent_transit),"scripts/rds/violent_transit.rds")
