@@ -889,3 +889,15 @@ cta_area %>% st_drop_geometry() %>% write_csv("data/output/areas/cta_area.csv")
 
 saveRDS(cta_area, "scripts/rds/cta_area.rds")
 
+cta_monthly <- all_violent_transit %>%
+  group_by(month, category) %>%
+  summarize(count = n())
+
+#add rolling average of 3 months for trend line and round to clean
+
+cta_monthly <- cta_monthly %>%
+  arrange(month,category) %>%
+  dplyr::mutate(rollavg_3month = rollsum(count, k =3, fill = NA, align = "right")/3)
+cta_monthly$rollavg_3month <- round(cta_monthly$rollavg_3month,0)
+cta_monthly %>% write_csv("data/output/monthly/cta_monthly.csv")
+
