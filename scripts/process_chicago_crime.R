@@ -728,12 +728,12 @@ deaths$Homicide <- murders_city$rate_last12
 write_csv(deaths,"data/source/health/death_rates.csv")
 
 # Transit crimes
-# Using premise to identify the kinds of places where murders happen
+# Using premise to identify transit crimes by location
 transit_crimes <- chicago_crime %>%
   group_by(year,category,location_description) %>%
   summarise(count=n()) %>%
   pivot_wider(names_from=year, values_from=count)
-# Using premise to identify the kinds of places where murders happen
+# Using premise for 12 months
 transit_crimes_last12 <- chicago_crime_last12 %>%
   group_by(category,location_description) %>%
   summarise(last12=n())
@@ -752,6 +752,14 @@ transit_crimes <- transit_crimes %>%
 transit_crimes <- transit_crimes %>% filter(location_description=="Transit")
 # add zeros where there were no crimes tallied that year
 transit_crimes[is.na(transit_crimes)] <- 0
+transit_crimes$total19[is.na(transit_crimes$total19)] <- 0
+transit_crimes$total20[is.na(transit_crimes$total20)] <- 0
+transit_crimes$total21[is.na(transit_crimes$total21)] <- 0
+transit_crimes$total22[is.na(transit_crimes$total22)] <- 0
+transit_crimes$total23[is.na(transit_crimes$total23)] <- 0
+transit_crimes$total24[is.na(transit_crimes$total24)] <- 0
+transit_crimes$last12mos[is.na(transit_crimes$last12mos)] <- 0
+
 rm(transit_crimes_last12)
 # Calculate a total across the 3 prior years
 transit_crimes$total_prior3years <- transit_crimes$total21+transit_crimes$total22+transit_crimes$total23
@@ -767,28 +775,13 @@ transit_crimes <- transit_crimes %>%
 transit_crimes <- transit_crimes %>%
   mutate_if(is.numeric, ~ifelse(. == "NaN", NA, .))
 write_csv(transit_crimes,"data/output/city/transit_crimes.csv")
-
-
-
-
-total19 <- sum(murder_transit$total19,battery_transit$total19,assault_transit$total19,sexassaults_transit$total19,robbery_transit$total19)
-total20 <- sum(murder_transit$total20,battery_transit$total20,assault_transit$total20,sexassaults_transit$total20,robbery_transit$total20)
-total21 <- sum(murder_transit$total21,battery_transit$total21,assault_transit$total21,sexassaults_transit$total21,robbery_transit$total21)
-total22 <- sum(murder_transit$total22,battery_transit$total22,assault_transit$total22,sexassaults_transit$total22,robbery_transit$total22)
-total23 <- sum(murder_transit$total23,battery_transit$total23,assault_transit$total23,sexassaults_transit$total23,robbery_transit$total23)
-total24 <- sum(murder_transit$total24,battery_transit$total24,assault_transit$total24,sexassaults_transit$total24,robbery_transit$total24)
-last12mos <- sum(murder_transit$last12mos,battery_transit$last12mos,assault_transit$last12mos,sexassaults_transit$last12mos,robbery_transit$last12mos)
-total_prior3years <- sum(murder_transit$total_prior3years,battery_transit$total_prior3years,assault_transit$total_prior3years,sexassaults_transit$total_prior3years,robbery_transit$total_prior3years)
-
-
 #separate out each violent crime and combine
-murder_transit <- transit_crimes %>% filter(category == "Murder")
-battery_transit <- transit_crimes %>% filter(category == "Aggravated Battery")
-assault_transit <- transit_crimes %>% filter(category == "Aggravated Assault")
-sexassaults_transit <- transit_crimes %>% filter(category == "Criminal Sexual Assault")
-robbery_transit <- transit_crimes %>%filter(category == "Robbery")
+murder_transit <- transit_crimes %>% filter(category == "Murder") %>% write_csv("data/output/city/murder_transit.csv")
+battery_transit <- transit_crimes %>% filter(category == "Aggravated Battery") %>% write_csv("data/output/city/aggravated_battery_transit.csv")
+assault_transit <- transit_crimes %>% filter(category == "Aggravated Assault") %>% write_csv("data/output/city/aggravated_assault_transit.csv")
+sexassaults_transit <- transit_crimes %>% filter(category == "Criminal Sexual Assault") %>% write_csv("data/output/city/crim_sex_assault_transit.csv")
+robbery_transit <- transit_crimes %>%filter(category == "Robbery") %>% write_csv("data/output/city/robbery_transit.csv")
 
-#sum rows of transit crimes
 total19 <- sum(murder_transit$total19,battery_transit$total19,assault_transit$total19,sexassaults_transit$total19,robbery_transit$total19)
 total20 <- sum(murder_transit$total20,battery_transit$total20,assault_transit$total20,sexassaults_transit$total20,robbery_transit$total20)
 total21 <- sum(murder_transit$total21,battery_transit$total21,assault_transit$total21,sexassaults_transit$total21,robbery_transit$total21)
@@ -799,7 +792,9 @@ last12mos <- sum(murder_transit$last12mos,battery_transit$last12mos,assault_tran
 total_prior3years <- sum(murder_transit$total_prior3years,battery_transit$total_prior3years,assault_transit$total_prior3years,sexassaults_transit$total_prior3years,robbery_transit$total_prior3years)
 
 
-#make new dataframe for violent crime on transit
+
+
+
 violent_transit <- data.frame(category = c("Violent Crime"),
                               location_description = c("Transit"),
                               total19 = c(total19),
@@ -825,20 +820,11 @@ violent_transit <- violent_transit %>% mutate(rate23 = round(total23/chicago_pop
 violent_transit <- violent_transit %>% mutate(rate_last12 = round(last12mos/chicago_population*100000,1))
 violent_transit <- violent_transit %>% mutate(rate_prior3years = round(avg_prior3years/chicago_population*100000,1))
 
-# RDS files for transit
-saveRDS(murder_transit),"scripts/rds/murder_transit.rds")
-saveRDS(battery_transit),"scripts/rds/battery_transit.rds")
-saveRDS(assault_transit),"scripts/rds/assault_transit.rds")
-saveRDS(sexassaults_transit),"scripts/rds/sexassaults_transit.rds")
-saveRDS(robbery_transit),"scripts/rds/robbery_transit.rds")
-saveRDS(violent_transit),"scripts/rds/violent_transit.rds")
-
 
 #transit by area
 violent <- c("Murder","Aggravated Assault","Aggravated Battery","Criminal Sexual Assault","Robbery")
 all_violent_transit <- chicago_crime %>% filter(location_description == "Transit") %>% filter(category %in% violent)
 
-#do not do by category, numbers too small
 cta_area <- all_violent_transit %>%
   group_by(community_area, year) %>%
   summarize(count = n()) %>%
@@ -859,7 +845,6 @@ cta_area_last12 <- violent_transit_last12 %>%
 
 cta_area <- left_join(cta_area, cta_area_last12, by = c("community_area"))
 rm(violent_transit_last12)
-# add zeros where there were no crimes tallied that year
 cta_area[is.na(cta_area)] <- 0
 cta_area$total_prior3years <- cta_area$total21+cta_area$total22+cta_area$total23
 cta_area$avg_prior3years <- round(cta_area$total_prior3years/3,1)
@@ -888,7 +873,7 @@ cta_area <- cta_area %>%
 cta_area %>% st_drop_geometry() %>% write_csv("data/output/areas/cta_area.csv")
 
 saveRDS(cta_area, "scripts/rds/cta_area.rds")
-
+  
 cta_monthly <- all_violent_transit %>%
   group_by(month, category) %>%
   summarize(count = n())
@@ -900,4 +885,5 @@ cta_monthly <- cta_monthly %>%
   dplyr::mutate(rollavg_3month = rollsum(count, k =3, fill = NA, align = "right")/3)
 cta_monthly$rollavg_3month <- round(cta_monthly$rollavg_3month,0)
 cta_monthly %>% write_csv("data/output/monthly/cta_monthly.csv")
+
 
