@@ -776,11 +776,11 @@ transit_crimes <- transit_crimes %>%
   mutate_if(is.numeric, ~ifelse(. == "NaN", NA, .))
 write_csv(transit_crimes,"data/output/city/transit_crimes.csv")
 #separate out each violent crime and combine
-murder_transit <- transit_crimes %>% filter(category == "Murder") %>% write_csv("data/output/city/murder_transit.csv")
-battery_transit <- transit_crimes %>% filter(category == "Aggravated Battery") %>% write_csv("data/output/city/aggravated_battery_transit.csv")
-assault_transit <- transit_crimes %>% filter(category == "Aggravated Assault") %>% write_csv("data/output/city/aggravated_assault_transit.csv")
-sexassaults_transit <- transit_crimes %>% filter(category == "Criminal Sexual Assault") %>% write_csv("data/output/city/crim_sex_assault_transit.csv")
-robbery_transit <- transit_crimes %>%filter(category == "Robbery") %>% write_csv("data/output/city/robbery_transit.csv")
+murder_transit <- transit_crimes %>% filter(category == "Murder")
+battery_transit <- transit_crimes %>% filter(category == "Aggravated Battery")
+assault_transit <- transit_crimes %>% filter(category == "Aggravated Assault")
+sexassaults_transit <- transit_crimes %>% filter(category == "Criminal Sexual Assault")
+robbery_transit <- transit_crimes %>%filter(category == "Robbery")
 
 total19 <- sum(murder_transit$total19,battery_transit$total19,assault_transit$total19,sexassaults_transit$total19,robbery_transit$total19)
 total20 <- sum(murder_transit$total20,battery_transit$total20,assault_transit$total20,sexassaults_transit$total20,robbery_transit$total20)
