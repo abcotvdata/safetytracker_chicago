@@ -832,3 +832,60 @@ saveRDS(assault_transit),"scripts/rds/assault_transit.rds")
 saveRDS(sexassaults_transit),"scripts/rds/sexassaults_transit.rds")
 saveRDS(robbery_transit),"scripts/rds/robbery_transit.rds")
 saveRDS(violent_transit),"scripts/rds/violent_transit.rds")
+
+
+#transit by area
+violent <- c("Murder","Aggravated Assault","Aggravated Battery","Criminal Sexual Assault","Robbery")
+all_violent_transit <- chicago_crime %>% filter(location_description == "Transit") %>% filter(category %in% violent)
+
+#do not do by category, numbers too small
+cta_area <- all_violent_transit %>%
+  group_by(community_area, year) %>%
+  summarize(count = n()) %>%
+  pivot_wider(names_from = year, values_from = count)
+
+cta_area <- cta_area %>%
+  rename("total19" = "2019",
+         "total20" = "2020",
+         "total21" = "2021",
+         "total22" = "2022",
+         "total23" = "2023",
+         "total24" = "2024")
+
+violent_transit_last12 <- chicago_crime_last12 %>% filter(location_description == "Transit") %>% filter(category %in% violent)
+cta_area_last12 <- violent_transit_last12 %>%
+  group_by(community_area) %>%
+  summarize(last12mos = n())
+
+cta_area <- left_join(cta_area, cta_area_last12, by = c("community_area"))
+rm(violent_transit_last12)
+# add zeros where there were no crimes tallied that year
+cta_area[is.na(cta_area)] <- 0
+cta_area$total_prior3years <- cta_area$total21+cta_area$total22+cta_area$total23
+cta_area$avg_prior3years <- round(cta_area$total_prior3years/3,1)
+# calculate increases
+cta_area$inc_19to23 <- round(cta_area$total23/cta_area$total19*100-100,1)
+cta_area$inc_19tolast12 <- round(cta_area$last12mos/cta_area$total19*100-100,1)
+cta_area$inc_23tolast12 <- round(cta_area$last12mos/cta_area$total23*100-100,1)
+cta_area$inc_prior3yearavgtolast12 <- round((cta_area$last12mos/cta_area$avg_prior3years)*100-100,0)
+# add population for beats
+cta_area <- full_join(areas,cta_area,by=c("community_area"="community_area"))
+# calculate the beat by beat rates PER 1K people
+cta_area$rate19 <- round(cta_area$total19/cta_area$population*100000,1)
+cta_area$rate20 <- round(cta_area$total20/cta_area$population*100000,1)
+cta_area$rate21 <- round(cta_area$total21/cta_area$population*100000,1)
+cta_area$rate22 <- round(cta_area$total22/cta_area$population*100000,1)
+cta_area$rate23 <- round(cta_area$total23/cta_area$population*100000,1)
+cta_area$rate_last12 <- round(cta_area$last12mos/cta_area$population*100000,1)
+# calculate a multiyear rate
+cta_area$rate_prior3years <- round(cta_area$avg_prior3years/cta_area$population*100000,1)
+# for map/table making purposes, changing Inf and NaN in calc fields to NA
+cta_area <- cta_area %>%
+  mutate_if(is.numeric, ~ifelse(. == Inf, NA, .))
+cta_area <- cta_area %>%
+  mutate_if(is.numeric, ~ifelse(. == "NaN", NA, .))
+
+cta_area %>% st_drop_geometry() %>% write_csv("data/output/areas/cta_area.csv")
+
+saveRDS(cta_area, "scripts/rds/cta_area.rds")
+
