@@ -74,3 +74,14 @@ rmarkdown::render('scripts/Chicago_Safety_Tracker_SexualAssaults.Rmd',
                   output_dir = "docs",
                   output_file = 'Chicago_Safety_Tracker_SexualAssaults.html')
 
+
+# TRANSIT
+# Load RDS
+cta_area <- readRDS("scripts/rds/cta_area.rds")
+violent_transit <- readRDS("scripts/rds/violent_transit.rds")
+asofdate <- readRDS("scripts/rds/asofdate.rds")
+# Render page
+rmarkdown::render('scripts/Chicago_Safety_Tracker_Transit.Rmd', 
+                  output_dir = "docs",
+                  output_file = 'Chicago_Safety_Tracker_Transit.html')
+
