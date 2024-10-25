@@ -872,8 +872,13 @@ cta_area <- cta_area %>%
 
 cta_area %>% st_drop_geometry() %>% write_csv("data/output/areas/cta_area.csv")
 
+
+#Save RDS files
 saveRDS(cta_area, "scripts/rds/cta_area.rds")
-  
+saveRDS(violent_transit, "scripts/rds/violent_transit.rds")
+
+#Monthly analysis for Datawrapper
+
 cta_monthly <- all_violent_transit %>%
   group_by(month, category) %>%
   summarize(count = n()) %>%
