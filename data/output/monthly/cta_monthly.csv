@@ -1,268 +1,71 @@
-month,category,count,rollavg_3month
-2019-01-01,Aggravated Assault,4,NA
-2019-01-01,Aggravated Battery,4,NA
-2019-01-01,Robbery,36,15
-2019-02-01,Aggravated Assault,6,NA
-2019-02-01,Aggravated Battery,8,NA
-2019-02-01,Robbery,37,17
-2019-03-01,Aggravated Assault,4,NA
-2019-03-01,Aggravated Battery,6,NA
-2019-03-01,Criminal Sexual Assault,1,4
-2019-03-01,Robbery,21,9
-2019-04-01,Aggravated Assault,3,NA
-2019-04-01,Aggravated Battery,8,NA
-2019-04-01,Robbery,28,13
-2019-05-01,Aggravated Assault,3,NA
-2019-05-01,Aggravated Battery,12,NA
-2019-05-01,Robbery,24,13
-2019-06-01,Aggravated Assault,9,NA
-2019-06-01,Aggravated Battery,9,NA
-2019-06-01,Robbery,34,17
-2019-07-01,Aggravated Assault,11,NA
-2019-07-01,Aggravated Battery,13,NA
-2019-07-01,Murder,1,8
-2019-07-01,Robbery,53,22
-2019-08-01,Aggravated Assault,8,NA
-2019-08-01,Aggravated Battery,8,NA
-2019-08-01,Robbery,28,15
-2019-09-01,Aggravated Assault,4,NA
-2019-09-01,Aggravated Battery,4,NA
-2019-09-01,Robbery,17,8
-2019-10-01,Aggravated Assault,7,NA
-2019-10-01,Aggravated Battery,12,NA
-2019-10-01,Robbery,36,18
-2019-11-01,Aggravated Assault,12,NA
-2019-11-01,Aggravated Battery,8,NA
-2019-11-01,Robbery,42,21
-2019-12-01,Aggravated Assault,5,NA
-2019-12-01,Aggravated Battery,13,NA
-2019-12-01,Criminal Sexual Assault,1,6
-2019-12-01,Robbery,58,24
-2020-01-01,Aggravated Assault,12,NA
-2020-01-01,Aggravated Battery,8,NA
-2020-01-01,Robbery,33,18
-2020-02-01,Aggravated Assault,4,NA
-2020-02-01,Aggravated Battery,5,NA
-2020-02-01,Robbery,36,15
-2020-03-01,Aggravated Assault,4,NA
-2020-03-01,Aggravated Battery,5,NA
-2020-03-01,Robbery,29,13
-2020-04-01,Aggravated Assault,6,NA
-2020-04-01,Aggravated Battery,7,NA
-2020-04-01,Murder,1,5
-2020-04-01,Robbery,32,13
-2020-05-01,Aggravated Assault,7,NA
-2020-05-01,Aggravated Battery,9,NA
-2020-05-01,Murder,1,6
-2020-05-01,Robbery,21,10
-2020-06-01,Aggravated Assault,1,NA
-2020-06-01,Aggravated Battery,5,NA
-2020-06-01,Robbery,23,10
-2020-07-01,Aggravated Assault,5,NA
-2020-07-01,Aggravated Battery,10,NA
-2020-07-01,Criminal Sexual Assault,1,5
-2020-07-01,Robbery,47,19
-2020-08-01,Aggravated Assault,6,NA
-2020-08-01,Aggravated Battery,5,NA
-2020-08-01,Robbery,31,14
-2020-09-01,Aggravated Assault,3,NA
-2020-09-01,Aggravated Battery,12,NA
-2020-09-01,Robbery,26,14
-2020-10-01,Aggravated Assault,5,NA
-2020-10-01,Aggravated Battery,7,NA
-2020-10-01,Robbery,16,9
-2020-11-01,Aggravated Assault,2,NA
-2020-11-01,Aggravated Battery,11,NA
-2020-11-01,Criminal Sexual Assault,1,5
-2020-11-01,Robbery,14,9
-2020-12-01,Aggravated Assault,9,NA
-2020-12-01,Aggravated Battery,8,NA
-2020-12-01,Murder,1,6
-2020-12-01,Robbery,11,7
-2021-01-01,Aggravated Assault,6,NA
-2021-01-01,Aggravated Battery,4,NA
-2021-01-01,Criminal Sexual Assault,1,4
-2021-01-01,Robbery,34,13
-2021-02-01,Aggravated Assault,7,NA
-2021-02-01,Aggravated Battery,2,NA
-2021-02-01,Criminal Sexual Assault,2,4
-2021-02-01,Robbery,16,7
-2021-03-01,Aggravated Assault,6,NA
-2021-03-01,Aggravated Battery,7,NA
-2021-03-01,Criminal Sexual Assault,1,5
-2021-03-01,Robbery,20,9
-2021-04-01,Aggravated Assault,8,NA
-2021-04-01,Aggravated Battery,9,NA
-2021-04-01,Criminal Sexual Assault,1,6
-2021-04-01,Robbery,30,13
-2021-05-01,Aggravated Assault,7,NA
-2021-05-01,Aggravated Battery,6,NA
-2021-05-01,Criminal Sexual Assault,2,5
-2021-05-01,Robbery,21,10
-2021-06-01,Aggravated Assault,10,NA
-2021-06-01,Aggravated Battery,9,NA
-2021-06-01,Robbery,37,19
-2021-07-01,Aggravated Assault,2,NA
-2021-07-01,Aggravated Battery,14,NA
-2021-07-01,Criminal Sexual Assault,1,6
-2021-07-01,Murder,2,6
-2021-07-01,Robbery,38,14
-2021-08-01,Aggravated Assault,10,NA
-2021-08-01,Aggravated Battery,21,NA
-2021-08-01,Murder,1,11
-2021-08-01,Robbery,25,16
-2021-09-01,Aggravated Assault,9,NA
-2021-09-01,Aggravated Battery,9,NA
-2021-09-01,Murder,1,6
-2021-09-01,Robbery,46,19
-2021-10-01,Aggravated Assault,7,NA
-2021-10-01,Aggravated Battery,17,NA
-2021-10-01,Robbery,44,23
-2021-11-01,Aggravated Assault,7,NA
-2021-11-01,Aggravated Battery,13,NA
-2021-11-01,Criminal Sexual Assault,2,7
-2021-11-01,Robbery,15,10
-2021-12-01,Aggravated Assault,4,NA
-2021-12-01,Aggravated Battery,8,NA
-2021-12-01,Criminal Sexual Assault,1,4
-2021-12-01,Robbery,42,17
-2022-01-01,Aggravated Assault,7,NA
-2022-01-01,Aggravated Battery,7,NA
-2022-01-01,Criminal Sexual Assault,1,5
-2022-01-01,Robbery,34,14
-2022-02-01,Aggravated Assault,4,NA
-2022-02-01,Aggravated Battery,13,NA
-2022-02-01,Criminal Sexual Assault,1,6
-2022-02-01,Robbery,30,15
-2022-03-01,Aggravated Assault,7,NA
-2022-03-01,Aggravated Battery,11,NA
-2022-03-01,Criminal Sexual Assault,3,7
-2022-03-01,Robbery,39,18
-2022-04-01,Aggravated Assault,3,NA
-2022-04-01,Aggravated Battery,11,NA
-2022-04-01,Criminal Sexual Assault,3,6
-2022-04-01,Robbery,39,18
-2022-05-01,Aggravated Assault,8,NA
-2022-05-01,Aggravated Battery,12,NA
-2022-05-01,Criminal Sexual Assault,1,7
-2022-05-01,Murder,1,5
-2022-05-01,Robbery,39,14
-2022-06-01,Aggravated Assault,14,NA
-2022-06-01,Aggravated Battery,17,NA
-2022-06-01,Criminal Sexual Assault,1,11
-2022-06-01,Murder,1,6
-2022-06-01,Robbery,39,14
-2022-07-01,Aggravated Assault,13,NA
-2022-07-01,Aggravated Battery,16,NA
-2022-07-01,Criminal Sexual Assault,2,10
-2022-07-01,Murder,1,6
-2022-07-01,Robbery,26,10
-2022-08-01,Aggravated Assault,8,NA
-2022-08-01,Aggravated Battery,20,NA
-2022-08-01,Criminal Sexual Assault,2,10
-2022-08-01,Murder,1,8
-2022-08-01,Robbery,37,13
-2022-09-01,Aggravated Assault,10,NA
-2022-09-01,Aggravated Battery,18,NA
-2022-09-01,Murder,1,10
-2022-09-01,Robbery,28,16
-2022-10-01,Aggravated Assault,11,NA
-2022-10-01,Aggravated Battery,11,NA
-2022-10-01,Criminal Sexual Assault,2,8
-2022-10-01,Murder,1,5
-2022-10-01,Robbery,32,12
-2022-11-01,Aggravated Assault,4,NA
-2022-11-01,Aggravated Battery,8,NA
-2022-11-01,Criminal Sexual Assault,1,4
-2022-11-01,Robbery,31,13
-2022-12-01,Aggravated Assault,6,NA
-2022-12-01,Aggravated Battery,10,NA
-2022-12-01,Criminal Sexual Assault,1,6
-2022-12-01,Robbery,16,9
-2023-01-01,Aggravated Assault,10,NA
-2023-01-01,Aggravated Battery,8,NA
-2023-01-01,Criminal Sexual Assault,1,6
-2023-01-01,Robbery,30,13
-2023-02-01,Aggravated Assault,14,NA
-2023-02-01,Aggravated Battery,12,NA
-2023-02-01,Criminal Sexual Assault,2,9
-2023-02-01,Robbery,25,13
-2023-03-01,Aggravated Assault,6,NA
-2023-03-01,Aggravated Battery,15,NA
-2023-03-01,Murder,1,7
-2023-03-01,Robbery,23,13
-2023-04-01,Aggravated Assault,9,NA
-2023-04-01,Aggravated Battery,16,NA
-2023-04-01,Criminal Sexual Assault,1,9
-2023-04-01,Robbery,27,15
-2023-05-01,Aggravated Assault,9,NA
-2023-05-01,Aggravated Battery,14,NA
-2023-05-01,Criminal Sexual Assault,3,9
-2023-05-01,Robbery,26,14
-2023-06-01,Aggravated Assault,9,NA
-2023-06-01,Aggravated Battery,18,NA
-2023-06-01,Robbery,24,17
-2023-07-01,Aggravated Assault,6,NA
-2023-07-01,Aggravated Battery,21,NA
-2023-07-01,Criminal Sexual Assault,1,9
-2023-07-01,Robbery,17,13
-2023-08-01,Aggravated Assault,6,NA
-2023-08-01,Aggravated Battery,16,NA
-2023-08-01,Criminal Sexual Assault,2,8
-2023-08-01,Robbery,22,13
-2023-09-01,Aggravated Assault,7,NA
-2023-09-01,Aggravated Battery,15,NA
-2023-09-01,Robbery,25,16
-2023-10-01,Aggravated Assault,7,NA
-2023-10-01,Aggravated Battery,17,NA
-2023-10-01,Criminal Sexual Assault,2,9
-2023-10-01,Robbery,28,16
-2023-11-01,Aggravated Assault,11,NA
-2023-11-01,Aggravated Battery,15,NA
-2023-11-01,Criminal Sexual Assault,2,9
-2023-11-01,Robbery,30,16
-2023-12-01,Aggravated Assault,6,NA
-2023-12-01,Aggravated Battery,13,NA
-2023-12-01,Criminal Sexual Assault,1,7
-2023-12-01,Robbery,23,12
-2024-01-01,Aggravated Assault,8,NA
-2024-01-01,Aggravated Battery,20,NA
-2024-01-01,Criminal Sexual Assault,1,10
-2024-01-01,Murder,1,7
-2024-01-01,Robbery,23,8
-2024-02-01,Aggravated Assault,7,NA
-2024-02-01,Aggravated Battery,6,NA
-2024-02-01,Criminal Sexual Assault,3,5
-2024-02-01,Robbery,23,11
-2024-03-01,Aggravated Assault,3,NA
-2024-03-01,Aggravated Battery,8,NA
-2024-03-01,Criminal Sexual Assault,2,4
-2024-03-01,Murder,1,4
-2024-03-01,Robbery,30,11
-2024-04-01,Aggravated Assault,11,NA
-2024-04-01,Aggravated Battery,12,NA
-2024-04-01,Criminal Sexual Assault,4,9
-2024-04-01,Robbery,24,13
-2024-05-01,Aggravated Assault,17,NA
-2024-05-01,Aggravated Battery,22,NA
-2024-05-01,Robbery,50,30
-2024-06-01,Aggravated Assault,10,NA
-2024-06-01,Aggravated Battery,18,NA
-2024-06-01,Criminal Sexual Assault,1,10
-2024-06-01,Robbery,30,16
-2024-07-01,Aggravated Assault,11,NA
-2024-07-01,Aggravated Battery,19,NA
-2024-07-01,Criminal Sexual Assault,2,11
-2024-07-01,Murder,1,7
-2024-07-01,Robbery,50,18
-2024-08-01,Aggravated Assault,9,NA
-2024-08-01,Aggravated Battery,14,NA
-2024-08-01,Criminal Sexual Assault,1,8
-2024-08-01,Robbery,30,15
-2024-09-01,Aggravated Assault,11,NA
-2024-09-01,Aggravated Battery,23,NA
-2024-09-01,Criminal Sexual Assault,3,12
-2024-09-01,Robbery,41,22
-2024-10-01,Aggravated Assault,4,NA
-2024-10-01,Aggravated Battery,10,NA
-2024-10-01,Robbery,15,10
+month,Aggravated Assault,Aggravated Battery,Robbery,Criminal Sexual Assault,Murder
+2019-01-01,4,4,36,NA,NA
+2019-02-01,6,8,37,NA,NA
+2019-03-01,4,6,21,1,NA
+2019-04-01,3,8,28,NA,NA
+2019-05-01,3,12,24,NA,NA
+2019-06-01,9,9,34,NA,NA
+2019-07-01,11,13,53,NA,1
+2019-08-01,8,8,28,NA,NA
+2019-09-01,4,4,17,NA,NA
+2019-10-01,7,12,36,NA,NA
+2019-11-01,12,8,42,NA,NA
+2019-12-01,5,13,58,1,NA
+2020-01-01,12,8,33,NA,NA
+2020-02-01,4,5,36,NA,NA
+2020-03-01,4,5,29,NA,NA
+2020-04-01,6,7,32,NA,1
+2020-05-01,7,9,21,NA,1
+2020-06-01,1,5,23,NA,NA
+2020-07-01,5,10,47,1,NA
+2020-08-01,6,5,31,NA,NA
+2020-09-01,3,12,26,NA,NA
+2020-10-01,5,7,16,NA,NA
+2020-11-01,2,11,14,1,NA
+2020-12-01,9,8,11,NA,1
+2021-01-01,6,4,34,1,NA
+2021-02-01,7,2,16,2,NA
+2021-03-01,6,7,20,1,NA
+2021-04-01,8,9,30,1,NA
+2021-05-01,7,6,21,2,NA
+2021-06-01,10,9,37,NA,NA
+2021-07-01,2,14,38,1,2
+2021-08-01,10,21,25,NA,1
+2021-09-01,9,9,46,NA,1
+2021-10-01,7,17,44,NA,NA
+2021-11-01,7,13,15,2,NA
+2021-12-01,4,8,42,1,NA
+2022-01-01,7,7,34,1,NA
+2022-02-01,4,13,30,1,NA
+2022-03-01,7,11,39,3,NA
+2022-04-01,3,11,39,3,NA
+2022-05-01,8,12,39,1,1
+2022-06-01,14,17,39,1,1
+2022-07-01,13,16,26,2,1
+2022-08-01,8,20,37,2,1
+2022-09-01,10,18,28,NA,1
+2022-10-01,11,11,32,2,1
+2022-11-01,4,8,31,1,NA
+2022-12-01,6,10,16,1,NA
+2023-01-01,10,8,30,1,NA
+2023-02-01,14,12,25,2,NA
+2023-03-01,6,15,23,NA,1
+2023-04-01,9,16,27,1,NA
+2023-05-01,9,14,26,3,NA
+2023-06-01,9,18,24,NA,NA
+2023-07-01,6,21,17,1,NA
+2023-08-01,6,16,22,2,NA
+2023-09-01,7,15,25,NA,NA
+2023-10-01,7,17,28,2,NA
+2023-11-01,11,15,30,2,NA
+2023-12-01,6,13,23,1,NA
+2024-01-01,8,20,23,1,1
+2024-02-01,7,6,23,3,NA
+2024-03-01,3,8,30,2,1
+2024-04-01,11,12,24,4,NA
+2024-05-01,17,22,50,NA,NA
+2024-06-01,10,18,30,1,NA
+2024-07-01,11,19,50,2,1
+2024-08-01,9,14,30,1,NA
+2024-09-01,11,23,41,3,NA
+2024-10-01,4,10,19,NA,NA
