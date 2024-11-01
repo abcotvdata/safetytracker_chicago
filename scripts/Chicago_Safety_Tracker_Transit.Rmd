@@ -250,10 +250,10 @@ Average Violent Crime on CTA<br>
 
 <p>
 
-Robbery Rate<br>
+Violent Crime Rate<br>
 <bignumber>`r round(violent_transit$rate_last12,0)`<br></bignumber>
 
-<p>Per 100,000 people<br>Last 12 months</p>
+<p>Per 1,000,000 CTA riders<br>Last 12 months</p>
 
 </div>
 
@@ -261,10 +261,10 @@ Robbery Rate<br>
 
 <p>
 
-Average Robbery Rate<br>
+Average Violent Crime Rate<br>
 <bignumber>`r round(violent_transit$rate_prior3years,0)`<br></bignumber>
 
-<p>Per 100,000 people<br>2021 to 2023</p>
+<p>Per 1,000,000 CTA riders<br>2021 to 2023</p>
 
 </div>
 
@@ -274,7 +274,7 @@ Average Robbery Rate<br>
 <h8>`r ifelse(violent_transit$inc_prior3yearavgtolast12>=0," up"," down")`
 `r ifelse(violent_transit$inc_prior3yearavgtolast12>=0,violent_transit$inc_prior3yearavgtolast12,substring(violent_transit$inc_prior3yearavgtolast12,2))`%</h8>
 compared to the annual average over the last three years, according to
-Chicago Police Department data through `r format(asofdate, "%B %d")`.
+Chicago Police Department data through `r format(asofdate, "%B %d")`. However, more people are riding the CTA than in recent years, meaning that the rate of violent crimes per rider is much lower.
 
 The city averaged <h8>`r round(violent_transit$last12mos/52,0)`</h8>
 violent crimes on CTA trains and buses each week over the last 12
