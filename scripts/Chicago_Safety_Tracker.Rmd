@@ -359,6 +359,24 @@ murders_area$rate23,
 						<tr>
 				<td>Last 12 months</td>
 				<td>",
+murders_area$total24,
+"</td>
+				<td>",
+murders_area$rate24,
+"</td>
+			</tr>
+						<tr>
+				<td>Last 12 months</td>
+				<td>",
+murders_area$total25,
+"</td>
+				<td>",
+murders_area$rate25,
+"</td>
+			</tr>
+						<tr>
+				<td>Last 12 months</td>
+				<td>",
 murders_area$last12mos,
 "</td>
 				<td>",
