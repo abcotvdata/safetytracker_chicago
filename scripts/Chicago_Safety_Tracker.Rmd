@@ -357,7 +357,7 @@ murders_area$rate23,
 "</td>
 			</tr>
 						<tr>
-				<td>Last 12 months</td>
+				<td>2024</td>
 				<td>",
 murders_area$total24,
 "</td>
@@ -366,7 +366,7 @@ murders_area$rate24,
 "</td>
 			</tr>
 						<tr>
-				<td>Last 12 months</td>
+				<td>2025</td>
 				<td>",
 murders_area$total25,
 "</td>
