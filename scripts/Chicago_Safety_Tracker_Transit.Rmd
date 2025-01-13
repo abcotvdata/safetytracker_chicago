@@ -392,6 +392,15 @@ round(cta_area$rate23,0),
 "</td>
 			</tr>
 						<tr>
+				<td>2024</td>
+				<td>",
+cta_area$total24,
+"</td>
+				<td>",
+round(cta_area$rate24,0),
+"</td>
+			</tr>
+						<tr>
 				<td>Last 12 months</td>
 				<td>",
 cta_area$last12mos,
