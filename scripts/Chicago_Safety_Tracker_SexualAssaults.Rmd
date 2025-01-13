@@ -338,6 +338,15 @@ sexassaults_area$rate23,
 "</td>
 			</tr>
 						<tr>
+				<td>2024</td>
+				<td>",
+sexassaults_area$total24,
+"</td>
+				<td>",
+sexassaults_area$rate24,
+"</td>
+			</tr>
+						<tr>
 				<td>Last 12 months</td>
 				<td>",
 sexassaults_area$last12mos,
