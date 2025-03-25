@@ -3,10 +3,10 @@ Alley,34,48,45,47,43,39,12,46
 Automobile,32,83,90,25,18,14,0,12
 Business,11,30,41,28,22,27,1,20
 Hotel or Motel,2,4,1,2,1,0,1,1
-Housing Authority,5,11,3,9,8,11,0,10
+Housing Authority,5,11,3,9,8,11,1,11
 Other,2,13,10,10,17,7,3,9
 Other Transportation Facility,1,0,0,1,0,1,0,1
-Parking Lot/Garage,13,20,25,26,28,27,1,22
+Parking Lot/Garage,13,20,25,26,28,27,1,21
 Recreation Area,3,11,8,11,4,14,0,13
 Residence,84,104,118,117,104,103,28,107
 Street or Highway,297,412,429,404,348,307,26,291
