@@ -215,7 +215,7 @@ You can choose which crime to examine: <select onchange="window.location=this.va
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Vehicle Thefts<br>
 <bignumber>`r prettyNum(round(autothefts_city$avg_prior3years,0), big.mark=",")`<br></bignumber><p>
-Yearly average<br>2021 to 2023</p>
+Yearly average<br>2022 to 2024</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Vehicle Theft Rate<br>
@@ -225,7 +225,7 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Vehicle Theft Rate<br>
 <bignumber>`r round(autothefts_city$rate_prior3years,0)`<br></bignumber><p>
-Per 100,000 people<br>2021 to 2023</p>
+Per 100,000 people<br>2022 to 2024</p>
 </div>
 </div>
 <br>
