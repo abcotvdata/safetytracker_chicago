@@ -320,12 +320,12 @@ citywide_detailed$last12mos[is.na(citywide_detailed$last12mos)] <- 0
 
 rm(citywide_detailed_last12)
 # Calculate a total across the 3 prior years
-citywide_detailed$total_prior3years <- citywide_detailed$total21+citywide_detailed$total22+citywide_detailed$total23
+citywide_detailed$total_prior3years <- citywide_detailed$total22+citywide_detailed$total23+citywide_detailed$total24
 citywide_detailed$avg_prior3years <- round(citywide_detailed$total_prior3years/3,1)
 # calculate increases
-citywide_detailed$inc_19to23 <- round(citywide_detailed$total23/citywide_detailed$total19*100-100,1)
+citywide_detailed$inc_19to24 <- round(citywide_detailed$total24/citywide_detailed$total19*100-100,1)
 citywide_detailed$inc_19tolast12 <- round(citywide_detailed$last12mos/citywide_detailed$total19*100-100,1)
-citywide_detailed$inc_23tolast12 <- round(citywide_detailed$last12mos/citywide_detailed$total23*100-100,1)
+citywide_detailed$inc_24tolast12 <- round(citywide_detailed$last12mos/citywide_detailed$total24*100-100,1)
 citywide_detailed$inc_prior3yearavgtolast12 <- round((citywide_detailed$last12mos/citywide_detailed$avg_prior3years)*100-100,0)
 # calculate the citywide rates
 citywide_detailed$rate19 <- round(citywide_detailed$total19/chicago_population*100000,1)
@@ -387,7 +387,7 @@ citywide_category$total25[is.na(citywide_category$total25)] <- 0
 citywide_category$last12mos[is.na(citywide_category$last12mos)] <- 0
 
 # Calculate a total across the 3 prior years
-citywide_category$total_prior3years <- citywide_category$total21+citywide_category$total22+citywide_category$total23
+citywide_category$total_prior3years <- citywide_category$total22+citywide_category$total23+citywide_category$total24
 citywide_category$avg_prior3years <- round(citywide_category$total_prior3years/3,1)
 # calculate increases
 citywide_category$inc_19to23 <- round(citywide_category$total23/citywide_category$total19*100-100,1)
@@ -446,7 +446,7 @@ citywide_type_last12 <- chicago_crime_last12 %>%
   summarise(last12mos = n())
 citywide_type <- left_join(citywide_type,citywide_type_last12,by=c("type"))
 # Calculate a total across the 3 prior years
-citywide_type$total_prior3years <- citywide_type$total21+citywide_type$total22+citywide_type$total23
+citywide_type$total_prior3years <- citywide_type$total22+citywide_type$total23+citywide_type$total24
 citywide_type$avg_prior3years <- round(citywide_type$total_prior3years/3,1)
 # add zeros where there were no crimes tallied that year
 # citywide_type[is.na(citywide_type)] <- 0
@@ -459,9 +459,9 @@ citywide_type$total24[is.na(citywide_type$total24)] <- 0
 citywide_type$total25[is.na(citywide_type$total25)] <- 0
 citywide_type$last12mos[is.na(citywide_type$last12mos)] <- 0
 # calculate increases
-citywide_type$inc_19to23 <- round(citywide_type$total23/citywide_type$total19*100-100,1)
+citywide_type$inc_19to24 <- round(citywide_type$total24/citywide_type$total19*100-100,1)
 citywide_type$inc_19tolast12 <- round(citywide_type$last12mos/citywide_type$total19*100-100,1)
-citywide_type$inc_23tolast12 <- round(citywide_type$last12mos/citywide_type$total23*100-100,1)
+citywide_type$inc_24tolast12 <- round(citywide_type$last12mos/citywide_type$total24*100-100,1)
 citywide_type$inc_prior3yearavgtolast12 <- round((citywide_type$last12mos/citywide_type$avg_prior3years)*100-100,0)
 # calculate the citywide rates
 citywide_type$rate19 <- round(citywide_type$total19/chicago_population*100000,1)
@@ -515,12 +515,12 @@ rm(area_detailed_last12)
 # add zeros where there were no crimes tallied that year
 area_detailed[is.na(area_detailed)] <- 0
 # Calculate a total across the 3 prior years
-area_detailed$total_prior3years <- area_detailed$total21+area_detailed$total22+area_detailed$total23
+area_detailed$total_prior3years <- area_detailed$total22+area_detailed$total23+area_detailed$total24
 area_detailed$avg_prior3years <- round(area_detailed$total_prior3years/3,1)
 # calculate increases
-area_detailed$inc_19to23 <- round(area_detailed$total23/area_detailed$total19*100-100,1)
+area_detailed$inc_19to24 <- round(area_detailed$total24/area_detailed$total19*100-100,1)
 area_detailed$inc_19tolast12 <- round(area_detailed$last12mos/area_detailed$total19*100-100,1)
-area_detailed$inc_23tolast12 <- round(area_detailed$last12mos/area_detailed$total23*100-100,1)
+area_detailed$inc_24tolast12 <- round(area_detailed$last12mos/area_detailed$total24*100-100,1)
 area_detailed$inc_prior3yearavgtolast12 <- round((area_detailed$last12mos/area_detailed$avg_prior3years)*100-100,0)
 # add population for beats
 area_detailed <- full_join(areas,area_detailed,by=c("community_area"="community_area"))
@@ -616,12 +616,12 @@ rm(area_type_last12)
 # add zeros where there were no crimes tallied that year
 area_type[is.na(area_type)] <- 0
 # Calculate a total across the 3 prior years
-area_type$total_prior3years <- area_type$total21+area_type$total22+area_type$total23
+area_type$total_prior3years <- area_type$total22+area_type$total23+area_type$total24
 area_type$avg_prior3years <- round(area_type$total_prior3years/3,1)
 # calculate increases
-area_type$inc_19to23 <- round(area_type$total23/area_type$total19*100-100,1)
+area_type$inc_19to24 <- round(area_type$total24/area_type$total19*100-100,1)
 area_type$inc_19tolast12 <- round(area_type$last12mos/area_type$total19*100-100,1)
-area_type$inc_23tolast12 <- round(area_type$last12mos/area_type$total23*100-100,1)
+area_type$inc_24tolast12 <- round(area_type$last12mos/area_type$total24*100-100,1)
 area_type$inc_prior3yearavgtolast12 <- round((area_type$last12mos/area_type$avg_prior3years)*100-100,0)
 # add population for beats
 area_type <- full_join(areas,area_type,by=c("community_area"="community_area"))
@@ -785,12 +785,12 @@ transit_crimes$last12mos[is.na(transit_crimes$last12mos)] <- 0
 
 rm(transit_crimes_last12)
 # Calculate a total across the 3 prior years
-transit_crimes$total_prior3years <- transit_crimes$total21+transit_crimes$total22+transit_crimes$total23
+transit_crimes$total_prior3years <- transit_crimes$total22+transit_crimes$total23+transit_crimes$total24
 transit_crimes$avg_prior3years <- round(transit_crimes$total_prior3years/3,1)
 # calculate increases
-transit_crimes$inc_19to23 <- round(transit_crimes$total23/transit_crimes$total19*100-100,1)
+transit_crimes$inc_19to24 <- round(transit_crimes$total24/transit_crimes$total19*100-100,1)
 transit_crimes$inc_19tolast12 <- round(transit_crimes$last12mos/transit_crimes$total19*100-100,1)
-transit_crimes$inc_23tolast12 <- round(transit_crimes$last12mos/transit_crimes$total23*100-100,1)
+transit_crimes$inc_24tolast12 <- round(transit_crimes$last12mos/transit_crimes$total24*100-100,1)
 transit_crimes$inc_prior3yearavgtolast12 <- round((transit_crimes$last12mos/transit_crimes$avg_prior3years)*100-100,0)
 # for map/table making purposes, changing Inf and NaN in calc fields to NA
 transit_crimes <- transit_crimes %>%
