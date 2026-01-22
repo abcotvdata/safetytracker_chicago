@@ -217,7 +217,7 @@ You can choose which crime to explore: <select onchange="window.location=this.va
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Homicides<br>
 <bignumber>`r prettyNum(round(murders_city$avg_prior3years,0), big.mark=",")`<br></bignumber><p>
-Yearly average<br>2022 to 2024</p>
+Yearly average<br>2023 to 2025</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Homicide Rate<br>
@@ -227,11 +227,11 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Homicide Rate<br>
 <bignumber>`r murders_city$rate_prior3years`<br></bignumber><p>
-Per 100,000 people<br>2022 to 2024</p>
+Per 100,000 people<br>2023 to 2025</p>
 </div>
 </div>
 <br>
-Homicides over the last 12 months are trending <h8>`r ifelse(murders_city$inc_23tolast12>=0," up"," down")` `r ifelse(murders_city$inc_23tolast12>=0,murders_city$inc_24tolast12,substring(murders_city$inc_24tolast12,2))`%</h8> compared to 2024, according to Chicago Police Department data through `r format(asofdate, "%B %d")`.
+Homicides over the last 12 months are trending <h8>`r ifelse(murders_city$inc_23tolast12>=0," up"," down")` `r ifelse(murders_city$inc_25tolast12>=0,murders_city$inc_25tolast12,substring(murders_city$inc_25tolast12,2))`%</h8> compared to 2024, according to Chicago Police Department data through `r format(asofdate, "%B %d")`.
 
 However, the murder rate over the last 12 months is <h8>`r case_when((murders_city$rate_last12-murders_city$rate_prior3years)>=0.25 ~ "up",
           (murders_city$rate_last12-murders_city$rate_prior3years)<=-0.25 ~ "down",
@@ -366,6 +366,16 @@ murders_area$rate24,
 "</td>
 			</tr>
 						<tr>
+<td>2025</td>
+				<td>",
+murders_area$total25,
+"</td>
+				<td>",
+murders_area$rate25,
+"</td>
+			</tr>
+						<tr>
+
 				<td>Last 12 months</td>
 				<td>",
 murders_area$last12mos,
