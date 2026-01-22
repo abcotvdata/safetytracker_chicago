@@ -217,7 +217,7 @@ chicago_population <- 2665064
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Thefts<br>
 <bignumber>`r prettyNum(round(thefts_city$avg_prior3years,0), big.mark=",")`<br></bignumber><p>
-Yearly average<br>2022 to 2024</p>
+Yearly average<br>2023 to 2025</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Theft Rate<br>
@@ -227,7 +227,7 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Theft Rate<br>
 <bignumber>`r prettyNum(round(thefts_city$rate_prior3years,0),big.mark=",")`<br></bignumber><p>
-Per 100,000 people<br>2022 to 2024</p>
+Per 100,000 people<br>2023 to 2025</p>
 </div>
 </div>
 <br>
@@ -340,6 +340,15 @@ thefts_area$total24,
 "</td>
 				<td>",
 prettyNum(round(thefts_area$rate24,0), big.mark=","),
+"</td>
+			</tr>
+						<tr>
+				<td>2025</td>
+				<td>",
+thefts_area$total25,
+"</td>
+				<td>",
+prettyNum(round(thefts_area$rate25,0), big.mark=","),
 "</td>
 			</tr>
 						<tr>
