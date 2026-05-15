@@ -1,19 +1,19 @@
 category,location_description,total19,total20,total21,total22,total23,total24,total25,total26,last12mos,total_prior3years,avg_prior3years,inc_19to25,inc_19tolast12,inc_25tolast12,inc_prior3yearavgtolast12
-Aggravated Assault,Transit,76,64,83,95,100,116,115,38,111,331,110.3,51.3,46.1,-3.5,1
+Aggravated Assault,Transit,76,64,83,95,100,116,115,38,110,331,110.3,51.3,44.7,-4.3,-0
 Aggravated Battery,Transit,105,92,119,154,180,189,220,73,228,589,196.3,109.5,117.1,3.6,16
 Criminal Sexual Abuse,Transit,49,22,38,53,41,40,48,19,54,129,43,-2,10.2,12.5,26
 Criminal Sexual Assault,Transit,2,2,11,18,15,22,13,12,22,50,16.7,550,1000,69.2,32
 Disorderly Conduct,Transit,60,28,7,34,59,73,91,38,100,223,74.3,51.7,66.7,9.9,35
 Drug Abuse,Transit,79,50,19,56,113,132,132,33,103,377,125.7,67.1,30.4,-22,-18
 Forgery & Counterfeiting,Transit,2,0,0,0,0,0,2,0,2,2,0.7,0,0,0,186
-Fraud,Transit,297,128,73,67,434,319,324,91,280,1077,359,9.1,-5.7,-13.6,-22
-Misc Non-Index Offense,Transit,120,70,46,63,78,84,82,40,88,244,81.3,-31.7,-26.7,7.3,8
+Fraud,Transit,297,128,73,67,434,319,324,91,279,1077,359,9.1,-6.1,-13.9,-22
+Misc Non-Index Offense,Transit,120,70,46,63,78,84,82,42,90,244,81.3,-31.7,-25,9.8,11
 Murder,Transit,1,3,4,6,1,5,5,1,4,11,3.7,400,300,-20,8
 Offenses Against Family,Transit,1,0,1,0,0,3,1,1,2,4,1.3,0,100,100,54
 Prostitution,Transit,1,0,0,0,2,0,1,0,1,3,1,0,0,0,0
-Robbery,Transit,414,319,368,390,301,416,378,86,336,1095,365,-8.7,-18.8,-11.1,-8
-Simple Assault,Transit,215,156,167,205,215,245,236,82,233,696,232,9.8,8.4,-1.3,0
-Simple Battery,Transit,807,468,488,625,764,863,893,344,940,2520,840,10.7,16.5,5.3,12
+Robbery,Transit,414,319,368,390,301,416,378,86,333,1095,365,-8.7,-19.6,-11.9,-9
+Simple Assault,Transit,215,156,167,205,215,245,236,82,232,696,232,9.8,7.9,-1.7,0
+Simple Battery,Transit,807,468,488,625,764,863,893,345,939,2520,840,10.7,16.4,5.2,12
 Theft,Transit,1269,509,400,553,487,434,424,84,363,1345,448.3,-66.6,-71.4,-14.4,-19
 Theft Over $500,Transit,587,242,131,183,140,159,159,40,147,458,152.7,-72.9,-75,-7.5,-4
 Vandalism,Transit,282,230,205,187,168,347,236,57,198,751,250.3,-16.3,-29.8,-16.1,-21
