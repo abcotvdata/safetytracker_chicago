@@ -76,7 +76,7 @@ month,Aggravated Assault,Aggravated Battery,Robbery,Criminal Sexual Assault,Murd
 2025-03-01,11,14,34,1,1
 2025-04-01,10,21,38,2,1
 2025-05-01,9,18,43,1,NA
-2025-06-01,12,24,49,1,1
+2025-06-01,12,24,50,1,1
 2025-07-01,10,27,27,NA,1
 2025-08-01,10,12,26,2,NA
 2025-09-01,9,24,30,3,NA
@@ -88,3 +88,4 @@ month,Aggravated Assault,Aggravated Battery,Robbery,Criminal Sexual Assault,Murd
 2026-03-01,9,19,10,1,NA
 2026-04-01,13,13,24,1,NA
 2026-05-01,12,12,14,3,NA
+2026-06-01,NA,1,NA,NA,NA
