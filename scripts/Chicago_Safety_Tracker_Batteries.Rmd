@@ -382,7 +382,7 @@ chicago_battery_map <- leaflet(batteries_area, options = leafletOptions(zoomCont
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
   setView(-87.65, 41.83, zoom = 10.5) %>% 
-  addProviderTiles(provider = "CartoDB.Positron") %>%
+  addTiles(urlTemplate = "https://pmtiles-raster.launch.studioshare.wds.io/styles/white-abc-no_labels/{z}/{x}/{y}.png") %>%
   addPolygons(color = "white", 
               popup = batterylabel,
               popupOptions = popupOptions(maxWidth ="200", 
