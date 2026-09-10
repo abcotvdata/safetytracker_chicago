@@ -435,7 +435,7 @@ chicago_cta_map <- leaflet(cta_area, options = leafletOptions(zoomControl = FALS
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
   setView(-87.65, 41.83, zoom = 10.5) %>%
-  addTiles(urlTemplate = "https://pmtiles-raster.launch.studioshare.wds.io/styles/white-abc-no_labels/{z}/{x}/{y}.png") %>%
+  addTiles(urlTemplate = "https://pmtiles-raster.launch.studioshare.wds.io/styles/white-abc/{z}/{x}/{y}.png") %>%
   addPolygons(color = "white", 
               popup = ctalabel,
               popupOptions = popupOptions(maxWidth ="200", 
